@@ -1,0 +1,60 @@
+.heroContainer {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65vw;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.heading h1 span {
+    font-size: 55px;
+    color: rgb(255, 202, 138)
+}
+
+.ssHeading h5 {
+  color: rgb(48, 254, 185);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.subHeading h4 {
+    font-size: 15px;
+    color: grey;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns .btn {
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px 15px;
+    margin: 20px;
+
+}
+
+.btns .btn1 {
+    background-color: aquamarine;
+}
+.btns .btn1:hover {
+    background-color: rgb(82, 247, 192);
+}
+.btns .btn2 {
+    background-color: bisque;
+}
+.btns .btn2:hover {
+    background-color: rgb(247, 207, 158);
+}

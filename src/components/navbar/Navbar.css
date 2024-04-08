@@ -1,0 +1,38 @@
+
+.navContainer {
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+    padding: 3px 0px;
+}
+
+.left img {
+    width: 70px;
+}
+
+.middle ul {
+    display: flex;
+    list-style: none;
+}
+
+.middle ul li {
+    padding: 5px 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right img {
+    width: 50px;
+    margin: 0 5px;
+}
