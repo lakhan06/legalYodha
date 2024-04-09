@@ -1,0 +1,102 @@
+.services{
+    /* background-color: gray; */
+    width: 100vw;
+    /* height: 100vh; */
+    /* background: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.serviceHeading{
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid #4FC6A6;
+
+}
+.carddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 90%; */
+    gap: 40px;
+    padding: 60px;
+   
+    
+}
+
+.carddiv .card{
+    display: flex;
+    padding: 30px;
+    /* width: 50%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 300px;
+    width: 60vw; 
+    border-radius: 20px;
+    /* border: 2px solid #4FC6A6; */
+}
+
+.card  img{
+    /* border-radius: 50%; */
+    width: 350px;
+    height: 200px;
+    /* margin: 0; */
+    border-radius: 40px;
+    
+}
+.cardleft{
+   /* border-start-end-radius: 50%; */
+   /* height: 400px; */
+}
+.cardright{
+  
+}
+.cardleft img{
+    margin-right: 50px;
+}
+.cardright img{
+    margin-left: 50px;
+}
+.card .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 20px; */
+}
+
+.content .serviceHeading{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #4FC6A6;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: 600;
+}
+.serviceHeading span{
+    color: #4FC6A6;
+}
+.serviceDiscription{
+    margin-bottom: 25px;
+    text-align: justify;
+    color: rgb(134, 131, 131);
+    font-size: 14px;
+}
+.serviceButton{
+    background-color: #211951;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
