@@ -6,7 +6,7 @@ import Hero from './components/hero/Hero'
 function App() {
   return (
     <>
-      < Navbar />
+    <Navbar/>
       <Hero/>
       <Qualities></Qualities>
       <Services></Services>
