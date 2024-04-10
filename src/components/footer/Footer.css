@@ -1,0 +1,95 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(64, 237, 179);
+  padding: 30px 70px;
+  color: #211951;
+  
+}
+
+.footerLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 40px;
+}
+
+.footerLeft img {
+  width: 60px;
+}
+
+.footerLeft p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footerLeft .phmail {
+    font-size: 0.9rem;
+}
+
+.footerMiddle {
+  flex:0.7;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.footerMiddle ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerMiddle ul li {
+    cursor: pointer;
+}
+.footerMiddle ul li:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 200ms;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.66);
+}
+
+.footerRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footerRight input {
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.footerRight textarea {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.footerRight .frmBtn {
+    background-color: #211951;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footerRight .frmBtn:hover {
+    background-color: #2f2374;
+}
