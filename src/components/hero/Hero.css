@@ -7,6 +7,7 @@
   height: 90vh;
   margin: auto;
   text-align: center;
+  overflow: hidden;
 }
 
 .heading h1 {
@@ -57,4 +58,24 @@
 }
 .btns .btn2:hover {
     background-color: rgb(247, 207, 158);
+}
+
+.rectangle{
+    background-color: #4FC6A6;
+    width: 500px;
+    height:450px;
+    position: absolute;
+    top: 168px;
+    /* border: 1px solid black; */
+    z-index: -1;
+}
+
+.rectangle-right{
+    
+right:-280px;
+transform: rotate(50deg);
+}
+.rectangle-left{
+left:-280px;
+transform: rotate(-50deg);
 }

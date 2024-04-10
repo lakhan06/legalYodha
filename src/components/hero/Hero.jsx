@@ -1,6 +1,7 @@
 import './Hero.css'
 
 const Hero = () => {
+    
     return (
         <div>
             <div className="heroSection">
@@ -20,6 +21,8 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <div className="rectangle rectangle-left"></div>
+            <div className="rectangle rectangle-right"></div>
 
         </div>
     )

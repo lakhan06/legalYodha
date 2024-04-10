@@ -8,6 +8,7 @@
     align-items: center;
     padding: 20px;
     overflow: hidden;
+    z-index: 2;
 }
 
 .serviceHeading{
@@ -51,9 +52,9 @@
     
 }
 
-.carddiv .card:hover{
+/* .carddiv .card:hover{
     border: 2px solid #4FC6A6;
-}
+} */
 .cardleft{
    /* border-start-end-radius: 50%; */
    /* height: 400px; */
