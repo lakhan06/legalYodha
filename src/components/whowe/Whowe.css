@@ -60,10 +60,10 @@
 
 .weRight ul {
     padding: 20px  0;
-    list-style: none;
+    list-style: inside;
 }
 
 .weRight li {
     font-size: 1.2rem;
-    
+    padding: 5px 0;
 }
