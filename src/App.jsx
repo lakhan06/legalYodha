@@ -3,6 +3,7 @@ import Services from "./components/services/Services"
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import Footer from "./components/footer/Footer"
+import Whowe from "./components/whowe/Whowe"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       < Navbar />
       <Hero />
       <Qualities />
+      <Whowe />
       <Services />
       <Footer />
     </>

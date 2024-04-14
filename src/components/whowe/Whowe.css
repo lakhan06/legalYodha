@@ -1,0 +1,69 @@
+.whowe_container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.whowe_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width:85vw;
+  padding: 50px 50px;
+  /* border: 5px solid aquamarine; */
+  border: none;
+  background-color: rgb(255, 247, 237);
+  border-radius: 20px;
+}
+
+.whowe_card legend {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    color: #211951;
+    text-shadow: 3px 2px 8px grey;
+    /* text-decoration: underline; */
+}
+
+.whowe_card legend span {
+    color: aquamarine;
+    font-size: 4rem;
+}
+
+.weRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.weRight h1 {
+  font-size: 3rem;
+  color: #211951;
+}
+
+.weRight h1 .spanone {
+    font-size: 4rem;
+}
+
+.weRight h1 .spantwo {
+    color: rgb(96, 248, 198);
+    text-decoration: underline;
+}
+
+.weRight p {
+    opacity: 0.6;
+    font-weight: 500;
+    padding: 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.weRight ul {
+    padding: 20px  0;
+    list-style: none;
+}
+
+.weRight li {
+    font-size: 1.2rem;
+    
+}
