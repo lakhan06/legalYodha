@@ -6,7 +6,7 @@ const Whowe = () => {
         <>
             <div className="whowe_container">
                 <fieldset className="whowe_card">
-                    <legend><span>Who</span> we are</legend>
+                    <legend><span>A</span>bout <span>U</span>s</legend>
                     <div className="weLeft">
                         <img src={Whoimage} alt="image" />
                     </div>
