@@ -27,8 +27,8 @@
 }
 
 .whowe_card legend span {
-    color: aquamarine;
-    font-size: 4rem;
+    color: #4FC6A6;
+    font-size: 5rem;
 }
 
 .weRight {
@@ -46,7 +46,7 @@
 }
 
 .weRight h1 .spantwo {
-    color: rgb(96, 248, 198);
+    color: #4FC6A6;
     text-decoration: underline;
 }
 
