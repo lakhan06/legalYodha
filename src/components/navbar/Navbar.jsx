@@ -3,6 +3,11 @@ import logo from '../../images/logo.png';
 import phone from '../../images/phone-call.png'
 import whatsapp from '../../images/WhatsApp_icon.png'
 
+
+const copyToClipboard = () => {
+  navigator.clipboard.writeText("+919116562979");
+};
+
 const Navbar = () => {
   return (
     <div>
@@ -20,8 +25,13 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="right">
-            <img src={whatsapp} alt="Whatsapp" />
-            <img src={phone} alt="phone" style={{ width: '40px' }} />
+            <a href="https://wa.me/+919116562979" target="_blank">
+              <img src={whatsapp} alt="Whatsapp" />
+            </a>
+            {/* <a href="tel:+919829587654"> */}
+            <img onClick={copyToClipboard} src={phone} alt="phone" style={{ width: '40px', cursor: "pointer" }} />
+            {/* </a> */}
+
           </div>
         </div>
       </div>
