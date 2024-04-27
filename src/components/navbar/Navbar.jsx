@@ -1,8 +1,7 @@
-import './Navbar.css'
-import logo from '../../images/logo.png';
-import phone from '../../images/phone-call.png'
-import whatsapp from '../../images/WhatsApp_icon.png'
-
+import "./Navbar.css";
+import logo from "../../images/logo.png";
+import phone from "../../images/phone-call.png";
+import whatsapp from "../../images/WhatsApp_icon.png";
 
 const copyToClipboard = () => {
   navigator.clipboard.writeText("+919116562979");
@@ -21,19 +20,64 @@ const Navbar = () => {
               <li>Home</li>
               <li>About</li>
               <li>Contact</li>
-              <li class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </li>
-             
-              <li>Tax</li>
-              <li>Registration</li>
+
+              <li className="start_business">
+                Start Business
+                <div className="Starlist list">
+                  <div className="listleft ">
+                   BUSINESS REGISTRATIONS
+                    <ul>
+                      <li>Private Limited Company Registration</li>
+                      <li>Limited Liability Partnership Registration</li>
+                      <li>Partnership Firm Registration</li>
+                      <li>Proprietorship Firm Registration</li>
+                    
+                    </ul>
+                  </div>
+                  <div className="listright">
+                    GST- GOODS & SERVICES TAX
+                    <ul>
+                      <li>GST Registration</li>
+                      <li>FSSAI Registration</li>
+                      <li>PF/ESI Registration</li>
+                      <li>MSME Registration</li>
+                      <li>Shop Act Registration</li>
+                      <li>RERA Registration</li>
+                      <li>Drug Licence</li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li className="Tax">
+                Tax
+                <div className="Taxlist list">
+                  <div className="listleft ">
+                    ITR-INCOME TAX RETURN
+                    <ul>
+                      <li>ITR Filing for NRIs</li>
+                      <li>ITR Filing for Individuals</li>
+                      <li>ITR Filing for Company</li>
+                      <li>ITR Filing for Society/Trust</li>
+                      <li>ITR Filing for Partnership Firms</li>
+                      <li>TDS Returns Filing</li>
+                      <li>Income Tax Notice Reply</li>
+                      <li>Scrutiny Notice</li>
+                    </ul>
+                  </div>
+                  <div className="listright">
+                    GST- GOODS & SERVICES TAX
+                    <ul>
+                      <li>GST Registration</li>
+                      <li>GST Returns Filing</li>
+                      <li>GST Annual Returns</li>
+                      <li>GST Audit</li>
+                      <li>GST Cancellation</li>
+                      <li>E-Way Bills</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
           <div className="right">
@@ -41,14 +85,18 @@ const Navbar = () => {
               <img src={whatsapp} alt="Whatsapp" />
             </a>
             {/* <a href="tel:+919829587654"> */}
-            <img onClick={copyToClipboard} src={phone} alt="phone" style={{ width: '40px', cursor: "pointer" }} />
+            <img
+              onClick={copyToClipboard}
+              src={phone}
+              alt="phone"
+              style={{ width: "40px", cursor: "pointer" }}
+            />
             {/* </a> */}
-
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
