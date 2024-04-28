@@ -9,6 +9,7 @@
   width: 85vw;
   margin: auto;
   padding: 3px 0px;
+ 
 }
 
 .left img {
@@ -46,108 +47,55 @@
   margin: 0 5px;
 }
 
-/* Default styles that apply to all screen sizes */
 
-/* Mobile devices (320px - 480px) */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* CSS styles specific to mobile devices */
-  
-}
 
-/* iPads, Tablets (481px - 768px) */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* CSS styles specific to iPads and Tablets */
-}
 
-/* Small screens, laptops (769px - 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* CSS styles specific to small screens and laptops */
-}
-
-/* Desktops, large screens (1025px - 1200px) */
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  /* CSS styles specific to desktops and large screens */
-}
-
-/* Larger than 1200px (Extra large screens) */
-@media only screen and (min-width: 1201px) {
-  /* CSS styles specific to extra large screens */
+.start_business:hover .list{
+  display: flex;
+  justify-content: center;
 }
 
 
 
+.list{
+  display: none;
+  position: absolute;
+  background-color: #a0efda;
+  color: #211951;
+  gap: 30px;
+  border-radius: 10px;
+  width: 45vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 10px;
+  font-weight:500;
+  text-shadow: none;
+
+}
 
 
+.Tax:hover .list{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
 
 
+.listleft ul{
+  display: flex;
+  flex-direction: column;
+  background-color: #a0efda;
 
+  list-style:square;
+font-weight: normal;
+}
+.listright ul{
+  display: flex;
+  flex-direction: column;
+  background-color: #a0efda;
+  list-style:square;
+  font-weight: normal;
+}
+.Taxlist{
+  left:-100px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-/* Media Queries for Responsive Design */
-/* @media screen and (max-width: 768px) {
-  .navbar {
-    width: 90vw;
-  }
-
-  .left img {
-    width: 50px;
-  }
-
-  .middle ul {
-    padding: 3px;
-  }
-
-  .middle ul li {
-    padding: 3px 6px;
-  }
-
-  .right img {
-    width: 40px;
-    margin: 0 3px;
-  }
-} */
