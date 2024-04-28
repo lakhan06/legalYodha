@@ -8,12 +8,12 @@ import Whowe from "./components/whowe/Whowe"
 function App() {
   return (
     <>
-      {/* < Navbar /> */}
-      {/* <Hero /> */}
+      < Navbar />
+      <Hero />
       <Whowe />
       <Qualities />
-      {/* <Services /> */}
-      {/* <Footer /> */}
+      <Services />
+      <Footer />
     </>
   )
 }

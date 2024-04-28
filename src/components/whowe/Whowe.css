@@ -70,10 +70,14 @@
   padding: 5px 0;
 }
 
+.footerRight {
+  align-items: start;
+}
+
 /* Default styles that apply to all screen sizes */
 
 /* Mobile devices (320px - 480px) */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* CSS styles specific to mobile devices */
   .whowe_card {
     flex-direction: column;
