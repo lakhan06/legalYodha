@@ -10,7 +10,7 @@ const copyToClipboard = () => {
 
 const Navbar = () => {
   return (
-    <div>
+    <div>  
       <div className="navContainer">
         <div className="navbar">
           <div className="left">

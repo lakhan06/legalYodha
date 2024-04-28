@@ -1,6 +1,5 @@
 .navContainer {
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
 
 .navbar {
@@ -23,7 +22,6 @@
   padding: 5px;
   border-radius: 10px;
   color: white;
-
 }
 
 .middle ul li {
@@ -47,3 +45,109 @@
   width: 50px;
   margin: 0 5px;
 }
+
+/* Default styles that apply to all screen sizes */
+
+/* Mobile devices (320px - 480px) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* CSS styles specific to mobile devices */
+  
+}
+
+/* iPads, Tablets (481px - 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* CSS styles specific to iPads and Tablets */
+}
+
+/* Small screens, laptops (769px - 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles specific to small screens and laptops */
+}
+
+/* Desktops, large screens (1025px - 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* CSS styles specific to desktops and large screens */
+}
+
+/* Larger than 1200px (Extra large screens) */
+@media only screen and (min-width: 1201px) {
+  /* CSS styles specific to extra large screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* Media Queries for Responsive Design */
+/* @media screen and (max-width: 768px) {
+  .navbar {
+    width: 90vw;
+  }
+
+  .left img {
+    width: 50px;
+  }
+
+  .middle ul {
+    padding: 3px;
+  }
+
+  .middle ul li {
+    padding: 3px 6px;
+  }
+
+  .right img {
+    width: 40px;
+    margin: 0 3px;
+  }
+} */

@@ -1,7 +1,8 @@
 .whowe_container {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 .whowe_card {
@@ -9,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  width:85vw;
+  width: 85vw;
   padding: 50px 50px;
   /* border: 5px solid aquamarine; */
   border: none;
@@ -18,17 +19,17 @@
 }
 
 .whowe_card legend {
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 500;
-    color: #211951;
-    text-shadow: 3px 2px 8px grey;
-    /* text-decoration: underline; */
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  color: #211951;
+  text-shadow: 3px 2px 8px grey;
+  /* text-decoration: underline; */
 }
 
 .whowe_card legend span {
-    color: #4FC6A6;
-    font-size: 5rem;
+  color: #4fc6a6;
+  font-size: 5rem;
 }
 
 .weRight {
@@ -39,31 +40,84 @@
 .weRight h1 {
   font-size: 3rem;
   color: #211951;
+  padding: 20px 0;
 }
 
 .weRight h1 .spanone {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .weRight h1 .spantwo {
-    color: #4FC6A6;
-    text-decoration: underline;
+  color: #4fc6a6;
+  text-decoration: underline;
 }
 
 .weRight p {
-    opacity: 0.6;
-    font-weight: 500;
-    padding: 0;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+  opacity: 0.6;
+  font-weight: 500;
+  padding: 0;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .weRight ul {
-    padding: 20px  0;
-    list-style: inside;
+  padding: 20px 0;
+  list-style: inside;
 }
 
 .weRight li {
-    font-size: 1.2rem;
-    padding: 5px 0;
+  font-size: 1.2rem;
+  padding: 5px 0;
+}
+
+/* Default styles that apply to all screen sizes */
+
+/* Mobile devices (320px - 480px) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* CSS styles specific to mobile devices */
+  .whowe_card {
+    flex-direction: column;
+  }
+
+  .weLeft img {
+    width: 300px;
+  }
+
+  .weRight h1 {
+    font-size: 2.5rem;
+  }
+
+  .weRight h1 .spanone {
+    font-size: 3rem;
+  }
+}
+
+/* iPads, Tablets (481px - 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* CSS styles specific to iPads and Tablets */
+  .whowe_card {
+    flex-direction: column;
+  }
+
+  .weLeft img {
+    width: 300px;
+  }
+}
+
+/* Small screens, laptops (769px - 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles specific to small screens and laptops */
+  .weLeft img {
+    width: 400px;
+  }
+}
+
+/* Desktops, large screens (1025px - 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* CSS styles specific to desktops and large screens */
+}
+
+/* Larger than 1200px (Extra large screens) */
+@media only screen and (min-width: 1201px) {
+  /* CSS styles specific to extra large screens */
 }
