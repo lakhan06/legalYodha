@@ -3,7 +3,7 @@ import './Hero.css'
 const Hero = () => {
     
     return (
-        <div>
+        <div className='hero'>
             <div className="heroSection">
                 <div className="heroContainer">
                     <div className="heading">
@@ -19,10 +19,10 @@ const Hero = () => {
                         <div className="btn btn1">Explore Services</div>
                         <div className="btn btn2">Contact</div>
                     </div>
-                </div>
-            </div>
             <div className="rectangle rectangle-left"></div>
             <div className="rectangle rectangle-right"></div>
+                </div>
+            </div>
 
         </div>
     )

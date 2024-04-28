@@ -18,8 +18,6 @@ const Navbar = () => {
           <div className="middle">
             <ul>
               <li>Home</li>
-              <li>About</li>
-              <li>Contact</li>
 
               <li className="start_business">
                 Start Business
@@ -78,6 +76,8 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
+              <li>About</li>
+              <li>Contact</li>
             </ul>
           </div>
           <div className="right">
