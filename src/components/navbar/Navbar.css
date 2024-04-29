@@ -12,6 +12,11 @@
  
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .left img {
   width: 70px;
 }
