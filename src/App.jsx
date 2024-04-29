@@ -11,7 +11,7 @@ function App() {
     <>
     
       < Navbar />
-      {/* <HeroService></HeroService> */}
+      <HeroService></HeroService>
       <Hero />
       <Whowe />
       <Qualities />
