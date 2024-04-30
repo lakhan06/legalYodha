@@ -4,41 +4,28 @@ import { IoNewspaper } from "react-icons/io5";
 import { SiLibreofficeimpress } from "react-icons/si";
 
 const documentsData = [
-    {
-        icon: <IoDocumentSharp className="docRecLogo" />,
-        text: 'PAN Card of the Member and Directors of the proposed Company (Passport in case of Foreign Nationals)'
-    },
-    {
-        icon: <IoNewspaper className="docRecLogo" />,
-        text: 'Identity Proof of the Member and Directors of the proposed Company (Aadhar / Voter ID / Driving License / Passport)'
-    },
-    {
-        icon: <SiLibreofficeimpress className="docRecLogo" />,
-        text: 'PAN Card of the Member and Directors of the proposed Company (Passport in case of Foreign Nationals)'
-    },
-    {
-        icon: <IoNewspaper className="docRecLogo" />,
-        text: 'Identity Proof of the Member and Directors of the proposed Company (Aadhar / Voter ID / Driving License / Passport)'
-    },
-    {
-        icon: <SiLibreofficeimpress className="docRecLogo" />,
-        text: 'PAN Card of the Member and Directors of the proposed Company (Passport in case of Foreign Nationals)'
-    }
+    
+        <IoDocumentSharp className="docRecLogo" />,
+        <IoNewspaper className="docRecLogo" />,
+        <IoNewspaper className="docRecLogo" />,
+        <SiLibreofficeimpress className="docRecLogo" />,
+        <SiLibreofficeimpress className="docRecLogo" />,
+        <IoNewspaper className="docRecLogo" />,
     // Add more documents as needed
 ];
 
-const DocRequired = () => {
+const DocRequired = ({data}) => {
     return (
         <section className="docRecSection">
             <h1 className="docRecHeading"><span>Documents</span> Required</h1>
             <div className="docRecContainer">
-                {documentsData.map((document, index) => (
+                {data.map((document, index) => (
                     <div key={index} className="singleDocRec">
                         <div className="sdrLeft">
-                            {document.icon}
+                            {documentsData[index]}
                         </div>
                         <div className="sdrRight">
-                            <p>{document.text}</p>
+                            <p>{document}</p>
                         </div>
                     </div>
                 ))}
