@@ -1,5 +1,5 @@
 .navContainer {
-  background-color: white;
+  background-color:white;
 }
 
 .navbar {
@@ -10,6 +10,11 @@
   margin: auto;
   padding: 3px 0px;
  
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 .left img {

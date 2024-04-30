@@ -1,0 +1,60 @@
+{
+    "Private_Limited_Company_Registration": {
+        "title": "Private Limited Company Registration",
+        "tagline": "Private limited company registration in Jaipur Starting at Just ₹9,000/-* only",
+        "features": [
+            "Ideal for start-ups",
+            "Easy Transferability",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Takes 5-7 Days",
+            "Get Post Incorporation Assistance"
+        ],
+        "introduction": "Introduction of Private Limited Company For starting a business in India Private Limited Company is the most popular and an effective medium for higher growth aspirants. It is incorporated under Companies Act, 2013 and has various benefits as it ensures limited liability and separate legal entity which means safeguarding of the personal property. This type of entity is mainly preferred by the start ups and the growing entities. So, if you are willing to start a Company your first priority is to get it registered Once the same is registered it increases its authenticity as well as offers various benefits which can be offering liability protection to protect the Company's assets, attraction of more and more funds etc.",
+        "Minimum_Requirements": [
+            "Minimum Two Directors and maximum Fifteen",
+            "Minimum Two Shareholders",
+            "Minimum one Director shall be Indian resident",
+            "Digital Signatures of Subscriber and Directors",
+            "Director Identification Number if available.",
+            "No Minimum Capital requirement."
+        ],
+        "Documents_required": {
+            "icon": "icon",
+            "document": [
+                "PAN Card of the Member and Directors of the proposed Company (Passport in case of Foreign Nationals)",
+                " Identity Proof of the Member and Directors of the proposed Company;(Aadhar /Voter ID/Driving License/Passport)",
+                "Address Proof of the Members and Directors (Utility Bill/Telephone Bill/Mobile Bill/Bank Statement not older than two months)",
+                "Latest passport size photograph of Member and Directors",
+                "Business Address Proof Owned Property : (Copy of Registry and Latest Govt. Electricity Bill or Water Bill)",
+                "Business Address Proof Rented/leased: Rent Agreement, NOC from the Owner, Latest Govt. Electricity Bill or Water Bill)"
+            ]
+        },
+        "process":[
+            {
+            "process_heading":"1. Complete the Application Form",
+            "process_discription":"You are requested to first fill the simple questionnaire provided by our expert team."
+        },
+            {
+            "process_heading":"2. Document Processing",
+            "process_discription":"At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing."
+        },
+            {
+            "process_heading":"3. Application for DSC",
+            "process_discription":"First of all DSC (Digital Signature Certificate consisting of the E-signatures) is required to be prepared. This step can be ignored if prepared already. It will approximately take 1-2 days."
+        },
+            {
+            "process_heading":"4. Name Availability",
+            "process_discription":"The next step is to check the name availability. The name should be unique in nature and should not be similar to name of any other entity registered. It may take at least 1-2 days. "
+        },
+            {
+            "process_heading":"5. E-filing for incorporation of a Company",
+            "process_discription":"Once the name is approved, an online application is required to be filed through SPICE+ along with the requisite documents as obtained from the client with ROC. The MOA as well as AOA shall be filed online. This process again takes approximately 2-3 days."
+        },
+            {
+            "process_heading":"6. Get Certificate of Incorporation",
+            "process_discription":"Once the Company gets incorporated we will share all the docs like Incorporation Certificate, MOA , AOA and Digital Signatures."
+        }
+    ]
+    }
+}

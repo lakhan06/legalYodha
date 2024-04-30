@@ -2,6 +2,7 @@ import "./Navbar.css";
 import logo from "../../images/logo.png";
 import phone from "../../images/phone-call.png";
 import whatsapp from "../../images/WhatsApp_icon.png";
+import { Link } from 'react-router-dom'
 
 const copyToClipboard = () => {
   navigator.clipboard.writeText("+919116562979");
@@ -17,7 +18,7 @@ const Navbar = () => {
           </div>
           <div className="middle">
             <ul>
-              <li>Home</li>
+              <li><Link to={"/"}>Home</Link></li>
 
               <li className="start_business">
                 Start Business
@@ -25,7 +26,7 @@ const Navbar = () => {
                   <div className="listleft ">
                    BUSINESS REGISTRATIONS
                     <ul>
-                      <li>Private Limited Company Registration</li>
+                      <li><Link to={"/Private_Limited"}>Private Limited Company Registration</Link></li>
                       <li>Limited Liability Partnership Registration</li>
                       <li>Partnership Firm Registration</li>
                       <li>Proprietorship Firm Registration</li>
