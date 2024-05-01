@@ -22,13 +22,12 @@ function App() {
 
     <Router>
 
-   
-    <div>
 
-    
+      <div>
 
-    <Navbar></Navbar>
-    <Routes>
+
+        <Navbar></Navbar>
+        <Routes>
 
 
       <Route path="/" element={ <Home/>} />

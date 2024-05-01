@@ -1,6 +1,8 @@
-import React from "react";
 import { SiTicktick } from "react-icons/si";
 import "./HeroService.css";
+import DocRequired from "../docRequired/DocRequired";
+import MinRequirement from "../minRequirement/MinRequirement";
+import Process from "../processOfRegistration/Process";
 
 const HeroService = ({ data }) => {
   return (
@@ -28,6 +30,10 @@ const HeroService = ({ data }) => {
          {data.introduction}
         </div>
       </div>
+
+      <DocRequired data={data.Documents_required}></DocRequired>
+      <MinRequirement data={data.Minimum_Requirements}></MinRequirement>
+      <Process data={data.process} ></Process>
     </div>
   );
 };
