@@ -42,9 +42,15 @@
   background-color: var(--lighter2);
   padding: 10px 30px;
   border-radius: 5px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.singleServiceCatagorie:hover {
+  background-color: var(--light2);
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .serviceCards {
@@ -78,7 +84,7 @@
 .singleServiceCard .servicePricing {
   text-align: center;
   padding: 10px 40px;
-  background-color: var(--dark2);
+  background-color: var(--light2);
   border-radius: 10px;
   margin: 10px 0;
 }
@@ -105,6 +111,7 @@
 .singleServiceCard .learn_more a {
   color: #81d7f9;
   transition: ease-in-out 3s;
+  text-shadow: 1px 1px 1px rgba(74, 124, 143, 0.66);
 }
 .singleServiceCard .learn_more a:hover {
   color: #39c7ff;
