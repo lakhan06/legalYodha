@@ -13,6 +13,8 @@ import {
   
 } from "react-router-dom";
 import Home from "./components/home/Home"
+import About from "./pages/about/about"
+import Contact from "./pages/contact/contact";
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
     <div>
 
     
+
     <Navbar></Navbar>
     <Routes>
 
