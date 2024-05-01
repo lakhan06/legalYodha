@@ -1,4 +1,3 @@
-import React from "react";
 import { SiTicktick } from "react-icons/si";
 import "./HeroService.css";
 import DocRequired from "../docRequired/DocRequired";

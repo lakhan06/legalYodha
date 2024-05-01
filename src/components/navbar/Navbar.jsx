@@ -1,8 +1,9 @@
 import "./Navbar.css";
 import logo from "../../images/logo.png";
-import phone from "../../images/phone-call.png";
-import whatsapp from "../../images/WhatsApp_icon.png";
 import { Link } from 'react-router-dom'
+
+import { ImWhatsapp } from "react-icons/im";
+import { FaPhoneSquareAlt } from "react-icons/fa";
 
 const copyToClipboard = () => {
   navigator.clipboard.writeText("+919116562979");
@@ -10,7 +11,7 @@ const copyToClipboard = () => {
 
 const Navbar = () => {
   return (
-    <div>  
+    <div>
       <div className="navContainer">
         <div className="navbar">
           <div className="left">
@@ -24,13 +25,13 @@ const Navbar = () => {
                 Start Business
                 <div className="Starlist list">
                   <div className="listleft ">
-                   BUSINESS REGISTRATIONS
+                    BUSINESS REGISTRATIONS
                     <ul>
                       <li><Link to={"/Private_Limited"}>Private Limited Company Registration</Link></li>
                       <li><Link to={"/Limited_Liability_Partnership_Registration"}>Limited Liability Partnership Registration</Link></li>
                       <li>Partnership Firm Registration</li>
                       <li>Proprietorship Firm Registration</li>
-                    
+
                     </ul>
                   </div>
                   <div className="listright">
@@ -43,7 +44,7 @@ const Navbar = () => {
                       <li>Shop Act Registration</li>
                       <li>RERA Registration</li>
                       <li>Drug Licence</li>
-                      
+
                     </ul>
                   </div>
                 </div>
@@ -77,22 +78,15 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li>About</li>
-              <li>Contact</li>
+              <li><Link to={"/About"}>About</Link></li>
+              <li><Link to={"/Contact"}>Contact</Link></li>
             </ul>
           </div>
           <div className="right">
             <a href="https://wa.me/+919116562979" target="_blank">
-              <img src={whatsapp} alt="Whatsapp" />
+              <ImWhatsapp className="navIcons" />
             </a>
-            {/* <a href="tel:+919829587654"> */}
-            <img
-              onClick={copyToClipboard}
-              src={phone}
-              alt="phone"
-              style={{ width: "40px", cursor: "pointer" }}
-            />
-            {/* </a> */}
+            <FaPhoneSquareAlt onClick={copyToClipboard} className="navIcons" />
           </div>
         </div>
       </div>

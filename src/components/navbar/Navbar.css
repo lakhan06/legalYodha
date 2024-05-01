@@ -45,14 +45,14 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  gap: 20px;
 }
 
-.right img {
-  width: 50px;
-  margin: 0 5px;
+.right .navIcons {
+  font-size: 40px;
+  color: #25D366;
 }
-
-
 
 
 .start_business:hover .list{
