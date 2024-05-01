@@ -53,5 +53,200 @@
                 "process_discription": "Once the Company gets incorporated we will share all the docs like Incorporation Certificate, MOA , AOA and Digital Signatures."
             }
         ]
+    },
+    "Limited_Liability_Partnership_Registration": {
+        "title": " Limited Liability Partnership Registration",
+        "tagline": "LLP Registration in Jaipur starting at Just  ₹ 6,500/- only",
+        "features": [
+            "Ideal for small enterprises",
+            "For like-minded partners",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Get Registration in 7-10 Days",
+            "Get Post Incorporation Assistance"
+        ],
+        "introduction": "Introduction of LLP Registration The main object behind is that one partner should not be liable for the acts or negligence of other partners. It combines the features of Partnership and a Company like separate legal entity, limited liability etc. Further, it involves less legal formalities and is easy to register.People often get confused between the selection of their entity whether to go for Private Limited Company or for LLP. LLP is for those people who want to run safe and risk free business and do not want to raise any funding in future from the market and maintain a less compliance entity.",
+        "Minimum_Requirements": [
+            "Minimum two Designated Partner",
+            "DIN of the Designated Partners",
+            "Digital Signature Certificate of one Designated Partner",
+            "Contribution whether tangible or intangible property or other benefits of LLP",
+            "No Minimum Capital requirement.",
+            "At least one Designated Partner should be Indian Resident"
+        ],
+        "Documents_required": [
+            "PAN Card of all partners",
+            " Passport size photograph of all the partners)",
+            "Proof of Identity (Driving License/Voter ID Card/Passport) of the Partner",
+            "Business Address Proof  Owned Property : (Copy of Registry and Latest Govt. Electricity Bill or Water Bill)",
+            " Proof of Address (Utility Bill/Bank Statement/Telephone Bill which should not be later than 2 months)",
+            "Business Address Proof Rented/leased: Rent Agreement, NOC from the Owner, Latest Govt. Electricity Bill or Water Bill)"
+        ],
+        "process": [
+            {
+                "process_heading": "1. Complete the Application Form",
+                "process_discription": "You are requested to first fill the simple questionnaire provided by our expert team."
+            },
+            {
+                "process_heading": "2. Document Processing",
+                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing."
+            },
+            {
+                "process_heading": "3. Name Availability",
+                "process_discription": "The next step is to check the name availability. Now you need to let us know 3 names which should be unique in nature and should not be similar to name of any other entity registered. It may take at least 1-2 days. "
+            },
+            {
+                "process_heading": "4. E-filing for incorporation of a Company",
+                "process_discription": "Once the name is approved, an online application is required to be filed through E-Form Fillip along with the requisite documents as obtained with ROC. This process again takes 2-3 days.."
+            },
+            {
+                "process_heading": "5. Get Certificate of Incorporation",
+                "process_discription": "Lastly, after the approval a Certificate of Incorporation will be provided through e-mail which signifies that the LLP has been incorporated"
+            },
+            {
+                "process_heading": "6. Filing of LLP Agreement",
+                "process_discription": "Within 30 days of the incorporation, LLP Agreement as drafted by our team will be shared and after approval from the partners it will be printed on the stamp paper and will be filed with the Registrar of Companies."
+            }
+        ]
+    },
+    "GST_Registration": {
+        "title": " GST Registration",
+        "tagline": "GST Registration in Jaipur in ₹ 1000/- (All Inclusive)",
+        "features": [
+            "Filing of Application for GST Registration",
+            "Secure GST Identification Number",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Get GST Registration in 5-7 Days",
+            "Expert CA Advice"
+        ],
+        "introduction": "Introduction of GST Registration Goods and Services Tax is an indirect tax imposed by the government on Indian Goods and Services It is a value-added tax levied on most goods and services sold for domestic and commercial consumption. The GST is paid by consumers, but it is remitted to the government by the businesses selling the goods and services. The taxes under GST are bifurcated into three parts i.e. CGST, SGST and IGST.",
+        "Minimum_Requirements": [
+            "Supplier of Goods (Turnover Exceeding 40 Lakhs):",
+            "Casual taxable person",
+            " Supplier of services",
+            "Non-Resident taxable person",
+            "Registered under Previous Indirect tax.",
+            "Reverse Charge Mechanism (RCM)",
+            "Interstate supply of Goods and Services",
+            "E-Commerce operators and Vendors",
+            "Input Service Distributor"
+        ],
+        "Documents_required": [],
+        "process": [
+            {
+                "process_heading": "1. Questions Filling",
+                "process_discription": "Fill the questionnaire provided by our team."
+            },
+            {
+                "process_heading": "2. Provide Documents",
+                "process_discription": "Provide us the all documents as per the category of your business mention above"
+            },
+            {
+                "process_heading": "3. Application Filling",
+                "process_discription": "We will file the application GST registration and obtain the OTP from you as required. "
+            },
+            {
+                "process_heading": "4. Online Portal Access",
+                "process_discription": "Within 2-3 days after the submission of the application, and after the approval by the department we will send you the GST Registration number and User Id and Password to access the online portal."
+            }
+        ]
+    },
+    "FSSAI_Registration": {
+        "title": "FSSAI Registration",
+        "tagline": "Get FSSAI Registration in Jaipur starting from ₹ 2500/-",
+
+        
+        "features": [
+            "Filing of Application for Food License",
+            "For FBOs",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Get your Food License in 7-10 days",
+            " Hassle-Free Process"
+           
+        ],
+        "introduction": "Introduction of FSSAI Registration in Jaipur FSSAI stands for Food Safety and Standards Authority of India. It is a regulatory body that is established and governed by the Food Safety and Standards Act, 2006. The Act came into force to ensure the safety of food products delivered to the consumers. It ensures all the food products undergo proper quality checks thereby reducing the food adulteration and sale of low-standard products. It is a body responsible for providing registration and licensing of the Food Business Operators (FBO) in India and it lays down the guidelines for running the food business in India..",
+        
+       
+        "Minimum_Requirements": [
+                   ],
+        "Documents_required": [
+           
+        ],
+        "process": [
+            {
+                "process_heading": "1. Complete the Application Form",
+                "process_discription": "You are requested to first fill the simple questionnaire provided by our expert team."
+            },
+            {
+                "process_heading": "2. Document Processing",
+                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing. The checklist for documents will be provided as per the type of entity."
+            },
+            {
+                "process_heading": "3. Filing of Application",
+                "process_discription": "We will apply for your FSSAI License application along with the documents and other declarations online with FSSAI. "
+            },
+            {
+                "process_heading": "4.  Issuance of FSSAI License",
+                "process_discription": "After the processing and verification of application and inspection by the concerned officer, FSSAI License will be issued."
+            }
+        ]
+    },
+    "ISO Certification": {
+        "title": "  ISO Certification",
+        "tagline": "Get ISO Certification in Jaipur starting from ₹ 3,000/-",
+        "features": [
+            "Ideal for small enterprises",
+            "For like-minded partners",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Get Registration in 7-10 Days",
+            "Get Post Incorporation Assistance"
+        ],
+        "introduction": "Introduction of LLP Registration The main object behind is that one partner should not be liable for the acts or negligence of other partners. It combines the features of Partnership and a Company like separate legal entity, limited liability etc. Further, it involves less legal formalities and is easy to register.People often get confused between the selection of their entity whether to go for Private Limited Company or for LLP. LLP is for those people who want to run safe and risk free business and do not want to raise any funding in future from the market and maintain a less compliance entity.",
+        "Minimum_Requirements": [
+            "Minimum two Designated Partner",
+            "DIN of the Designated Partners",
+            "Digital Signature Certificate of one Designated Partner",
+            "Contribution whether tangible or intangible property or other benefits of LLP",
+            "No Minimum Capital requirement.",
+            "At least one Designated Partner should be Indian Resident"
+        ],
+        "Documents_required": [
+            "PAN Card of all partners",
+            " Passport size photograph of all the partners)",
+            "Proof of Identity (Driving License/Voter ID Card/Passport) of the Partner",
+            "Business Address Proof  Owned Property : (Copy of Registry and Latest Govt. Electricity Bill or Water Bill)",
+            " Proof of Address (Utility Bill/Bank Statement/Telephone Bill which should not be later than 2 months)",
+            "Business Address Proof Rented/leased: Rent Agreement, NOC from the Owner, Latest Govt. Electricity Bill or Water Bill)"
+        ],
+        "process": [
+            {
+                "process_heading": "1. Complete the Application Form",
+                "process_discription": "You are requested to first fill the simple questionnaire provided by our expert team."
+            },
+            {
+                "process_heading": "2. Document Processing",
+                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing."
+            },
+            {
+                "process_heading": "3. Name Availability",
+                "process_discription": "The next step is to check the name availability. Now you need to let us know 3 names which should be unique in nature and should not be similar to name of any other entity registered. It may take at least 1-2 days. "
+            },
+            {
+                "process_heading": "4. E-filing for incorporation of a Company",
+                "process_discription": "Once the name is approved, an online application is required to be filed through E-Form Fillip along with the requisite documents as obtained with ROC. This process again takes 2-3 days.."
+            },
+            {
+                "process_heading": "5. Get Certificate of Incorporation",
+                "process_discription": "Lastly, after the approval a Certificate of Incorporation will be provided through e-mail which signifies that the LLP has been incorporated"
+            },
+            {
+                "process_heading": "6. Filing of LLP Agreement",
+                "process_discription": "Within 30 days of the incorporation, LLP Agreement as drafted by our team will be shared and after approval from the partners it will be printed on the stamp paper and will be filed with the Registrar of Companies."
+            }
+        ]
     }
+    
 }

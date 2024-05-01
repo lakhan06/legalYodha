@@ -30,6 +30,9 @@ function App() {
 
           <Route path="/" element={<Home />} />
           <Route path="/Private_Limited" element={<HeroService data={services.Private_Limited_Company_Registration} />} />
+          <Route path="/Limited_Liability_Partnership_Registration" element={<HeroService data={services.Limited_Liability_Partnership_Registration} />} />
+          <Route path="/GST_Registration" element={<HeroService data={services.GST_Registration} />} />
+          <Route path="/FSSAI_Registration" element={<HeroService data={services.FSSAI_Registration} />} />
 
 
         </Routes>

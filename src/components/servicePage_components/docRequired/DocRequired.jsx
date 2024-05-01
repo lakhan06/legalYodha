@@ -16,10 +16,11 @@ const documentsData = [
 
 const DocRequired = ({data}) => {
     return (
+        
         <section className="docRecSection">
             <h1 className="docRecHeading"><span>Documents</span> Required</h1>
             <div className="docRecContainer">
-                {data.map((document, index) => (
+                {data &&data.map((document, index) => (
                     <div key={index} className="singleDocRec">
                         <div className="sdrLeft">
                             {documentsData[index]}

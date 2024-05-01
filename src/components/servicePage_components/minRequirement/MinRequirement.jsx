@@ -9,7 +9,7 @@ const MinRequirement = ({data}) => {
         <div className="minReqCompoContainer">
             <h1 className="min_req_heading"><span>Minimum</span> Requirements</h1>
             <div className="minReqContainer">
-                {data.map((requirement, index) => (
+                { data && data.map((requirement, index) => (
                     <div key={index} className="singleMinReq">
                         <BsFillArrowRightSquareFill className="leftDivForIcon" />
                         <p>{requirement}</p>

@@ -9,7 +9,7 @@ const HeroService = ({ data }) => {
   return (
     <div className="HeroService">
       <div className="HeroServiceHeading">
-        <span>Private_Limited</span> Company Registration
+       {data.title}
       </div>
       <div className="bootom">{data.tagline}</div>
       <div className="features">
@@ -33,7 +33,7 @@ const HeroService = ({ data }) => {
       </div>
 
       <DocRequired data={data.Documents_required}></DocRequired>
-      <MinRequirement data={data.Minimum_Requirements}></MinRequirement>
+      <MinRequirement data={ data.Minimum_Requirements}></MinRequirement>
       <Process data={data.process} ></Process>
     </div>
   );
