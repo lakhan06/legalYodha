@@ -10,7 +10,7 @@
   /* text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2); */
   border-bottom: 4px solid aquamarine;
  
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* width: 40%; */
   text-align: center;
   
@@ -20,7 +20,8 @@
   /* font-size: 2.8rem; */
   color: aquamarine;
   /* text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3); */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  /* letter-spacing: ; */
 }
 
 .processes_container {

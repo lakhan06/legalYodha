@@ -28,7 +28,7 @@ const Navbar = () => {
                     BUSINESS REGISTRATIONS
                     <ul>
                       <li><Link to={"/Private_Limited"}>Private Limited Company Registration</Link></li>
-                      <li>Limited Liability Partnership Registration</li>
+                      <li><Link to={"/Limited_Liability_Partnership_Registration"}>Limited Liability Partnership Registration</Link></li>
                       <li>Partnership Firm Registration</li>
                       <li>Proprietorship Firm Registration</li>
 
@@ -37,8 +37,8 @@ const Navbar = () => {
                   <div className="listright">
                     GST- GOODS & SERVICES TAX
                     <ul>
-                      <li>GST Registration</li>
-                      <li>FSSAI Registration</li>
+                      <li><Link to={"/GST_Registration"}>GST Registration</Link></li>
+                      <li><Link to={"/FSSAI_Registration"}>FSSAI Registration</Link></li>
                       <li>PF/ESI Registration</li>
                       <li>MSME Registration</li>
                       <li>Shop Act Registration</li>
@@ -78,8 +78,8 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li>About</li>
-              <li>Contact</li>
+              <li><Link to={"/About"}>About</Link></li>
+              <li><Link to={"/Contact"}>Contact</Link></li>
             </ul>
           </div>
           <div className="right">

@@ -10,9 +10,11 @@ import {
   BrowserRouter as Router,
   Routes,
   Route
-
+  
 } from "react-router-dom";
 import Home from "./components/home/Home"
+import About from "./pages/about/about"
+import ContactUs from "./pages/contact/contactUs";
 
 
 function App() {
@@ -25,19 +27,24 @@ function App() {
 
 
         <Navbar></Navbar>
+  
         <Routes>
 
 
           <Route path="/" element={<Home />} />
+      <Route path="/Contact" element={ <ContactUs/>} />
+      <Route path="/About" element={ <About/>} />
           <Route path="/Private_Limited" element={<HeroService data={services.Private_Limited_Company_Registration} />} />
+          <Route path="/Limited_Liability_Partnership_Registration" element={<HeroService data={services.Limited_Liability_Partnership_Registration} />} />
+          <Route path="/GST_Registration" element={<HeroService data={services.GST_Registration} />} />
+          <Route path="/FSSAI_Registration" element={<HeroService data={services.FSSAI_Registration} />} />
 
-
-        </Routes>
-        <Footer />
-      </div>
-
+    </Routes>
+      <Footer />
+    </div>
+     
     </Router>
-
+    
   )
 }
 

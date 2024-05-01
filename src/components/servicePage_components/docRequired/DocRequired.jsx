@@ -15,6 +15,7 @@ const documentsData = [
 
 const DocRequired = ({ data }) => {
     return (
+        
         <section className="docRecSection">
             <h1 className="docRecHeading"><span>Documents</span> Required</h1>
             <div className="docRecContainer">
