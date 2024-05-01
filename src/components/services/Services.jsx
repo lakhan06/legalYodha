@@ -1,40 +1,96 @@
-import React from "react";
 import "./Services.css";
 
+const serviceData = [
+    {
+        title: 'GST Registration',
+        price: '₹10000/-',
+        features: [
+            'Service Providers Having 20 lakh turnover',
+            'Goods suppliers having 40 lakh turnover',
+            'Voluntary Registrations',
+            'Composition Registration',
+            'Beneficial as provides input tax Credit'
+        ]
+    },
+    {
+        title: 'FSSAI Registration',
+        price: '₹10000/-',
+        features: [
+            'Service Providers Having 20 lakh turnover',
+            'Goods suppliers having 40 lakh turnover',
+            'Voluntary Registrations',
+            'Composition Registration',
+            'Beneficial as provides input tax Credit'
+        ]
+    },
+    {
+        title: 'Partnership Registration',
+        price: '₹10000/-',
+        features: [
+            'Service Providers Having 20 lakh turnover',
+            'Goods suppliers having 40 lakh turnover',
+            'Voluntary Registrations',
+            'Composition Registration',
+            'Beneficial as provides input tax Credit'
+        ]
+    },
+    {
+        title: 'Import & Export Code',
+        price: '₹10000/-',
+        features: [
+            'Service Providers Having 20 lakh turnover',
+            'Goods suppliers having 40 lakh turnover',
+            'Voluntary Registrations'
+        ]
+    }
+];
 
 const Services = () => {
-  return (
-    <div className="services">
-      <div className="serviceHeading"><span>Our</span> Services</div>
-     <div className="carddiv">
-        <div className="card cardleft">
-           <img src="images/start busiess.jpg" alt="error" />
-            <div className="content">
-                <div className="serviceHeading">Start Bussiness</div>
-                <div className="serviceDiscription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At enim sapiente cumque aliquam excepturi cum, iusto soluta qui rerum iste, iure tempore perspiciatis nam? Cum quo unde est iure sequi excepturi provident dolorum doloremque maxime nam aliquid rerum in, consequatur ipsum voluptas tempora ducimus. Facere mollitia at amet tenetur atque.</div>
-                <div className="serviceButton">Explore</div>
-            </div>
-        </div>
-        <div className="card cardright">
-            <div className="content">
-                <div className="serviceHeading">Income Tax/GST</div>
-                <div className="serviceDiscription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At enim sapiente cumque aliquam excepturi cum, iusto soluta qui rerum iste, iure tempore perspiciatis nam? Cum quo unde est iure sequi excepturi provident dolorum doloremque maxime nam aliquid rerum in, consequatur ipsum voluptas tempora ducimus. Facere mollitia at amet tenetur atque.</div>
-                <div className="serviceButton">Explore</div>
-            </div>
-            <div className="image"><img src="images/income-tax.webp" alt="error" /></div>
-        </div>
-        <div className="card cardleft">
-            <div className="image"><img src="images/registraion3.jpeg" alt="error" /></div>
-            <div className="content">
-                <div className="serviceHeading">Registration</div>
-                <div className="serviceDiscription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At enim sapiente cumque aliquam excepturi cum, iusto soluta qui rerum iste, iure tempore perspiciatis nam? Cum quo unde est iure sequi excepturi provident dolorum doloremque maxime nam aliquid rerum in, consequatur ipsum voluptas tempora ducimus. Facere mollitia at amet tenetur atque.</div>
-                <div className="serviceButton">Explore</div>
-            </div>
-        </div>
-     </div>
-         
-    </div>
-  );
+    return (
+        <>
+            <section className="servicesSection">
+                <fieldset className="servicesCardContainer">
+                    <legend><span>O</span>ur <span>S</span>erivices</legend>
+
+                    <div className="serviceCatagories">
+                        <div className="singleServiceCatagorie">
+                            Start Business
+                        </div>
+                        <div className="singleServiceCatagorie">
+                            Registration
+                        </div>
+                        <div className="singleServiceCatagorie">
+                            Trademark/IP
+                        </div>
+                        <div className="singleServiceCatagorie">
+                            Income Tax/GST
+                        </div>
+                    </div>
+
+                    <div className="serviceCards">
+                        {serviceData.map((service, index) => (
+                            <div key={index} className="singleServiceCard">
+                                <h3>{service.title}</h3>
+                                <div className="servicePricing">
+                                    <p>Starting</p>
+                                    <span>{service.price}</span>
+                                </div>
+                                <ul>
+                                    {service.features.map((feature, idx) => (
+                                        <li key={idx}>{feature}</li>
+                                    ))}
+                                </ul>
+                                <div className="learn_more">
+                                    <a href="">Learn More</a>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </fieldset>
+            </section>
+        </>
+    );
 };
 
 export default Services;
+// ctrl+alt+4 -> ₹

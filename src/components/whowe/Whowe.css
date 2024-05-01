@@ -12,9 +12,8 @@
   gap: 40px;
   width: 85vw;
   padding: 50px 50px;
-  /* border: 5px solid aquamarine; */
   border: none;
-  background-color: rgb(255, 247, 237);
+  background-color: var(--lighter2);
   border-radius: 20px;
 }
 
@@ -22,13 +21,13 @@
   font-size: 3rem;
   text-align: center;
   font-weight: 500;
-  color: #211951;
+  color: var(--Dark);
   text-shadow: 3px 2px 8px grey;
   /* text-decoration: underline; */
 }
 
 .whowe_card legend span {
-  color: #4fc6a6;
+  color: var(--darker1);
   font-size: 5rem;
 }
 

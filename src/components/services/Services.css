@@ -1,110 +1,114 @@
-.services{
-    /* background-color: gray; */
-    width: 100vw;
-    /* height: 100vh; */
-    /* background: aliceblue; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    overflow: hidden;
-    z-index: 2;
+.servicesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  color: var(--Dark);
 }
 
-.serviceHeading{
-    font-size: 40px;
-    font-weight: bold;
-    border-bottom: 3px solid #4FC6A6;
-
-}
-.carddiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* width: 90%; */
-    gap: 40px;
-    padding: 60px;
-   
-    
+.servicesCardContainer {
+  /* background-color: var(--lighter2); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  width: 85vw;
+  padding: 0px 20px;
 }
 
-.carddiv .card{
-    display: flex;
-    padding: 30px;
-    /* width: 50%; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    height: 270px;
-    width: 60vw; 
-    border-radius: 20px;
-    background-color: #eef5f3;
-    /* border: 2px solid #4FC6A6; */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+.servicesCardContainer legend {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  color: var(--Dark);
+  text-shadow: 3px 2px 8px grey;
 }
 
-.carddiv .card  img{
-    /* border-radius: 50%; */
-    width: 350px;
-    height: 200px;
-    /* margin: 0; */
-    border-radius: 40px;
-    
+.servicesCardContainer legend span {
+  color: var(--darker1);
+  font-size: 5rem;
 }
 
-/* .carddiv .card:hover{
-    border: 2px solid #4FC6A6;
-} */
-.cardleft{
-   /* border-start-end-radius: 50%; */
-   /* height: 400px; */
-}
-.cardright{
-  
-}
-.cardleft img{
-    margin-right: 50px;
-}
-.cardright img{
-    margin-left: 50px;
-}
-.card .content{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 20px; */
+.serviceCatagories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 50px 0;
+  gap: 50px;
 }
 
-.content .serviceHeading{
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: white;
-    text-align: center;
-    background-color: #4FC6A6;
-    padding: 5px;
-    border-radius: 10px;
-    width: 200px;
-    font-weight: 600;
+.singleServiceCatagorie {
+  background-color: var(--lighter2);
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
-.serviceHeading span{
-    color: #4FC6A6;
-    
+
+.serviceCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 0 20px;
 }
-.serviceDiscription{
-    margin-bottom: 25px;
-    text-align: justify;
-    color: rgb(134, 131, 131);
-    font-size: 14px;
+
+.singleServiceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--lighter1);
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 250px;
+  height: 500px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.serviceButton{
-    background-color: #211951;
-    width: 100px;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 14px;
-    cursor: pointer;    
+
+.singleServiceCard h3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.singleServiceCard .servicePricing {
+  text-align: center;
+  padding: 10px 40px;
+  background-color: var(--dark2);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.singleServiceCard .servicePricing p {
+  font-weight: 500;
+}
+
+.singleServiceCard .servicePricing span {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.singleServiceCard ul {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.singleServiceCard .learn_more {
+  position: absolute;
+  bottom: 40px;
+}
+
+.singleServiceCard .learn_more a {
+  color: #81d7f9;
+  transition: ease-in-out 3s;
+}
+.singleServiceCard .learn_more a:hover {
+  color: #39c7ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: ease-in-out 3s;
 }
