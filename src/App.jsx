@@ -27,10 +27,13 @@ function App() {
 
 
         <Navbar></Navbar>
+  
         <Routes>
 
 
       <Route path="/" element={ <Home/>} />
+      <Route path="/Contact" element={ <ContactUs/>} />
+      <Route path="/About" element={ <About/>} />
       <Route path="/Private_Limited" element={ <HeroService data={services.Private_Limited_Company_Registration}/>} />
       
  

@@ -91,7 +91,6 @@ function About() {
         <button>Sign Up</button>
     </div>
     </section>
-    <Footer/>
     </>
   )
 }

@@ -78,8 +78,8 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li>About</li>
-              <li>Contact</li>
+              <li><Link to={"/About"}>About</Link></li>
+              <li><Link to={"/Contact"}>Contact</Link></li>
             </ul>
           </div>
           <div className="right">

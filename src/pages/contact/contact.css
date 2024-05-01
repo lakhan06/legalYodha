@@ -38,18 +38,6 @@ p{
     margin: 15px 0px 20px 0px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 80px;
-    background-color: #E3E6F3;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999;
-}
 
 
 
@@ -60,6 +48,9 @@ header{
     align-items:center;
     justify-content:space-between;
     padding: 20px 100px;
+}
+#page-header{
+    background-image: url('./banner.png');
 }
 #contact li{
     list-style: none;
@@ -103,7 +94,7 @@ header{
 }
 
 #form-details form{
-    width:65%;
+    width:98%;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
@@ -133,25 +124,7 @@ header{
     padding: 10px 0px;
 }
 
-#form-details .people div{
-    padding-bottom: 28px;
-    display: flex;
-    justify-content: flex-start;
-}
 
-#form-details .people p{
-    color: rgb(122, 122, 122);
-    font-size: 16px;
-    margin: 0px;
-    line-height: 30px;
-}
-
-#form-details .people img{
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    margin-right: 15px;
-}
 
 /* for Contact Page */
 @media (max-width:920px){
