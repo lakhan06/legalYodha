@@ -30,10 +30,13 @@ const HeroService = ({ data }) => {
          {data.introduction}
         </div>
       </div>
+      
+      {data.Documents_required ? <DocRequired data={data.Documents_required}></DocRequired> : null}
+      
+      {data.Minimum_Requirements ? <MinRequirement data={ data.Minimum_Requirements}></MinRequirement> : null}
 
-      <DocRequired data={data.Documents_required}></DocRequired>
-      <MinRequirement data={ data.Minimum_Requirements}></MinRequirement>
-      <Process data={data.process} ></Process>
+      {data.process ? <Process data={data.process} ></Process> : null}
+      
     </div>
   );
 };

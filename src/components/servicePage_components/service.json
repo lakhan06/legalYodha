@@ -247,6 +247,48 @@
                 "process_discription": "Within 30 days of the incorporation, LLP Agreement as drafted by our team will be shared and after approval from the partners it will be printed on the stamp paper and will be filed with the Registrar of Companies."
             }
         ]
+    },
+
+    "PF/ESI Registration": {
+        "title": "PF/ESI Registration",
+        "tagline": "Get FSSAI Registration in Jaipur starting from ₹ 2500/-",
+
+        
+        "features": [
+            "Filing of Application for Food License",
+            "For FBOs",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Get your Food License in 7-10 days",
+            " Hassle-Free Process"
+           
+        ],
+        "introduction": "Introduction of FSSAI Registration in Jaipur FSSAI stands for Food Safety and Standards Authority of India. It is a regulatory body that is established and governed by the Food Safety and Standards Act, 2006. The Act came into force to ensure the safety of food products delivered to the consumers. It ensures all the food products undergo proper quality checks thereby reducing the food adulteration and sale of low-standard products. It is a body responsible for providing registration and licensing of the Food Business Operators (FBO) in India and it lays down the guidelines for running the food business in India..",
+        
+       
+        "Minimum_Requirements": [
+                   ],
+        "Documents_required": [
+           
+        ],
+        "process": [
+            {
+                "process_heading": "1. Complete the Application Form",
+                "process_discription": "You are requested to first fill the simple questionnaire provided by our expert team."
+            },
+            {
+                "process_heading": "2. Document Processing",
+                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing. The checklist for documents will be provided as per the type of entity."
+            },
+            {
+                "process_heading": "3. Filing of Application",
+                "process_discription": "We will apply for your FSSAI License application along with the documents and other declarations online with FSSAI. "
+            },
+            {
+                "process_heading": "4.  Issuance of FSSAI License",
+                "process_discription": "After the processing and verification of application and inspection by the concerned officer, FSSAI License will be issued."
+            }
+        ]
     }
     
 }
