@@ -14,7 +14,7 @@ const serviceData = [
     },
     {
         title: 'FSSAI Registration',
-        price: '₹10000/-',
+        price: '₹8000/-',
         features: [
             'Service Providers Having 20 lakh turnover',
             'Goods suppliers having 40 lakh turnover',
@@ -25,7 +25,7 @@ const serviceData = [
     },
     {
         title: 'Partnership Registration',
-        price: '₹10000/-',
+        price: '₹11000/-',
         features: [
             'Service Providers Having 20 lakh turnover',
             'Goods suppliers having 40 lakh turnover',
@@ -36,7 +36,7 @@ const serviceData = [
     },
     {
         title: 'Import & Export Code',
-        price: '₹10000/-',
+        price: '₹5000/-',
         features: [
             'Service Providers Having 20 lakh turnover',
             'Goods suppliers having 40 lakh turnover',
