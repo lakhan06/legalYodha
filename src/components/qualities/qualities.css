@@ -8,6 +8,8 @@
   padding: 150px 100px;
 
   background-color: aliceblue;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
 }
 
 .qualities .leftPart {

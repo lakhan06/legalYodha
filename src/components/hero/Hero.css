@@ -1,6 +1,16 @@
 .hero {
   width: 100vw;
   overflow: hidden;
+  /* background-color: red; */
+  background: url("../src/components/hero/WhatsApp Image 2024-05-03 at 14.03.14_38604efc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+.heroSection{
+  /* height: 90vh; */
+
 }
 
 .heroContainer {
@@ -9,10 +19,12 @@
   flex-direction: column;
   align-items: center;
   width: 65vw;
-  height: 90vh;
+  /* height: 80vh; */
   margin: auto;
+  /* justify-content: center; */
   text-align: center;
   overflow: hidden;
+  /* background-color: red; */
 }
 
 .heading h1 {
@@ -37,6 +49,8 @@
   font-weight: 400;
   padding: 20px;
   font-size: 20px;
+  line-height: 20px;
+  /* width: 100; */
 }
 
 .btns {
@@ -81,4 +95,131 @@
 .rectangle-left {
   left: -280px;
   transform: rotate(-50deg);
+}
+
+
+@media (max-width: 1200px){
+ 
+  .heading h1 {
+    font-size: 30px;
+    
+  }
+  
+  .heading h1 span {
+    font-size: 35px;
+   
+  }
+  
+  .ssHeading h5 {
+  
+    
+    font-size: 16px;
+  }
+  
+  .subHeading h4 {
+    font-size: 15px;
+   
+  }
+}
+  
+
+@media (max-width: 950px){
+  .hero {
+    background-size: contain;
+   
+  }
+  .heading h1 {
+    font-size: 25px;
+    
+  }
+  
+  .heading h1 span {
+    font-size: 30px;
+   
+  }
+  
+  .ssHeading h5 {
+  
+    
+    font-size: 12px;
+  }
+  
+  .subHeading h4 {
+    font-size: 13px;
+   
+  }
+  
+
+}
+@media (max-width: 850px){
+  .hero {
+    background-size: contain;
+   
+  }
+  .heading h1 {
+    font-size: 20px;
+    
+  }
+  
+  .heading h1 span {
+    font-size: 25px;
+   
+  }
+  
+  .ssHeading h5 {
+  
+    
+    font-size: 12px;
+  }
+  
+  .subHeading h4 {
+    font-size: 10px;
+   
+  }
+
+  .btns .btn {
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+
+}
+@media (max-width: 700px){
+  .hero {
+    background-size: contain;
+   
+  }
+  .heading h1 {
+    font-size: 20px;
+    
+  }
+  
+  .heading h1 span {
+    font-size: 25px;
+   
+  }
+  
+  .ssHeading h5 {
+  
+    
+    font-size: 12px;
+  }
+  
+  .subHeading h4 {
+    font-size: 10px;
+   
+  }
+
+  .btns .btn {
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 1px 10px;
+    margin: 10px;
+    font-size: 10px;
+  }
+  
+
 }
