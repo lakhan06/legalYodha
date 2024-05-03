@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #262626;
+  background-color: #002c35;
   color: white;
 }
 
@@ -40,7 +40,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  background-color: #474747;
+  background-color: #005768;
   padding: 20px 100px;
 }
 
