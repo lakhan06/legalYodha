@@ -1244,6 +1244,7 @@ footer .col a:hover{
 
 #page-header.about-header{
     background-image: url("aboutImages/banner.png");
+    color: white;
 }
 
 #about-head{
