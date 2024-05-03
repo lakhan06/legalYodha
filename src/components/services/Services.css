@@ -37,6 +37,7 @@
   align-items: center;
   margin: 20px 0 50px 0;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .singleServiceCategory {
@@ -121,9 +122,9 @@ flex-wrap: wrap;
 }
 
 .singleServiceCard .learn_more a {
-  color: #81d7f9;
+  color: white;
   transition: ease-in-out 3s;
-  text-shadow: 1px 1px 1px blue;
+  /* text-shadow: 1px 1px 1px white; */
 }
 .singleServiceCard .learn_more a:hover {
   color: #39c7ff;

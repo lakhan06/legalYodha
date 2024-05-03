@@ -10,12 +10,7 @@ body {
   height: 100vh;
 }
 
-.wrapper {
-  background: linear-gradient(60deg, #420285, #08bdbd);
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
+
 
 .carousel {
   position: relative;
@@ -24,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* display: none; */
 }
 
 .carousel__item {
@@ -33,8 +29,8 @@ body {
   width:400px;
   padding: 0 12px;
   opacity: 0;
-  filter: drop-shadow(0 3px 3px #4fc6a6);
-  will-change: transform, opacity;
+  filter: drop-shadow(0 3px 3px var(--darker1));
+  /* will-change: transform, opacity; */
   -webkit-animation: carousel-animate-vertical 27s linear infinite;
   animation: carousel-animate-vertical 27s linear infinite;
 }
@@ -98,7 +94,7 @@ body {
   justify-content: center;
   font-size: 50px;
   /* border-radius: 50%; */
-  border: 2px solid #4fc6a6;
+  border: 2px solid var(--darker1);
 }
 .carousel__item-head svg {
   width: 40px;
@@ -108,7 +104,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   padding: 16px 20px 16px 70px;
-  border: 2px solid #4fc6a6;
+  border: 2px solid var(--darker1);
 }
 .crousalItemDiscription {
   font-size: 12px;
@@ -116,6 +112,8 @@ body {
   color: gray;
   line-height: 15px;
   font-weight: 400;
+  /* background-color: ; */
+  
 }
 
 .title {
@@ -148,7 +146,7 @@ body {
   25.2222222222%,
   33.3333333333% {
     transform: translateY(-100%) scale(0.7);
-    opacity: 0.4;
+    opacity: 0;
     visibility: visible;
   }
   36.3333333333% {
@@ -198,3 +196,12 @@ body {
     visibility: hidden;
   }
 }
+
+
+@media (max-width: 1050px){
+  .carousel{
+    display: none;
+  }
+}
+
+

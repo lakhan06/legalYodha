@@ -82,6 +82,7 @@
   /* CSS styles specific to mobile devices */
   .whowe_card {
     flex-direction: column;
+    padding: 50px 20px;
   }
 
   .weLeft img {

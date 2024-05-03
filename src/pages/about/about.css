@@ -93,16 +93,18 @@ header{
 
 #features{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 80px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 #features .fe-box{
     text-align: center;
     padding: 20px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #cdebbc;
     border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 #features .fe-box h6{
@@ -120,20 +122,23 @@ header{
     box-shadow: 10px 10px 54px rgba(70, 64, 221, 0.1);
 }
 
+#features .fe-box:nth-child(1) h6{
+    background-color: #ade8e8;
+}
 #features .fe-box:nth-child(2) h6{
-    background-color: #cdebbc;
+    background-color: #f6dbf6;
 }
 
 #features .fe-box:nth-child(3) h6{
-    background-color: #d1e8f2;
+    background-color: #cce7d0;
 }
 
 #features .fe-box:nth-child(4) h6{
-    background-color: #cdd4f8;
+    background-color: #d1e8f2;
 }
 
 #features .fe-box:nth-child(5) h6{
-    background-color: #f6dbf6;
+    background-color: #cdd4f8;
 }
 
 #features .fe-box:nth-child(6) h6{
