@@ -3,9 +3,11 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
+  margin-top: 20px;
 }
 
 .whowe_card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,14 +22,14 @@
 .whowe_card legend {
   font-size: 3rem;
   text-align: center;
-  font-weight: 500;
-  color: var(--Dark);
-  text-shadow: 3px 2px 8px grey;
+  font-weight: 600;
+  color: black;
+  /* text-shadow: 3px 2px 8px grey; */
   /* text-decoration: underline; */
 }
 
 .whowe_card legend span {
-  color: var(--darker1);
+  color: var(--dark1);
   font-size: 5rem;
 }
 
@@ -38,7 +40,7 @@
 
 .weRight h1 {
   font-size: 3rem;
-  color: #211951;
+  color: black;
   padding: 20px 0;
 }
 
@@ -47,7 +49,7 @@
 }
 
 .weRight h1 .spantwo {
-  color: #4fc6a6;
+  color: var(--dark1);
   text-decoration: underline;
 }
 

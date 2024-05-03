@@ -4,6 +4,7 @@
   align-items: center;
   margin: 30px 0;
   color: var(--Dark);
+  user-select: none;
 }
 
 .servicesCardContainer {
@@ -14,19 +15,19 @@
   border: none;
   border-radius: 20px;
   width: 85vw;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
 }
 
 .servicesCardContainer legend {
   font-size: 3rem;
   text-align: center;
-  font-weight: 500;
-  color: var(--Dark);
-  text-shadow: 3px 2px 8px grey;
+  font-weight: 600;
+  color: black;
+  /* text-shadow: 3px 2px 8px rgba(128, 128, 128, 0.636); */
 }
 
 .servicesCardContainer legend span {
-  color: var(--darker1);
+  color: var(--dark1);
   font-size: 5rem;
 }
 
@@ -38,7 +39,7 @@
   gap: 50px;
 }
 
-.singleServiceCatagorie {
+.singleServiceCategory {
   background-color: var(--lighter2);
   padding: 10px 30px;
   border-radius: 5px;
@@ -46,36 +47,41 @@
   cursor: pointer;
 }
 
-.singleServiceCatagorie:hover {
-  background-color: var(--light2);
+.singleServiceCategory:hover,
+.active {
+  background-color: var(--dark2);
   padding: 10px 30px;
   border-radius: 5px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .serviceCards {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: center;
+  gap: 50px;
   padding: 0 20px;
+flex-wrap: wrap;
 }
 
 .singleServiceCard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--lighter1);
+  background-color: var(--darker1);
   padding: 20px 20px;
   border-radius: 10px;
   width: 250px;
   height: 480px;
   position: relative;
+  font-size: .98rem;
+  line-height: 23 px;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;   
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .singleServiceCard h3 {
@@ -103,6 +109,10 @@
 .singleServiceCard ul {
   margin-left: 25px;
   margin-top: 10px;
+  font-size: 15px;
+}
+.singleServiceCard ul li{
+  margin-bottom: 10px;
 }
 
 .singleServiceCard .learn_more {
@@ -113,7 +123,7 @@
 .singleServiceCard .learn_more a {
   color: #81d7f9;
   transition: ease-in-out 3s;
-  text-shadow: 1px 1px 1px rgba(74, 124, 143, 0.66);
+  text-shadow: 1px 1px 1px blue;
 }
 .singleServiceCard .learn_more a:hover {
   color: #39c7ff;

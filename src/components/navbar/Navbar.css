@@ -24,7 +24,7 @@ a{
 .middle ul {
   display: flex;
   list-style: none;
-  background-color: #4FC6A6;
+  background-color: var(--dark1);
   padding: 5px;
   border-radius: 10px;
   color: white;
@@ -65,7 +65,7 @@ a{
 .list{
   display: none;
   position: absolute;
-  background-color: #a0efda;
+  background-color: var(--darker1);
   color: #211951;
   gap: 30px;
   border-radius: 10px;
@@ -88,7 +88,7 @@ a{
 .listleft ul{
   display: flex;
   flex-direction: column;
-  background-color: #a0efda;
+  background-color: var(----darker1);
 
   list-style:square;
 font-weight: normal;
@@ -96,7 +96,7 @@ font-weight: normal;
 .listright ul{
   display: flex;
   flex-direction: column;
-  background-color: #a0efda;
+  background-color: var(--darker1);
   list-style:square;
   font-weight: normal;
 }
