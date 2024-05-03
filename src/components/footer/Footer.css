@@ -1,157 +1,123 @@
-.footerContainer {
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  color: white;
+}
+
+.footServiceContainer {
+  width: 100vw;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: rgb(64, 237, 179);
-  padding: 30px 70px;
-  color: #211951;
+  padding: 40px 100px;
 }
 
-.footerLeft {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin-left: 40px;
+.ftrServiceColumn h4 {
+  margin-bottom: 10px;
 }
 
-.footerLeft img {
-  width: 60px;
+.ftrServiceColumn ul {
+  margin-left: 15px;
 }
 
-.footerLeft p {
-  font-size: 1.2rem;
+.ftrServiceColumn ul li {
+  margin: 10px 0;
+  list-style: square;
+  cursor: pointer;
   font-weight: 500;
 }
 
-.footerLeft .phmail {
-  font-size: 0.9rem;
+.ftrServiceColumn ul li:hover {
+  color: var(--light1);
 }
 
-.footerMiddle {
-  flex: 0.7;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-}
+/* footer Strip section */
 
-.footerMiddle ul {
-  list-style: none;
+.footerStrip {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  width: 100vw;
+  background-color: #474747;
+  padding: 20px 100px;
 }
 
-.footerMiddle ul li {
+.footerStripLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerStripLinks p {
   cursor: pointer;
-}
-.footerMiddle ul li:hover {
-  transform: scale(1.05);
-  transition: ease-in-out 200ms;
-  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.66);
+  margin: 0px 20px;
 }
 
-.footerRight {
-  flex: 1;
+.footerStripLinks p:hover {
+  color: var(--light1);
+}
+
+.ftrPhoneButton {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-.footerRight input {
-  width: 300px;
-  border-radius: 5px;
-  padding: 10px 10px;
-  border: 1px solid black;
-}
-
-.footerRight textarea {
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
-  padding: 10px 10px;
-  border: 1px solid black;
-}
-
-.footerRight .frmBtn {
-  background-color: #211951;
-  width: 300px;
-  border-radius: 5px;
-  padding: 10px 10px;
-  border: 1px solid black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  border: 3px solid ;
+  padding: 7px 15px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
-.footerRight .frmBtn:hover {
-  background-color: #2f2374;
+.ftrPhoneButton:hover {
+  color: var(--light1);
 }
 
-/* Default styles that apply to all screen sizes */
-
-/* Mobile devices (320px - 480px) */
-@media only screen and (max-width: 680px) {
-  /* CSS styles specific to mobile devices */
-  .footerContainer {
-    display: block;
-    justify-content: space-between;
-    padding: 30px 20px;
-  }
-
-  .footerLeft {
-    margin-left: 0;
-  }
-
-  .footerMiddle {
-    width: min-content;
-    margin: 30px 0;
-  }
-
-  .footerMiddle ul {
-    align-items: start;
-    gap: 10px;
-  }
-
+.copyrightLine {
+  margin: 20px;
+  text-align: center;
 }
 
-/* iPads, Tablets (481px - 768px) */
-@media only screen and (min-width: 680px) and (max-width: 768px) {
-  /* CSS styles specific to iPads and Tablets */
-  .footerLeft {
-    margin-left: 10px;
-  }
+.onTopFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
-  .footerRight input {
-    width: 200px;
-  }
+.onTopFooter:hover {
+  color: var(--light1);
+}
 
-  .footerRight textarea {
-    width: 200px;
-  }
 
-  .footerRight .frmBtn {
-    width: 200px;
+@media only screen and (max-width: 1100px) {
+  .footServiceContainer {
+    padding: 40px 30px;
   }
 }
 
-/* Small screens, laptops (769px - 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* CSS styles specific to small screens and laptops */
+@media only screen and (max-width: 750px) {
+  .footServiceContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footerStrip {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
 }
 
-/* Desktops, large screens (1025px - 1200px) */
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  /* CSS styles specific to desktops and large screens */
-}
+@media only screen and (max-width: 350px) {
 
-/* Larger than 1200px (Extra large screens) */
-@media only screen and (min-width: 1201px) {
-  /* CSS styles specific to extra large screens */
+  .footerStripLinks p {
+    cursor: pointer;
+    margin: 0px 10px;
+  }
 }

@@ -1,50 +1,68 @@
 import './Footer.css'
-import logo from '../../images/logo.png';
-// import PhoneIcon from '@mui/icons-material/Phone';
-// import EmailIcon from '@mui/icons-material/Email';
-// import HomeIcon from '@mui/icons-material/Home';
-// import InfoIcon from '@mui/icons-material/Info';
-// import FactCheckIcon from '@mui/icons-material/FactCheck';
-
-// <HomeIcon sx={{ color: pink[500] }} />
+import { FaMobile } from "react-icons/fa";
+import { PiArrowFatLinesUpBold } from "react-icons/pi";
 
 const Footer = () => {
     return (
-        <div>
-            <div className="footerContainer">
-
-                <div className="footerLeft">
-                    <img src={logo} alt="Logo" />
-                    <p>Strategic Solutions, Trusted Guidance: Elevate your financial journey with our CA consultancy expertise. </p>
-                    <div className="phmail ph">
-                        {/* <span>{PhoneIcon}</span> */}
-                        <span>+91-9116562979</span>
-                    </div>
-                    <div className="phmail mail">
-                        {/* <span>{EmailIcon}</span> */}
-                        <span>legalYodha@gmail.com</span>
-                    </div>
-                </div>
-
-                <div className="footerMiddle">
+        <section className='footerSection'>
+            <div className="footServiceContainer">
+                <div className="ftrServiceColumn">
+                    <h4>Start Business</h4>
                     <ul>
-                        <li> Home</li>
-                        <li> About</li>
-                        <li>Services</li>
-                        <li>Contact</li>
+                        <li>Private Limited Company</li>
+                        <li>Limited Liability Partnership</li>
+                        <li>Section NPO</li>
                     </ul>
                 </div>
-
-                <div className="footerRight">
-                    <input type="text" placeholder='Name' />
-                    <input type="email" placeholder='E-mail' />
-                    <textarea name="Message" placeholder='Message' id="" cols="30" rows="10"></textarea>
-                    <div className='frmBtn'>Submit</div>
+                <div className="ftrServiceColumn">
+                    <h4>Business Registrations</h4>
+                    <ul>
+                        <li>GST Registration</li>
+                        <li>FSSAI Registration</li>
+                        <li>ISO Certificate</li>
+                        <li>Import Export Code (IEC)</li>
+                        <li>ESIC and PF Registration</li>
+                        <li>MSME Registration</li>
+                    </ul>
+                </div>
+                <div className="ftrServiceColumn">
+                    <h4>IP Registrations</h4>
+                    <ul>
+                        <li>Trademark Registration</li>
+                        <li>Copyright Registration</li>
+                        <li>Design Registration</li>
+                    </ul>
+                </div>
+                <div className="ftrServiceColumn">
+                    <h4>Income TAX/GST</h4>
+                    <ul>
+                        <li>Income Tax Return</li>
+                        <li>GST Return</li>
+                        <li>TDS Return</li>
+                        <li>Income Tax Notice</li>
+                    </ul>
                 </div>
             </div>
 
+            <div className="footerStrip">
+                <div className="footerStripLinks">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Contact</p>
+                </div>
+                <a href="tel:9116562979">
+                    <div className="ftrPhoneButton">
+                        <FaMobile className='ftrMobileLogo' />
+                        <p>91165-62979</p>
+                    </div>
+                </a>
+            </div>
 
-        </div>
+            <span onClick={() => window.scrollTo(0, 0)} className='onTopFooter'><PiArrowFatLinesUpBold /></span>
+
+            <p className='copyrightLine'>©2024 LegalYodha Pvt. Ltd. All Rights Reserved.</p>
+
+        </section>
     )
 }
 
