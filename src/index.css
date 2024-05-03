@@ -10,13 +10,13 @@
 
 :root {
   /* Dark theme color variables */
-  --Dark: #211951;
+  --Dark: black;
 
   /* Light theme color variables */
   --lighter1: #a8fde1;
   --light1: #7fffd4;
-  --dark1: #46e8b2;
-  --darker1: #16c78c;
+  --dark1: #03AED2;
+  --darker1: #68D2E8;
 
   /* Additional light theme color variables */
   --lighter2: #ffedd6;

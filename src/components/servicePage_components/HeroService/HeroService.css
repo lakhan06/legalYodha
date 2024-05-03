@@ -35,7 +35,7 @@
 }
 
 .feature{
-    background-color: #4FC6A6;
+    background-color: var(--dark1);
     display: flex;
     gap: 10px;
     padding: 8px;
@@ -63,9 +63,9 @@
     font-size: 30px;
     font-weight: bold;
     margin: 10px;
-    color: #4FC6A6;
+    color: var(--dark1);
     padding: 4px;
-    border-bottom: 4px solid #4FC6A6;
+    border-bottom: 4px solid var(--dark1);
 
 }
 

@@ -52,10 +52,10 @@
 }
 
 .btns .btn1 {
-  background-color: #4fc6a6;
+  background-color: var(--dark1);
 }
 .btns .btn1:hover {
-  background-color: rgb(82, 247, 192);
+  background-color: var(--darker1);
 }
 .btns .btn2 {
   background-color: rgb(255, 202, 138);
@@ -65,7 +65,7 @@
 }
 
 .rectangle {
-  background-color: #4fc6a6;
+  background-color: var(--dark1);
   width: 500px;
   height: 450px;
   position: absolute;

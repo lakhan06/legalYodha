@@ -12,11 +12,11 @@
   text-align: center;
   /* text-transform: uppercase; */
   margin-bottom: 10px;
-  border-bottom: 4px solid aquamarine;
+  border-bottom: 4px solid var(--dark1);
 }
 
 .docRecHeading span {
-  color: aquamarine;
+  color: var(--dark1);
   font-size: 2.5rem;
   /* text-transform: uppercase; */
   /* text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3); */

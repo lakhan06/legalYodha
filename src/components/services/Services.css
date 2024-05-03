@@ -20,13 +20,13 @@
 .servicesCardContainer legend {
   font-size: 3rem;
   text-align: center;
-  font-weight: 500;
-  color: var(--Dark);
-  text-shadow: 3px 2px 8px rgba(128, 128, 128, 0.636);
+  font-weight: 600;
+  color: black;
+  /* text-shadow: 3px 2px 8px rgba(128, 128, 128, 0.636); */
 }
 
 .servicesCardContainer legend span {
-  color: var(--darker1);
+  color: var(--dark1);
   font-size: 5rem;
 }
 
@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--lighter1);
+  background-color: var(--darker1);
   padding: 20px 20px;
   border-radius: 10px;
   width: 250px;
@@ -105,6 +105,10 @@
 .singleServiceCard ul {
   margin-left: 25px;
   margin-top: 10px;
+  font-size: 15px;
+}
+.singleServiceCard ul li{
+  margin-bottom: 10px;
 }
 
 .singleServiceCard .learn_more {
@@ -115,7 +119,7 @@
 .singleServiceCard .learn_more a {
   color: #81d7f9;
   transition: ease-in-out 3s;
-  text-shadow: 1px 1px 1px rgba(74, 124, 143, 0.66);
+  text-shadow: 1px 1px 1px blue;
 }
 .singleServiceCard .learn_more a:hover {
   color: #39c7ff;
