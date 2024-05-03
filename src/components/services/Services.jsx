@@ -157,26 +157,6 @@ const IncomeTaxData = [
             'Tax-saving strategies',
             'Consultation with tax experts'
         ]
-    }, {
-        title: 'Income Tax Filing',
-        price: '₹10000/-',
-        features: [
-            'Individual or business tax filing',
-            'Tax computation and planning',
-            'Audit and compliance',
-            'Tax-saving strategies',
-            'Consultation with tax experts'
-        ]
-    }, {
-        title: 'Income Tax Filing',
-        price: '₹10000/-',
-        features: [
-            'Individual or business tax filing',
-            'Tax computation and planning',
-            'Audit and compliance',
-            'Tax-saving strategies',
-            'Consultation with tax experts'
-        ]
     }
     // Add more service objects for the Income Tax category
 ];
@@ -271,41 +251,3 @@ const Services = () => {
 
 export default Services;
 // ctrl+alt+4 -> ₹
-
-
-
-
-// <div className="serviceCatagories">
-// <div className="singleServiceCatagorie">
-//     Start Business
-// </div>
-// <div className="singleServiceCatagorie">
-//     Registration
-// </div>
-// <div className="singleServiceCatagorie">
-//     Trademark/IP
-// </div>
-// <div className="singleServiceCatagorie">
-//     Income Tax/GST
-// </div>
-// </div>
-
-// <div className="serviceCards">
-// {serviceData.map((service, index) => (
-//     <div key={index} className="singleServiceCard">
-//         <h3>{service.title}</h3>
-//         <div className="servicePricing">
-//             <p>Starting</p>
-//             <span>{service.price}</span>
-//         </div>
-//         <ul>
-//             {service.features.map((feature, idx) => (
-//                 <li key={idx}>{feature}</li>
-//             ))}
-//         </ul>
-//         <div className="learn_more">
-//             <a href="">Learn More</a>
-//         </div>
-//     </div>
-// ))}
-// </div>
