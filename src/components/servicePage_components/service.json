@@ -247,6 +247,49 @@
                 "process_discription": "Within 30 days of the incorporation, LLP Agreement as drafted by our team will be shared and after approval from the partners it will be printed on the stamp paper and will be filed with the Registrar of Companies."
             }
         ]
+    },
+
+    "PF/ESI Registration": {
+        "title": "PF/ESI Registration",
+        "tagline": "Get PF ESI Registration in Jaipur at ₹3,000/- (All inclusive)",
+
+        
+        "features": [
+            "Filing application at Shram Suvidha",
+            "Simple & Secure Online Process",
+            "Dedicated Professional",
+            "Dedicated Professional",
+            "Get PF/ESI in 2-3 days",
+            "Hassle-Free Process"
+           
+        ],
+        "introduction": "Employees’ State Insurance Corporation is a statutory corporate body set up under the ESI Act 1948, which is responsible for the administration of ESI Scheme. The ESI is a self-financed social security comprehensive scheme devised to protect the employees against financial distress such as sickness, disablement or death due to employment injuries. Employee State Insurance scheme is applicable to all the factories and establishments defined in ESI Act 1948 having 10 or more employees employed during the previous year. However, insurance is deducted for those employees only whose wages for the month is upto Rs. 21,000. The establishments falling under this category are required to register under the act within 15 days of the applicability EPF stands for Employee Provident Fund that is a scheme for providing monetary benefit to all salaried employees which act as the best investment methods. Any organization that has a count of employees more than 20 must get registered under EPFO. The employer must get the establishment registered within 1 month of reaching the limit of 20 employees",
+        
+       
+        "Minimum_Requirements": [
+            
+                   ],
+        "Documents_required": [
+           
+        ],
+        "process": [
+            {
+                "process_heading": "1. Complete the Application Form",
+                "process_discription": "You are requested to first fill the simple questionnaire provided by our expert team."
+            },
+            {
+                "process_heading": "2. Document Processing",
+                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing. The checklist for documents will be provided as per the type of entity."
+            },
+            {
+                "process_heading": "3. Filing of Application",
+                "process_discription": "We will apply for your FSSAI License application along with the documents and other declarations online with FSSAI. "
+            },
+            {
+                "process_heading": "4.  Issuance of FSSAI License",
+                "process_discription": "After the processing and verification of application and inspection by the concerned officer, FSSAI License will be issued."
+            }
+        ]
     }
     
 }

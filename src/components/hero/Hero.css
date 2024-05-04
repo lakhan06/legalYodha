@@ -5,12 +5,7 @@
   background: url("../src/components/hero/WhatsApp Image 2024-05-03 at 14.03.14_38604efc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 100vh; */
-}
-
-.heroSection{
-  /* height: 90vh; */
-
+  height: 80vh;
 }
 
 .heroContainer {

@@ -50,8 +50,8 @@ function ContactUs() {
             <input type="text" placeholder="Your Name" name="Name"/>
             <input type="email" placeholder="E-mail" name="E-mail" required/>
             <input type="text" placeholder="Subject" name="Subject"/>
-            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required/>
-            <button>Submit</button>
+            <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message" required/>
+            <button id='submit-contact'>Submit</button>
         </form>
    </section>
 
