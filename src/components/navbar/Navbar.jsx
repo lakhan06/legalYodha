@@ -1,4 +1,10 @@
 import "./Navbar.css";
+import { FaBars } from "react-icons/fa";
+import { RxCross1 } from "react-icons/rx";
+import { useState } from "react";
+
+
+
 import logo from "../../images/logo.png";
 import { Link } from 'react-router-dom'
 
@@ -9,11 +15,27 @@ const copyToClipboard = () => {
   navigator.clipboard.writeText("+919116562979");
 };
 
+
+
+
 const Navbar = () => {
+  const [visible, setvisibility] = useState('false');
+
+  const handleCategoryChange=(option)=>{
+    setvisibility(option)
+
+  }
   return (
+
+
     <div>
       <div className="navContainer">
-        <div className="navbar">
+        <div className="translateicon">
+
+        <FaBars  className="bars icon" onClick={() => handleCategoryChange('true')}  />
+        </div>
+        <div className={`navbar ${visible === 'true' ? 'visible' : 'hide'}`}>
+        <RxCross1  className="cross icon" onClick={() => handleCategoryChange('false')}/>
           <div className="left">
             <img src={logo} alt="Logo" />
           </div>
@@ -80,6 +102,7 @@ const Navbar = () => {
               </li>
               <li><Link to={"/About"}>About</Link></li>
               <li><Link to={"/Contact"}>Contact</Link></li>
+              <li className="serviceNav"><Link to={"/Contact"}>Services</Link></li>
             </ul>
           </div>
           <div className="right">
