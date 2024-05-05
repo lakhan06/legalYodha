@@ -51,7 +51,7 @@
     align-items: center;
     border: 1px solid #e1e1e1;
     border-radius: 8px;
-    background-color: rgb(4, 4, 45);
+    background-color: rgb(17, 39, 63);
     margin-bottom: 50px;
 }
 
@@ -69,14 +69,14 @@
     outline:none;
     background-color: transparent;
     margin-bottom:20px;
-    border: 1px solid #002C35;
+    border: 1px solid #00404d;
     color: #dbf8fe;
     border-radius: 5px;
     padding-top: 20px;
 }
 
 #form-details form button{
-    background-color: #000b4b;
+    background-color: #1f2759;
     color: #fff;
     width: 100%;
     height: 100%;

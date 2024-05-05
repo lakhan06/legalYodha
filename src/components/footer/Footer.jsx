@@ -12,7 +12,7 @@ const Footer = () => {
                         <li>Private Limited Company</li>
                         <li>Limited Liability Partnership</li>
                         <li>Section NPO</li>
-                    </ul>
+                    </ul> 
                 </div>
                 <div className="ftrServiceColumn">
                     <h4>Business Registrations</h4>
