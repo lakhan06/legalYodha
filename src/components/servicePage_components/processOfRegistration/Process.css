@@ -34,7 +34,7 @@
 .singleProcess {
     width: 45%;
     padding: 20px;
-    background-color: #6abeec;
+    background-color:var(--lighter2);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 10px;
