@@ -55,7 +55,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white  
+  color:  black
 
 }
 
@@ -357,7 +357,7 @@ a {
 /* my css */
 
 .nav__logo img{
-  width: 70px;
+  width: 100px;
   margin-right: 30px;
 }
 

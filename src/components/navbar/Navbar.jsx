@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
 
-import logo from "../../images/finallogo.jpg";
+import logo from "../../images/logomain.png";
 import { Link } from "react-router-dom";
 
 import { ImWhatsapp } from "react-icons/im";
