@@ -55,6 +55,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: white  
 
 }
 
@@ -135,6 +136,7 @@ a {
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1500px) {
+  
 
   .nav__menu {
     position: absolute;
@@ -372,17 +374,6 @@ a {
   font-size: 30px;
 }
 
-.dropdown__menu .dropdown__link {
-  background-color:transparent;
-  /* color: blue; */
-  /* font-size: 14px; */
-
-}
 .dropdown__menu{
-  /* background-color175, 175); */
-  background-color: white;
-  border-radius: 10px;
-  width: 30vw;
-  color: black;
-  /* box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3); */
-  border: 1px solid black;}
+  /* width: 20vw; */
+}
