@@ -3,10 +3,8 @@ import { FaBars } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
 
-
-
-import logo from "../../images/logo.png";
-import { Link } from 'react-router-dom'
+import logo from "../../images/finallogo.jpg";
+import { Link } from "react-router-dom";
 
 import { ImWhatsapp } from "react-icons/im";
 import { FaPhoneSquareAlt } from "react-icons/fa";
@@ -15,104 +13,128 @@ const copyToClipboard = () => {
   navigator.clipboard.writeText("+919116562979");
 };
 
-
-
-
 const Navbar = () => {
-  const [visible, setvisibility] = useState('false');
+  const [show, setShow] = useState(false);
 
-  const handleCategoryChange=(option)=>{
-    setvisibility(option)
-
-  }
   return (
-
-
     <div>
-      <div className="navContainer">
-        <div className="translateicon">
+      <header className="header">
+        <nav className="nav container">
+          <div className="nav__data">
+            <a href="#" className="nav__logo">
+              <img src={logo} alt="" />
+            </a>
 
-        <FaBars  className="bars icon" onClick={() => handleCategoryChange('true')}  />
-        </div>
-        <div className={`navbar ${visible === 'true' ? 'visible' : 'hide'}`}>
-        <RxCross1  className="cross icon" onClick={() => handleCategoryChange('false')}/>
-          <div className="left">
-            <img src={logo} alt="Logo" />
+            <div
+              className={`nav__toggle ${show ? "show-icon" : ""}`}
+              id="nav-toggle"
+              onClick={() => setShow(!show)}
+            >
+              <i className="ri-menu-line nav__burger"></i>
+              <i className="ri-close-line nav__close"></i>
+            </div>
           </div>
-          <div className="middle">
-            <ul>
-              <li><Link to={"/"}>Home</Link></li>
 
-              <li className="start_business">
-                Start Business
-                <div className="Starlist list">
-                  <div className="listleft ">
-                    BUSINESS REGISTRATIONS
-                    <ul>
-                      <li><Link to={"/Private_Limited"}>Private Limited Company Registration</Link></li>
-                      <li><Link to={"/Limited_Liability_Partnership_Registration"}>Limited Liability Partnership Registration</Link></li>
-                      <li>Partnership Firm Registration</li>
-                      <li>Proprietorship Firm Registration</li>
-
-                    </ul>
-                  </div>
-                  <div className="listright">
-                    GST- GOODS & SERVICES TAX
-                    <ul>
-                      <li><Link to={"/GST_Registration"}>GST Registration</Link></li>
-                      <li><Link to={"/FSSAI_Registration"}>FSSAI Registration</Link></li>
-                      <li>PF/ESI Registration</li>
-                      <li>MSME Registration</li>
-                      <li>Shop Act Registration</li>
-                      <li>RERA Registration</li>
-                      <li>Drug Licence</li>
-
-                    </ul>
-                  </div>
-                </div>
+          <div className={`nav__menu ${show ? "show-menu" : ""}`} id="nav-menu">
+            <ul className="nav__list">
+              <li>
+                <a href="#" className="nav__link">
+                  Home
+                </a>
               </li>
-              <li className="Tax">
-                Tax
-                <div className="Taxlist list">
-                  <div className="listleft ">
-                    ITR-INCOME TAX RETURN
-                    <ul>
-                      <li>ITR Filing for NRIs</li>
-                      <li>ITR Filing for Individuals</li>
-                      <li>ITR Filing for Company</li>
-                      <li>ITR Filing for Society/Trust</li>
-                      <li>ITR Filing for Partnership Firms</li>
-                      <li>TDS Returns Filing</li>
-                      <li>Income Tax Notice Reply</li>
-                      <li>Scrutiny Notice</li>
-                    </ul>
-                  </div>
-                  <div className="listright">
-                    GST- GOODS & SERVICES TAX
-                    <ul>
-                      <li>GST Registration</li>
-                      <li>GST Returns Filing</li>
-                      <li>GST Annual Returns</li>
-                      <li>GST Audit</li>
-                      <li>GST Cancellation</li>
-                      <li>E-Way Bills</li>
-                    </ul>
-                  </div>
+
+              <li className="dropdown__item">
+                <div className="nav__link">
+                  Start Business{" "}
+                  <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
+
+                <ul className="dropdown__menu">
+                  <li className="dropdown__link">
+                    Private Limited Company Registration
+                  </li>
+                  <li className="dropdown__link">
+                    Limited Liability Partnership Registration
+                  </li>
+                  <li className="dropdown__link">
+                    Partnership Firm Registration
+                  </li>
+                  <li className="dropdown__link">
+                    Proprietorship Firm Registration
+                  </li>
+                </ul>
               </li>
-              <li><Link to={"/About"}>About</Link></li>
-              <li><Link to={"/Contact"}>Contact</Link></li>
-              <li className="serviceNav"><Link to={"/Contact"}>Services</Link></li>
+              <li className="dropdown__item">
+                <div className="nav__link">
+                  Business Registration{" "}
+                  <i className="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul className="dropdown__menu">
+                  <li className="dropdown__link">GST Registration</li>
+                  <li className="dropdown__link">FSSAI Registrati</li>
+                  <li className="dropdown__link">ISO Certificate</li>
+                  <li className="dropdown__link">Import Export Co</li>
+                  <li className="dropdown__link">ESIC and PF Regi</li>
+                  <li className="dropdown__link">MSME Registratio</li>
+                </ul>
+              </li>
+              <li className="dropdown__item">
+                <div className="nav__link">
+                  IP Registration{" "}
+                  <i className="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul className="dropdown__menu">
+                  <li className="dropdown__link">Trademark Registration</li>
+                  <li className="dropdown__link">Copyright Registration</li>
+                  <li className="dropdown__link">Design Registration</li>
+                </ul>
+              </li>
+              <li className="dropdown__item">
+                <div className="nav__link">
+                  Income TAX/GST{" "}
+                  <i className="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul className="dropdown__menu">
+                  <li className="dropdown__link">Income Tax Return</li>
+                  <li className="dropdown__link">GST Return</li>
+                  <li className="dropdown__link">TDS Return</li>
+                  <li className="dropdown__link">Income Tax Notice</li>
+                </ul>
+              </li>
+
+              <li><a href="#" className="nav__link">About</a></li>
+
+              <li>
+                <a href="#" className="nav__link">
+                  Contact
+                </a>
+              </li>
+{/* 
+              <li className="navwhatsappicon">
+                {" "}
+                <a href="https://wa.me/+919116562979" target="_blank" className="nav-link">
+                  <ImWhatsapp className="navIcons" />
+                </a>
+              </li>
+              <li>
+                <FaPhoneSquareAlt
+                  onClick={copyToClipboard}
+                  className="navIcons"
+                />
+              </li> */}
             </ul>
           </div>
-          <div className="right">
+        </nav>
+            <div className="right-nav-icons">
             <a href="https://wa.me/+919116562979" target="_blank">
               <ImWhatsapp className="navIcons" />
             </a>
             <FaPhoneSquareAlt onClick={copyToClipboard} className="navIcons" />
           </div>
-        </div>
-      </div>
+      </header>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const Hero = () => {
                         <h4>Strategic Solutions, Trusted Guidance: Elevate your financial journey with our CA consultancy expertise. </h4>
                     </div>
                     <div className="btns">
-                        <div className="btn btn1">Explore Services</div>
+                        {/* <div className="btn btn1">Explore Services</div> */}
                         <div className="btn btn2">Contact</div>
                     </div>
             {/* <div className="rectangle rectangle-left"></div>
