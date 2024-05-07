@@ -35,10 +35,7 @@
   border-radius: 20px;
   display: flex;
   gap: 10px;
-  /* justify-content: center; */
   align-items: center;
-  /* text-align: justify; */
-  /* flex: 1 0 30%; */
   width: 30%;
 }
 
@@ -46,4 +43,26 @@
   font-size: 30px;
   flex-shrink: 0;
   opacity: 0.7;
+}
+
+@media screen and (max-width: 860px) {
+  .minReqContainer {
+    width: 90vw;
+
+  }
+  .singleMinReq {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .minReqContainer {
+    width: 85vw;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .singleMinReq {
+    width: auto;
+  }
 }
