@@ -38,9 +38,9 @@ const Navbar = () => {
           <div className={`nav__menu ${show ? "show-menu" : ""}`} id="nav-menu">
             <ul className="nav__list">
               <li>
-                <a href="#" className="nav__link">
+                <Link to={'/'} className="nav__link">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li className="dropdown__item">
@@ -51,66 +51,66 @@ const Navbar = () => {
 
                 <ul className="dropdown__menu">
                   <li className="dropdown__link">
-                    Private Limited Company Registration
+                   <Link to={'/Private_Limited'}> Private Limited Company Registration</Link>
                   </li>
                   <li className="dropdown__link">
-                    Limited Liability Partnership Registration
+                    <Link to={'/Limited_Liability_Partnership_Registration'}>Limited Liability Partnership Registration</Link>
                   </li>
                   <li className="dropdown__link">
-                    Partnership Firm Registration
+                   <Link to={''}> Partnership Firm Registration</Link>
                   </li>
                   <li className="dropdown__link">
-                    Proprietorship Firm Registration
+                  <Link to={''}> Proprietorship Firm Registration</Link>
                   </li>
                 </ul>
               </li>
               <li className="dropdown__item">
                 <div className="nav__link">
-                  Business Registration{" "}
+                Business Registration{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">GST Registration</li>
-                  <li className="dropdown__link">FSSAI Registrati</li>
-                  <li className="dropdown__link">ISO Certificate</li>
-                  <li className="dropdown__link">Import Export Co</li>
-                  <li className="dropdown__link">ESIC and PF Regi</li>
-                  <li className="dropdown__link">MSME Registratio</li>
+              <li className="dropdown__link">  <Link to={'/GST_Registration'}>GST Registration</Link></li>
+               <li className="dropdown__link"> <Link to={'/FSSAI_Registration'}>FSSAI Registration</Link></li>
+               <li className="dropdown__link">  <Link to={''}>ISO Certificate</Link></li>
+                <li className="dropdown__link"><Link to={''}>Import Export Code(IEC)</Link></li>
+                <li className="dropdown__link"><Link to={''}>ESIC and PF Regiistration</Link></li>
+               <li className="dropdown__link"> <Link to={''}> MSME Registration</Link></li>
                 </ul>
               </li>
               <li className="dropdown__item">
                 <div className="nav__link">
-                  IP Registration{" "}
+                 IP Registration{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">Trademark Registration</li>
-                  <li className="dropdown__link">Copyright Registration</li>
-                  <li className="dropdown__link">Design Registration</li>
+                <li className="dropdown__link"> <Link to={''}>Trademark Registration</Link></li>
+                <li className="dropdown__link"><Link to={''}>Copyright Registration</Link></li>
+                <li className="dropdown__link"><Link to={''}>Design Registration</Link></li>
                 </ul>
               </li>
               <li className="dropdown__item">
                 <div className="nav__link">
-                  Income TAX/GST{" "}
+                 Income TAX/GST{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">Income Tax Return</li>
-                  <li className="dropdown__link">GST Return</li>
-                  <li className="dropdown__link">TDS Return</li>
-                  <li className="dropdown__link">Income Tax Notice</li>
+               <li className="dropdown__link"> <Link to={''}>Income Tax Return</Link></li>
+               <li className="dropdown__link"> <Link to={''}>GST Return</Link></li>
+               <li className="dropdown__link"> <Link to={''}> TDS Return</Link></li>
+                <li className="dropdown__link"> <Link to={''}>Income Tax Notice</Link></li>
                 </ul>
               </li>
 
-              <li><a href="#" className="nav__link">About</a></li>
+              <li><Link to={'/About'} className="nav__link">About</Link></li>
 
               <li>
-                <a href="#" className="nav__link">
+                <Link to={'/Contact'} className="nav__link">
                   Contact
-                </a>
+                </Link>
               </li>
 {/* 
               <li className="navwhatsappicon">

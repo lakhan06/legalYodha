@@ -55,6 +55,7 @@ ul {
 
 a {
   text-decoration: none;
+
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -70,7 +71,7 @@ a {
   left: 0; */
   width: 100%;
   background-color: var(--black-color);
-  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  
   z-index: var(--z-fixed);
   
  
@@ -156,6 +157,9 @@ a {
   .nav__data{
     width: 40vw;
   }
+  .dropdown__menu{
+    border: n2px solid white;
+  }
 }
 
 
@@ -212,6 +216,8 @@ a {
   column-gap: .5rem;
   font-weight: var(--font-semi-bold);
   transition: background-color .3s;
+  width: 100%;
+  font-size: 14px;
 }
 
 .dropdown__link i, 
@@ -365,3 +371,18 @@ a {
   color: green;
   font-size: 30px;
 }
+
+.dropdown__menu .dropdown__link {
+  background-color:transparent;
+  /* color: blue; */
+  /* font-size: 14px; */
+
+}
+.dropdown__menu{
+  /* background-color175, 175); */
+  background-color: white;
+  border-radius: 10px;
+  width: 30vw;
+  color: black;
+  /* box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3); */
+  border: 1px solid black;}

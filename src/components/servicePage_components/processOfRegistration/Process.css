@@ -59,12 +59,35 @@
     width: 90vw;
     column-gap: 10px
   }
+  .process_heading{
+    font-size: 25px;
+  }
+  .process_heading span{
+    font-size: 25px;
+  }
+  .singleProcess .PHBold {
+    width: 100%;
+    font-size: 14px;
+   
+}
+
+
+.singleProcess .processDescription {
+ font-size: 12px;
+}
 }
 
 @media screen and (max-width: 900px) {
   .singleProcess {
     width: 40vw;
   }
+  .process_heading{
+    font-size: 20px;
+  }
+  .process_heading span{
+    font-size: 20px;
+  }
+  
 }
 
 @media screen and (max-width: 800px) {

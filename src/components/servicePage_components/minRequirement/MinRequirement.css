@@ -53,6 +53,12 @@
   .singleMinReq {
     width: 40%;
   }
+  .min_req_heading{
+    font-size: 25px;
+  }
+  .min_req_heading span{
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -64,5 +70,11 @@
   }
   .singleMinReq {
     width: auto;
+  }
+  .min_req_heading{
+    font-size: 20px;
+  }
+  .min_req_heading span{
+    font-size: 20px;
   }
 }

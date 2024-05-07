@@ -42,6 +42,7 @@
   padding: 10px;
   border-radius: 20px;
   margin: 10px;
+  font-size: 12px;
   /* font-size: 15px; */
 }
 
@@ -54,13 +55,17 @@
 }
 
 @media screen and (max-width: 850px) {
+  .docRecHeading{
+    font-size: 25px;
+  }
+  .docRecHeading span{
+    font-size: 25px;
+  }
+  
   .singleDocRec {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 35vw;
-    font-size: .9rem;
+ 
+    font-size: 10px;
+    /* width: auto; */
   }
   .docRecContainer {
     width: 90vw;
@@ -68,6 +73,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .docRecHeading{
+    font-size: 20px;
+  }
+  .docRecHeading span{
+    font-size: 20px;
+  }
+  
   .singleDocRec {
     flex-direction: row;
     width: auto;
@@ -82,6 +94,13 @@
 
 
 @media screen and (max-width: 300px) {
+  .docRecHeading{
+    font-size: 15px;
+  }
+  .docRecHeading span{
+    font-size: 15px;
+  }
+  
   .singleDocRec {
     flex-direction: column;
   }
