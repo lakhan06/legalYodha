@@ -15,9 +15,9 @@
   width: 85vw;
   padding: 50px 50px;
   border: none;
-  background-color: white;
+  background-color: #f6f4f0;
   border-radius: 20px;
-  border: 2px solid var(--dark1);
+  /* border: 2px solid var(--dark1); */
 }
 
 .whowe_card legend {

@@ -67,9 +67,9 @@ a {
 
 /*=============== HEADER ===============*/
 .header {
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0; */
+  left: 0;
   width: 100%;
   background-color: var(--black-color);
   
@@ -82,6 +82,7 @@ a {
 /*=============== NAV ===============*/
 .nav {
   height: var(--header-height);
+  
 }
 
 .nav__logo, 
@@ -221,7 +222,7 @@ a {
 .dropdown__sublink {
   padding: 1.25rem 1.25rem 1.25rem 2.5rem;
   color: var(--white-color);
-  background-color: var(--black-color-light);
+  background-color: #f6f4f0;
   display: flex;
   align-items: center;
   column-gap: .5rem;

@@ -7,7 +7,7 @@
   /* overflow: hidden; */
   padding: 150px 100px;
 
-  background-color: aliceblue;
+  background-color: #f6f4f0;
   flex-wrap: wrap;
   /* flex-wrap: wrap; */
   /* flex-direction: column; */
@@ -34,7 +34,7 @@
 
 .qualities .leftPart .discription {
   font-size: 14px;
-  color: rgb(156, 154, 154);
+  color: rgb(149, 148, 148);
   text-align: justify;
   width: 400px;
   line-height: 20px;
