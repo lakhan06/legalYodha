@@ -107,6 +107,7 @@
     #contact{
         display:flex;
         align-items:center;
+        flex-direction: column;
         justify-content:space-between;
         padding: 20px 80px;
     }
@@ -124,7 +125,7 @@
         padding: 20px 40px;
     }
     #form-details form{
-        width: 50%;
+        width: 100%;
     }
     #form-details .people{
         padding: 20px;
@@ -142,7 +143,7 @@
         width: 100%;
     }
     #contact .map{
-        width: 100%;
+        width: 80%;
     }
     #contact h2{
         font-size: 18px;

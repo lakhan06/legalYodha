@@ -421,8 +421,144 @@
                 "process_discription": "Once the Company gets incorporated we will share all the docs like Incorporation Certificate, MOA , AOA and Digital Signatures."
             }
         ]
+    },
+    "Trademark_Registration":{
+        "title": "Trademark Registration",
+        "tagline": "Get Trademark Registration in just ₹ 6,000/- (All Inclusive)",
+        "features":[
+            "For protecting the brand name",
+            "Avoid Infringement",
+            "Simple and Secure Online Process",
+            "Dedicated Professional",
+            "Hassle-Free Process",
+            "Get Registration in 2-3 days"
+        ],
+        "introduction": "For developing new products and methods, brand names, content, etc. there is always a need of huge investments and resource-intensive. Hence, the individuals or entities producing them must have particular rights over their creation to the exclusion of others. Intellectual Property systems and laws provide this individuality.",
+        "Documents_required":[
+            "ID Proof (Driving License, Voter ID card or passport)",
+            "PAN Card of the Member and Directors of the proposed Company",
+            "Brand Name (a soft copy of brand name and logo to be registered)",
+            "Power of Attorney/User Affidavit; (Draft will be provided by us)",
+            "MSME Certificate in case of Company",
+            "Certificate of incorporation/registration (other than individual)"
+        ],
+        "process": [
+            {
+                "process_heading": "1. Complete Questionnaire",
+                "process_discription": "We will provide a questionnaire which is required to be filled by you in which we will sought the basic details and documents pertaining to the registration of trademark."
+            },
+            {
+                "process_heading":"2. Trademark Search",
+                "process_discription":"The first and foremost step under the registration of a trademark is to search the availability of the proposed name. "
+            },
+            {
+                "process_heading":"3. Submitting Documents",
+                "process_discription":"The next step is to submit the documents and to begin with this step we will use the information as provided by you along with the signed documents. . "
+            },
+            {
+                "process_heading":"4. Preparation of TM Application",
+                "process_discription":"After receiving the relevant information as well as the signed documents we will move towards preparation of your trademark application in TM-A. Once the trademark application is prepared, we will share with you, the draft application of trademark application for review."
+            },
+            {
+                "process_heading":"5. Trademark Challan",
+                "process_discription": "It usually takes 2-3 days for filing a trademark application with the Registrar. Upon the successful submission of trademark Application to the registrar; we will provide you with the trademark application which will be in TM-A form along with the copy of challan. "
+            },
+            {
+                "process_heading":"6. Trademark Registered",
+                "process_discription":"With the successful completion of above steps it takes around 6 months to one year to get the desired mark registered. It is a long process to get the R Mark. "
+            }
+        ]
+    },
+
+    "Copyright_Registration":{
+        "title": "Copyright Registration",
+        "tagline": "Get Copyright Registration starting from ₹4000/-",
+        "features":[
+            "For protecting your work",
+            "Avoid Infringement",
+            "Simple and Secure Online Process",
+            "Dedicated Professional",
+            "Hassle-Free Process",
+            "Get Registration in 2-3 days"
+        ],
+        "introduction":"Due to the increasing awareness amongst people of intellectual property rights and with the continuous advancement in technology and there is a rush amongst the amount of intellectual property rights that are being registered in India. Hence Legal Window provides you a facility to register the intellectual property online.",
+        "Documents_required":[
+            "ID and Address proof of the Applicant",
+            "Power of Attorney",
+            "Search Certificate from the trademark office : If the work is to be used on a product",
+            "NOC from author if author is different from applicant",
+            "NOC from publisher if work is published and publisher is different from applicant",
+            "NOC from a person whose photo is appearing in the work, if any",
+            "In case of copyright of any software : Provide source code and object code.", 
+            "DD/IPO as per applicable work", 
+            "If the work is not published : 2 copies of work/graphical notes",
+            "If the work is published : 3 copies of the work"
+        ],
+        "process":[
+            {
+                "process_heading":"1. Complete the Questionnaire",
+                "process_discription": "We will provide you a questionnaire which is required to be filled by you in which we will sought the basic details and documents pertaining to the registration of Copyright."
+            },
+            {
+                "process_heading":"2. Requirement of Documents",
+                "process_discription": "Basic documents as stated in the above paragraph in accordance with the questionnaire provided are required along with an authorization letter which is to be signed by you."
+            },
+            {
+                "process_heading":"3. Application for Registration",
+                "process_discription": "Application will be prepared by us with the help of our experts and will be submitted to the Registrar of Copyright in the prescribed format and can be done either physically or electronically within 2 working days."
+            },
+            {
+                "process_heading":"4. Conduct Hearing",
+                "process_discription": "In case any objection is received by the Registrar. He shall conduct a hearing on the application of copyright and if no objections are received within the prescribed time of 30days, the scrutinizer will check the application for any disparity."
+            },
+            {
+                "process_heading":"5.Registration of Work",
+                "process_discription": "If no disparity occurs, the registration will be done and extract of the same shall be sent to the Registrar for entry. If any disparity occurs and on successful completion of hearing conducted by the Registrar the scrutinizer will again scrutinize the application and will give its decision."
+            }
+        ]
+    },
+
+    "Design_Registration":{
+        "title":"Design Registration",
+        "tagline":"Get Design Registration starting from ₹ 9000/-", 
+        "features":[
+            "For protecting your designs", 
+            "Avoid Infringement", 
+            "Simple and Secure Online Process",
+            "Dedicated Professional", 
+            "Hassle Free Process", 
+            "Get Registration in 2-3 days"
+        ],
+        "introduction":"Design registration is a type of intellectual property right governed by the Design Act, 2000 which helps to protect any newly created shape, configuration, patterns, and composition of lines or colours applied to an article created under an industrial process from counterfeiting",
+        "Minimum_Requirements":[
+            "Applicant’s name, Address and nationality. In case the applicant is not a natural person then a documentary proof stating the legal status and the place of incorporation", 
+            "Name of the article to which the design is to be applied.", 
+            "A brief statement of the novelty and claims for his design", 
+            "Class of the article embodying the design",
+            "Name(s), age and address (es) and nationality (ies) of the Applicant/s whether they are partners or Directors of the firm/company.", 
+            "Name, address, designation and nationality of the person who signs the General Power of Attorney"
+        ],
+        "Documents_required":[
+            "ID and Address Proof of the Applicant", 
+            "Certified True Copy of the Power of Attorney (if any) given to the Agent duly signed by the proprietor, partner or one of the Directors of the Company", 
+            "Affidavits in paragraph form containing a declaration of its truthfulness and verifiability", 
+            "Documentary proof of priority required in the case if any previous registration or application for registration made"
+        ],
+        "process":[
+            {
+                "process_heading":"1. Complete the Questionnaire",
+                "process_discription":"We will share a checklist with you asking about the documents as stated above for filing of Application on your behalf. It is important that an Application is filled with the professional help addressing all the aspects of the Design Act, 2000 thereby increasing the chances of getting it registered."
+            },
+            {
+                "process_heading":"2. Acceptance of Application & Registration",
+                "process_discription":"We will file the application duly in the prescribed form duly signed t along with the requisite documents and which is thereafter will be examined by the Design Office and objections if any are raised to that."
+            },
+            {
+                "process_heading":"3. Publication &Validity",
+                "process_discription":"Post registration of the design, it is notified in the official journal. The registered design is valid for 10 years which may be extended to another 5 years on filing of application for extension with payment of prescribed amount."
+            }
+
+        ]
     }
-
-
     
 }

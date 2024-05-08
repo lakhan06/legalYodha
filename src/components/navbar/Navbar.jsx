@@ -93,9 +93,9 @@ const Navbar = () => {
                 </div>
 
                 <ul className="dropdown__menu">
-                <li className="dropdown__link"> <Link to={''}>Trademark Registration</Link></li>
-                <li className="dropdown__link"><Link to={''}>Copyright Registration</Link></li>
-                <li className="dropdown__link"><Link to={''}>Design Registration</Link></li>
+                <li className="dropdown__link"> <Link to={'/Trademark_Registration'}>Trademark Registration</Link></li>
+                <li className="dropdown__link"><Link to={'/Copyright_Registration'}>Copyright Registration</Link></li>
+                <li className="dropdown__link"><Link to={'/Design_Registration'}>Design Registration</Link></li>
                 </ul>
               </li>
               <li className="dropdown__item">

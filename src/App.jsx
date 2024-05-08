@@ -43,6 +43,10 @@ function App() {
           <Route path="/MSME_Registration" element={<HeroService data={services.MSME_Registration} />} />
           <Route path="/PF_ESI_Registration" element={<HeroService data={services.PF_ESI_Registration} />} />
           <Route path="/Section_NPO" element={<HeroService data={services.Section_NPO} />} />
+          <Route path="/Trademark_Registration" element={<HeroService data={services.Trademark_Registration}/>}/>
+          <Route path="/Copyright_Registration" element={<HeroService data={services.Copyright_Registration}/>}/>
+          <Route path="/Design_Registration" element={<HeroService data={services.Design_Registration}/>}/>
+
 
     </Routes>
       <Footer />

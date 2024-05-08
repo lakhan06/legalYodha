@@ -1,5 +1,7 @@
 import './Whowe.css'
 import Whoimage from '../../images/whoweclear.png'
+import Lottie from 'lottie-react';
+import animation from './1715198256077.json';
 
 const Whowe = () => {
     return (
@@ -8,7 +10,7 @@ const Whowe = () => {
                 <fieldset className="whowe_card">
                     <legend><span>A</span>bout <span>U</span>s</legend>
                     <div className="weLeft">
-                        <img src={Whoimage} alt="image" />
+                        <Lottie animationData={animation}></Lottie>
                     </div>
 
                     <div className="weRight">
