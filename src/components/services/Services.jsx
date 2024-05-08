@@ -226,7 +226,7 @@ const Services = () => {
 
                     <div className="serviceCards">
                         {serviceData.map((service, index) => (
-                            <div key={index} className="singleServiceCard animate__animated animate__fadeInLeft" >
+                            <div key={index} className="singleServiceCard " >
                                 <h3>{service.title}</h3>
                                 <div className="servicePricing">
                                     <p>Starting</p>
