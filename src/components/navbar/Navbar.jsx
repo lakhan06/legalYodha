@@ -57,11 +57,14 @@ const Navbar = () => {
                   <li className="dropdown__link">
                     <Link to={'/Limited_Liability_Partnership_Registration'}>Limited Liability Partnership Registration</Link>
                   </li>
-                  <li className="dropdown__link">
+                  {/* <li className="dropdown__link">
                    <Link to={''}> Partnership Firm Registration</Link>
                   </li>
                   <li className="dropdown__link">
                   <Link to={''}> Proprietorship Firm Registration</Link>
+                  </li> */}
+                  <li className="dropdown__link">
+                  <Link to={'/Section_NPO'}>Section NPO</Link>
                   </li>
                 </ul>
               </li>
@@ -74,10 +77,10 @@ const Navbar = () => {
                 <ul className="dropdown__menu">
               <li className="dropdown__link">  <Link to={'/GST_Registration'}>GST Registration</Link></li>
                <li className="dropdown__link"> <Link to={'/FSSAI_Registration'}>FSSAI Registration</Link></li>
-               <li className="dropdown__link">  <Link to={''}>ISO Certificate</Link></li>
-                <li className="dropdown__link"><Link to={''}>Import Export Code(IEC)</Link></li>
-                <li className="dropdown__link"><Link to={''}>ESIC and PF Regiistration</Link></li>
-               <li className="dropdown__link"> <Link to={''}> MSME Registration</Link></li>
+               <li className="dropdown__link">  <Link to={'/ISO_Certification'}>ISO Certificate</Link></li>
+                <li className="dropdown__link"><Link to={'/IEC_Code_Registration'}>Import Export Code(IEC)</Link></li>
+                <li className="dropdown__link"><Link to={'/PF_ESI_Registration'}>ESI and PF Regiistration</Link></li>
+               <li className="dropdown__link"> <Link to={'/MSME_Registration'}> MSME Registration</Link></li>
                 </ul>
               </li>
               <li className="dropdown__item">

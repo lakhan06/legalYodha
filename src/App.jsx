@@ -38,6 +38,11 @@ function App() {
           <Route path="/Limited_Liability_Partnership_Registration" element={<HeroService data={services.Limited_Liability_Partnership_Registration} />} />
           <Route path="/GST_Registration" element={<HeroService data={services.GST_Registration} />} />
           <Route path="/FSSAI_Registration" element={<HeroService data={services.FSSAI_Registration} />} />
+          <Route path="/ISO_Certification" element={<HeroService data={services.ISO_Certification} />} />
+          <Route path="/IEC_Code_Registration" element={<HeroService data={services.IEC_Code_Registration} />} />
+          <Route path="/MSME_Registration" element={<HeroService data={services.MSME_Registration} />} />
+          <Route path="/PF_ESI_Registration" element={<HeroService data={services.PF_ESI_Registration} />} />
+          <Route path="/Section_NPO" element={<HeroService data={services.Section_NPO} />} />
 
     </Routes>
       <Footer />
