@@ -148,32 +148,32 @@
    
   }
   .heading h1 {
-    font-size: 20px;
-    width: 50vw;
+    font-size: 30px;
+    width: 70vw;
     
   }
   
   .heading h1 span {
-    font-size: 20px;
+    font-size: 30px;
    
   }
   
   .ssHeading h5 {
   
     
-    font-size: 12px;
+    font-size: 15px;
     width: 50vw;
   }
   
   .subHeading h4 {
-    font-size: 10px;
-    width: 50vw;
+    font-size: 16px;
+    width: 70vw;
    
   }
 
   .btns .btn {
     cursor: pointer;
-    border-radius: 30px;
+   
     padding: 5px 10px;
     margin: 10px;
     font-size: 14px;
