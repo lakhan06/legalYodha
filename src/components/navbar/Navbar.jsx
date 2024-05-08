@@ -23,6 +23,7 @@ const Navbar = () => {
           <div className="nav__data">
             <a href="#" className="nav__logo">
               <img src={logo} alt="" />
+              <div className="LOgoname"><span>Legal</span> Yodha</div>
             </a>
 
             <div
