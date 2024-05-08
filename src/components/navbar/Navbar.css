@@ -378,8 +378,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 100px;
-  /* background-color: red; */
+  margin-right: 200px;
+  background-color: transparent;
 
 }
 .LOgoname{
@@ -418,7 +418,7 @@ a {
   /* width: 20vw; */
 }
 
-@media (max-width:600px) {
+@media (max-width:850px) {
     
   .LOgoname{
     

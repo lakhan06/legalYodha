@@ -2,7 +2,7 @@
   width: 100vw;
   overflow: hidden;
   /* background-color: red; */
-  background: url("../src/components/hero/image.png");
+  background: url("./image.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-top: 120px; */

@@ -21,10 +21,13 @@ const Navbar = () => {
       <header className="header">
         <nav className="nav container">
           <div className="nav__data">
+          <Link to={'/'} >
+                 
             <a href="#" className="nav__logo">
               <img src={logo} alt="" />
               <div className="LOgoname"><span>Legal</span> Yodha</div>
             </a>
+                </Link>
 
             <div
               className={`nav__toggle ${show ? "show-icon" : ""}`}
@@ -38,11 +41,11 @@ const Navbar = () => {
 
           <div className={`nav__menu ${show ? "show-menu" : ""}`} id="nav-menu">
             <ul className="nav__list">
-              <li>
+              {/* <li>
                 <Link to={'/'} className="nav__link">
                   Home
                 </Link>
-              </li>
+              </li> */}
 
               <li className="dropdown__item">
                 <div className="nav__link">
