@@ -1,5 +1,6 @@
 import './Hero.css'
 import 'animate.css';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     
@@ -18,7 +19,9 @@ const Hero = () => {
                     </div>
                     <div className="btns">
                         {/* <div className="btn btn1">Explore Services</div> */}
-                        <div className="btn btn2">Contact</div>
+                        <div className="btn btn2"> <Link to={'/Contact'} >
+                  Contact
+                </Link></div>
                     </div>
             {/* <div className="rectangle rectangle-left"></div>
             <div className="rectangle rectangle-right"></div> */}
