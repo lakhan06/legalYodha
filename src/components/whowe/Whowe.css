@@ -15,15 +15,16 @@
   width: 85vw;
   padding: 50px 50px;
   border: none;
-  background-color: var(--lighter2);
+  background-color: #f6f4f0;
   border-radius: 20px;
+  /* border: 2px solid var(--dark1); */
 }
 
 .whowe_card legend {
   font-size: 3rem;
   text-align: center;
   font-weight: 600;
-  color: black;
+  color: #141A28;
   /* text-shadow: 3px 2px 8px grey; */
   /* text-decoration: underline; */
 }
@@ -39,7 +40,7 @@
 }
 
 .weRight h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: black;
   padding: 20px 0;
 }

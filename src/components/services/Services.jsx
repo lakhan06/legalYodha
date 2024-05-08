@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Services.css";
+import 'animate.css';
 
 const StartBusinessData = [
     {
@@ -225,7 +226,7 @@ const Services = () => {
 
                     <div className="serviceCards">
                         {serviceData.map((service, index) => (
-                            <div key={index} className="singleServiceCard">
+                            <div key={index} className="singleServiceCard " >
                                 <h3>{service.title}</h3>
                                 <div className="servicePricing">
                                     <p>Starting</p>
