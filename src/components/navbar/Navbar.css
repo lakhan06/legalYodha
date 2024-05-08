@@ -99,12 +99,14 @@ a {
 }
 
 .nav__logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  column-gap: .25rem;
-  font-weight: var(--font-semi-bold);
+  justify-content: center;
+  /* column-gap: .25rem; */
+  /* font-weight: var(--font-semi-bold); */
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/
+  /* border-radius: 50%; */
 }
 
 
@@ -131,13 +133,20 @@ a {
   opacity: 0;
 }
 .nav__list li{
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1500px) {
   
-
+  .LOgoname{
+    
+    font-size: 13px;
+    /* width: 20vw; */
+   
+  }
+ 
+  
   .nav__menu {
     position: absolute;
     left: 0;
@@ -271,6 +280,12 @@ a {
   .nav__link {
     padding-inline: 1rem;
   }
+  .LOgoname{
+    
+    font-size: 12px;
+    /* width: 20vw; */
+   
+  }
 }
 
 /* For large devices */
@@ -355,10 +370,32 @@ a {
 
 
 /* my css */
+.nav__logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  /* background-color: red; */
+
+}
+.LOgoname{
+  text-align: center;
+  font-size: 16px;
+  /* width: 20vw; */
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #C6A36D;
+}
+.LOgoname span{
+  font-weight: bold;
+ color: rgb(11, 11, 62);
+}
 
 .nav__logo img{
-  width: 100px;
-  margin-right: 30px;
+  width: 80px;
+  /* margin-right: 30px; */
+  /* border-radius: 50%; */
 }
 
 .right-nav-icons{
@@ -376,4 +413,26 @@ a {
 
 .dropdown__menu{
   /* width: 20vw; */
+}
+
+@media (max-width:600px) {
+    
+  .LOgoname{
+    
+    font-size: 13px;
+    /* width: 20vw; */
+   
+  }
+  .nav__logo img{
+    width: 60px;
+    /* margin-right: 30px; */
+    /* border-radius: 50%; */
+  }
+  .nav__logo{
+    
+    margin-right: 20px;
+    /* background-color: red; */
+  
+  }
+  
 }
