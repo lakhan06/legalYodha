@@ -401,6 +401,7 @@ a {
 }
 
 @media (max-width: 850px) {
+  
   .LOgoname {
     font-size: 11px;
     /* width: 20vw; */
@@ -416,6 +417,10 @@ a {
   }
 }
 @media (max-width:550px) {
+  .nav__toggle i{
+    margin-left: 20px;
+    font-size: 16px;
+  }
     
   .LOgoname{
     
