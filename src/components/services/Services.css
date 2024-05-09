@@ -29,7 +29,7 @@
 }
 
 .servicesCardContainer legend span {
-  color: var(--dark1);
+  color: #4ca7e8;
   font-size: 5rem;
 }
 
@@ -48,12 +48,12 @@
   border-radius: 5px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
-  border: 2px solid var(--dark1);
+  border: 2px solid #4ca7e8 ;
 }
 
 .singleServiceCategory:hover,
 .active {
-  background-color: var(--dark1);
+  background-color: #4ca7e8;
   padding: 10px 30px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
@@ -77,7 +77,7 @@
   align-items: center;
   padding: 20px 20px;
   border-radius: 10px;
-  border: 2px solid var(--lighter2);
+  border: 2px solid #4ca7e8;
   width: 250px;
   height: 460px;
   position: relative;
@@ -95,7 +95,7 @@
 .singleServiceCard .servicePricing {
   text-align: center;
   padding: 10px 40px;
-  background-color: var(--dark1);
+  background-color: #4ca7e8;
   border-radius: 10px;
   margin: 10px 0;
 }
@@ -124,12 +124,12 @@
 }
 
 .singleServiceCard .learn_more a {
-  color: var(--light1);
+  color: #4ca7e8;
   transition: ease-in-out 3s;
   /* text-shadow: 1px 1px 1px white; */
 }
 .singleServiceCard .learn_more a:hover {
-  color: var(--dark1);
+  color: #1f5c88;
   text-decoration: underline;
   text-underline-offset: 3px;
 }

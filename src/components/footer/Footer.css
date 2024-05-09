@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #503000;
+  background-color: #002642;
   color: white;
 }
 
@@ -46,7 +46,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  background-color: #8f5c10;
+  background-color: #296fa0;
   padding: 20px 100px;
 }
 
@@ -59,10 +59,11 @@
   cursor: pointer;
   margin: 0px 20px;
   background-color: transparent;
+  color: white  ;
 }
 
 .footerStripLinks p a:hover {
-  color: white;
+  color: var(--light1);
 }
 
 .ftrPhoneButton {
