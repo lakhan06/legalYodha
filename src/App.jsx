@@ -15,6 +15,7 @@ import {
 import Home from "./components/home/Home"
 import About from "./pages/about/about"
 import ContactUs from "./pages/contact/contactUs";
+import ScrollToTop from './components/scroolToTop/ScroolToTop';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
 
 
         <Navbar></Navbar>
+        <ScrollToTop/>
   
         <Routes>
 
@@ -46,6 +48,10 @@ function App() {
           <Route path="/Trademark_Registration" element={<HeroService data={services.Trademark_Registration}/>}/>
           <Route path="/Copyright_Registration" element={<HeroService data={services.Copyright_Registration}/>}/>
           <Route path="/Design_Registration" element={<HeroService data={services.Design_Registration}/>}/>
+          <Route path="/Income_Tax_Notice" element={<HeroService data={services.Income_Tax_Notice}/>}/>
+          <Route path="/Income_Tax_Return" element={<HeroService data={services.Income_Tax_Return}/>}/>
+          <Route path="/GST_Return" element={<HeroService data={services.GST_Return}/>}/>
+          <Route path="/TDS_Return" element={<HeroService data={services.TDS_Return}/>}/>
 
 
     </Routes>

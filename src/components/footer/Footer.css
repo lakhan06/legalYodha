@@ -1,3 +1,8 @@
+
+.footerSection li a{
+  color:white;
+}
+
 .footerSection {
   display: flex;
   flex-direction: column;
@@ -27,6 +32,7 @@
   list-style: square;
   cursor: pointer;
   font-weight: 500;
+  
 }
 
 .ftrServiceColumn ul li:hover {
@@ -49,13 +55,14 @@
   justify-content: space-between;
 }
 
-.footerStripLinks p {
+.footerStripLinks p a{
   cursor: pointer;
   margin: 0px 20px;
+  background-color: transparent;
 }
 
-.footerStripLinks p:hover {
-  color: var(--light1);
+.footerStripLinks p a:hover {
+  color: white;
 }
 
 .ftrPhoneButton {
