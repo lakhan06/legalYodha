@@ -16,7 +16,7 @@ function About() {
         <h2>
             #KnowUs
         </h2>
-        <p>Lorem ipsum dolor sit amet,consectetur</p>
+        <p>LEGAL YODHA</p>
     </section>
     
     <section id="about-head">
@@ -24,21 +24,14 @@ function About() {
         <div>
             <h2>Who We Are?</h2>
             <p>
-                Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident,sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+            Legal Yodha is more than just a service platform; we're your partners in navigating the complex worlds of legal and financial matters. With a commitment to excellence and a passion for empowering our clients, we offer personalized consultations and solutions tailored to your unique needs. Whether you're seeking advice on legal issues or financial planning, Legal Yodha is here to guide you every step of the way, ensuring your peace of mind and financial success.
             </p>
             <abbr title="">
-                Create stunning images with as much or as little control as
-                you like thanks toachoice of Basic and Creative modes.
+            Legal Yodha is your trusted platform for expert legal and financial consulting. Our team of seasoned professionals is dedicated to providing reliable guidance and support for all your legal and financial needs.
             </abbr>
             <br/><br/>
             <marquee loop="-1" scrollamount="5" width="100%" bgcolor="#ccc">
-                Create stunning images with as much or as little control as you like thanks toa
-                choice of Basic and Creative modes.
+                Legal Yodha is your one-stop solution for all consulting needs.
             </marquee>
         </div>
     </section>
@@ -77,20 +70,7 @@ function About() {
     </div>
     </section>
 
-    <section id="newsletter">
-    <div class="news-text">
-        <h4>
-            Sign Up for Newsletter
-        </h4>
-        <p>
-            Get e-mail updates about latest products and <span>special offers</span>
-        </p>
-    </div>
-    <div class="news-form">
-        <input type="email" name="email" id="email" placeholder=" enter your email id"/>
-        <button>Sign Up</button>
-    </div>
-    </section>
+    
     </>
   )
 }
