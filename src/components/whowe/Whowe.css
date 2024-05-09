@@ -77,6 +77,10 @@
   align-items: start;
 }
 
+.weLeft img{
+  width: 400px;
+}
+
 /* Default styles that apply to all screen sizes */
 
 /* Mobile devices (320px - 480px) */
@@ -85,6 +89,9 @@
 
   .whowe_card {
     zoom: 0.9;
+  }
+  .weLeft img{
+    width: 300px;
   }
 
   .whowe_card legend {
