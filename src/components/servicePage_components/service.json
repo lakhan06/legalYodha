@@ -250,7 +250,7 @@
         
                    "Documents_required": [
                     "Rent Agreement",
-                    " Factory registration certificate or license",
+                    "Factory registration certificate or license",
                     "PAN of Organization",
                     "GST Certificate, if any",
                     "CMOA/AOA or Partnership Deed or Trust Deed",
@@ -558,6 +558,208 @@
                 "process_discription":"Post registration of the design, it is notified in the official journal. The registered design is valid for 10 years which may be extended to another 5 years on filing of application for extension with payment of prescribed amount."
             }
 
+        ]
+    }, 
+    "Income_Tax_Return": {
+        "title":"Income Tax Return",
+        "tagline":"File Income Tax Return Individual Online Starting from ₹499/-", 
+        "features":[
+            "Filing ITR", 
+            "Filing Forms", 
+            "Flexible and Simple online Process",
+            "Consultancy from Experts",
+            "On time compliances",
+            "Get your registration in 3-4 days"
+        ],
+        "introduction":"Income Tax Return is a form required to be filed with Income Tax Department. The format and applicability of these forms are defined by Income Tax Department. All forms have separate disclosure requirements according to the Incomes Reported.",
+        "Minimum_Requirements": [
+            "Applicant’s name, Address and nationality. In case the applicant is not a natural person then a documentary proof stating the legal status and the place of incorporation.",
+            "Details of the taxpayer's income sources, including employment income, business income, rental income, capital gains, etc.",
+            "Taxpayer's tax identification number (TIN) or PAN (Permanent Account Number).",
+            "Supporting documents such as Form W-2 (for employees), profit and loss statements (for businesses), rental agreements (for rental income), investment statements (for capital gains), etc.",
+            "Bank account details for receiving tax refunds, if applicable.",
+            "Details of deductions and exemptions claimed, such as mortgage interest, charitable contributions, medical expenses, etc.",
+            "Any other relevant financial information needed to accurately calculate and file the tax return."
+        ],
+        "Documents_required":[
+            "Aadhar card",
+            "Pan card",
+            "Form 16 (having details of salary)",
+            "Bank statement",
+            "Investment under section 80",
+            "Financial Statements",
+            "Receipt of sale of capital assets",
+            "Receipt of purchase of capital assets"
+        ],
+        "process": [
+            {
+              "process_heading": "1. Complete the Questionnaire",
+              "process_description": "Fill out the provided questionnaire with details about your income and provide necessary documents based on your income category. We will use this information to prepare and file your income tax return accurately and on time."
+            },
+            {
+              "process_heading": "2. Document Submission and Verification",
+              "process_description": "Submit all required documents as per your income category for verification. Our team will analyze the details and ensure everything is in order. We will seek verification from you and the client to proceed with filing your income tax return."
+            },
+            {
+              "process_heading": "3. Filing of Income Tax Return",
+              "process_description": "Upon verification and approval, we will proceed to file your income tax return before the due date. Our goal is to protect you from penalties by ensuring all necessary steps are completed accurately."
+            },
+            {
+              "process_heading": "4. Post-Filing Follow-Up",
+              "process_description": "After filing your income tax return, we will inform you about the completion of the process. We will provide you with the return form and computation for your records."
+            }
+          ]
+    }, 
+    "GST_Return": {
+        "title":"GST Return Filing",
+        "tagline":"GST Return Filing service Starting from ₹ 499/-", 
+        "features": [
+            "Filing GST Return",
+            "Obtain GST Number",
+            "Draft GST return documents in a prescribed format",
+            "Professional’s advice",
+            "Secure and simple online procedure",
+            "Get your GST return done in 4-5 days"
+        ],
+        "introduction":"GST returns is a document in which every registered dealer provide the required details to concerned Tax Authorities in a set format prescribed by the Government. It contains various details regarding total turnover, purchases, tax collected on sales (output tax), and tax paid on purchases (input tax) of supplier under Goods and Services Act etc.",
+        "Minimum_Requirements": [
+            "Registered taxpayer's name, address, and nationality. If the taxpayer is a legal entity (such as a company or partnership), provide documentary proof of legal status and place of incorporation.",
+            "Details of taxable supplies made during the tax period, including sales invoices, export documentation (if applicable), and other records of revenue.",
+            "Taxpayer's Goods and Services Tax Identification Number (GSTIN) or any other tax identification number applicable under GST laws.",
+            "Supporting documents such as sales and purchase invoices, credit notes, debit notes, import/export documentation, etc., to substantiate the reported transactions.",
+            "Bank account details linked to the GST registration for payment of taxes and receipt of tax refunds, if applicable.",
+            "Details of input tax credit (ITC) claimed on purchases and expenses, supported by valid tax invoices and relevant documentation.",
+            "Any other financial information relevant for accurate GST computation and compliance, such as reconciliation statements, ledger extracts, etc."
+        ],
+        "Documents_required": [
+            "GST ID and Password (Login Credentials)",
+            "Purchase Invoices from Registered Persons",
+            "Purchase Invoices from Unregistered Persons",
+            "Receipts or Invoices for Goods Liable for Reverse Charge",
+            "Sales Invoices to Registered Persons",
+            "Sales Invoices to Unregistered Persons",
+            "Documents Supporting Exempt Sales",
+            "Digital Signature Certificate (DSC) in case of a company"
+        ],
+        "process": [
+            {
+              "process_heading": "1. Complete the Application Form",
+              "process_description": "Fill out the simple questionnaire provided by our expert team to determine the GST return filing status and requirements."
+            },
+            {
+              "process_heading": "2. Document Processing",
+              "process_description": "Submit the necessary documents based on the questionnaire filled out in step 1. Our team will organize and process the documents according to GST requirements."
+            },
+            {
+              "process_heading": "3. Preparation of Form Filing",
+              "process_description": "Process the purchase and sale bills for the reporting period (month/quarter), reconcile transactions, and prepare the GST return form accordingly."
+            },
+            {
+              "process_heading": "4. Submission of the GST Return",
+              "process_description": "After verification of all data and client approval, our professionals will file the GST return on the GST Portal."
+            },
+            {
+              "process_heading": "5. Information to Client",
+              "process_description": "Provide acknowledgment and information to the client via email or other means after the GST return has been successfully submitted."
+            }
+        ]
+    }, 
+    "TDS_Return": {
+        "title":"TDS Return Filing",
+        "tagline":"TDS Return Filing Starting from ₹ 1000/-", 
+        "features": [
+            "For individuals or Hindu Undivided by Family, Companies and Partnership Firm",
+            "Filing TDS Returns for Individuals, HUFs, Companies, and Partnership Firms",
+            "Drafting necessary documents required for TDS compliance",
+            "Timely filing of all required TDS forms and declarations",
+            "Professional advice and guidance throughout the TDS filing process",
+            "Easy and secure process for obtaining TDS certificates"
+        ],
+        "introduction":"Tax deduction at source is a way of collecting tax on income, dividends or asset sale, before filling of income tax return by requiring the payer to deduct tax liable and the income of payee before paying the amount to the payee. In India, under the Indian Income Tax Act of 1961, income tax must be deducted at source according to the provisions of the Income Tax Act, 1961.",
+        "Minimum_Requirements": [
+            "Registered taxpayer's name, address, and nationality. For legal entities (companies, partnership firms), provide documentary proof of legal status (Certificate of Incorporation, Partnership Deed) and place of incorporation.",
+            "Details of deductibles and tax deductions made during the tax period, including TDS deducted on salaries, payments to contractors, interest, rent, etc.",
+            "Taxpayer's Permanent Account Number (PAN) or any other tax identification number applicable for TDS compliance.",
+            "Supporting documents such as TDS deduction certificates (Form 16A, Form 16B, etc.), TDS certificates received from deductors, and proof of TDS remittance to the government.",
+            "Bank account details linked to the taxpayer's TDS account for payment and receipt of TDS refunds, if applicable.",
+            "Details of tax credits and exemptions claimed, including TDS credits against income tax liabilities.",
+            "Any other financial information relevant for accurate TDS computation and compliance, such as reconciliation statements, ledger extracts, etc."
+        ],
+        "Documents_required": [
+            "Tax payment challans (proof of TDS payments made)",
+            "PAN card (Permanent Account Number of the taxpayer)",
+            "TDS deduction details including PAN number of deductees",
+            "Proper information and section under which TDS is deducted"
+        ],
+        "process": [
+            {
+              "process_heading": "1. Complete the Questionnaire",
+              "process_description": "Fill out the provided questionnaire with basic details and submit necessary documents required for filing TDS returns."
+            },
+            {
+              "process_heading": "2. Review of the Documents",
+              "process_description": "Our team will review the documents provided along with the questionnaire to initiate the preparation of the TDS return."
+            },
+            {
+              "process_heading": "3. Filing of TDS Return",
+              "process_description": "We will send you a provisional return for verification. After confirmation and validation from your side, we will file your TDS return before the due date to ensure compliance and avoid penalties."
+            },
+            {
+              "process_heading": "4. Acknowledgment",
+              "process_description": "Upon successful filing of your TDS return, we will inform you and provide the acknowledgment receipt for your records."
+            }
+        ]
+    }, 
+    "Income_Tax_Notice": {
+        "title":"Income Tax Notice",
+        "tagline":"Audit under GST Starting from ₹4,000/-", 
+        "features": [
+            "Maintenance of records, returns, and other documents of a taxable person",
+            "Support with GST Audit to ensure compliance with GST regulations",
+            "Matching GST returns with books of accounts for accuracy and reconciliation",
+            "Filing of forms as prescribed under GST laws, including GST returns, GST registrations, and other necessary forms",
+            "Assistance from experienced professionals for GST compliance and advisory services",
+            "Verification after the completion of GST compliances to ensure accuracy and timely filing"
+        ],
+        "introduction":"GST Audit under sec 13(2) of CGST Act , 2017 is the process of examination of records, returns and other documents maintained by a taxable person and also verifying the completion of compliances within the time frame allowed. The purpose is to verify the correctness of turnover declared, taxes paid, refund claimed and input tax credit availed, and to assess the compliance with the provisions of GST.",
+        "Minimum_Requirements": [
+            "Registered taxpayer's name, address, and nationality. For legal entities (companies, partnership firms), provide documentary proof of legal status (Certificate of Incorporation, Partnership Deed) and place of incorporation.",
+            "Details of taxable supplies made during the audit period, including sales invoices, export documentation (if applicable), and other records of revenue.",
+            "Taxpayer's Goods and Services Tax Identification Number (GSTIN) or any other tax identification number applicable under GST laws.",
+            "Supporting documents such as purchase invoices, expense vouchers, tax invoices, credit notes, debit notes, import/export documentation, etc., to substantiate the reported transactions.",
+            "Bank account details linked to the taxpayer's GST registration for payment of taxes and receipt of tax refunds, if applicable.",
+            "Details of input tax credit (ITC) claimed on purchases and expenses, supported by valid tax invoices and relevant documentation.",
+            "Details of tax credits, exemptions, and other adjustments claimed during the audit period.",
+            "Any other financial information relevant for accurate GST computation and compliance, such as reconciliation statements, ledger extracts, trial balance, etc."
+        ],
+        "Documents_required": [
+            "Sales and purchase invoices (bills) for the audit period",
+            "Data of earlier GST returns filed (GSTR-1, GSTR-3B, etc.) for comparison and verification",
+            "Registers maintained as per GST laws, including sales register, purchase register, input tax credit register, etc.",
+            "GSTIN (Goods and Services Tax Identification Number), User ID, and password for accessing GST portal and relevant information",
+            "E-way bill entries for goods transported during the audit period, if applicable"
+        ],
+        "process": [
+            {
+              "process_heading": "1. Complete the Application Form",
+              "process_description": "Fill out the provided questionnaire to assess the status of books of accounts and gather necessary information for the GST audit."
+            },
+            {
+              "process_heading": "2. Document Processing",
+              "process_description": "Submit required documents and information based on the questionnaire filled out in step 1. Our team will organize and process the documents for further analysis."
+            },
+            {
+              "process_heading": "3. Preparation of Financial Statements",
+              "process_description": "Prepare financial statements and analyze the accuracy of documents provided to ensure compliance with GST regulations."
+            },
+            {
+              "process_heading": "4. Submission of GST Audit Report",
+              "process_description": "After verifying all data and reconciling statements, the practicing professional will prepare and submit the GST Audit Report along with observations and comments, if any."
+            },
+            {
+              "process_heading": "5. Information to Client",
+              "process_description": "Provide acknowledgment and detailed information to the client via email or other means after submitting the GST Audit Report."
+            }
         ]
     }
     
