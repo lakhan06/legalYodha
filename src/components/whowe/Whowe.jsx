@@ -10,7 +10,7 @@ const Whowe = () => {
                 <fieldset className="whowe_card">
                     <legend><span>A</span>bout <span>U</span>s</legend>
                     <div className="weLeft">
-                        <Lottie animationData={animation}></Lottie>
+                        <Lottie className='weLottie' animationData={animation}></Lottie>
                     </div>
 
                     <div className="weRight">

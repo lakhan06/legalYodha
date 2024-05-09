@@ -1,6 +1,4 @@
 import "./Navbar.css";
-import { FaBars } from "react-icons/fa";
-import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
 
 import logo from "../../images/logomain.png";
@@ -9,9 +7,6 @@ import { Link } from "react-router-dom";
 import { ImWhatsapp } from "react-icons/im";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 
-const copyToClipboard = () => {
-  navigator.clipboard.writeText("+919116562979");
-};
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -21,13 +16,13 @@ const Navbar = () => {
       <header className="header">
         <nav className="nav container">
           <div className="nav__data">
-          <Link to={'/'} >
-                 
-            <a href="#" className="nav__logo">
-              <img src={logo} alt="" />
-              <div className="LOgoname"><span>Legal</span> Yodha</div>
-            </a>
-                </Link>
+            <Link to={'/'} >
+
+              <a href="#" className="nav__logo">
+                <img src={logo} alt="" />
+                <div className="LOgoname"><span>Legal</span> Yodha</div>
+              </a>
+            </Link>
 
             <div
               className={`nav__toggle ${show ? "show-icon" : ""}`}
@@ -55,7 +50,7 @@ const Navbar = () => {
 
                 <ul className="dropdown__menu">
                   <li className="dropdown__link">
-                   <Link to={'/Private_Limited'}> Private Limited Company Registration</Link>
+                    <Link to={'/Private_Limited'}> Private Limited Company Registration</Link>
                   </li>
                   <li className="dropdown__link">
                     <Link to={'/Limited_Liability_Partnership_Registration'}>Limited Liability Partnership Registration</Link>
@@ -67,48 +62,48 @@ const Navbar = () => {
                   <Link to={''}> Proprietorship Firm Registration</Link>
                   </li> */}
                   <li className="dropdown__link">
-                  <Link to={'/Section_NPO'}>Section NPO</Link>
+                    <Link to={'/Section_NPO'}>Section NPO</Link>
                   </li>
                 </ul>
               </li>
               <li className="dropdown__item">
                 <div className="nav__link">
-                Business Registration{" "}
+                  Business Registration{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
 
                 <ul className="dropdown__menu">
-              <li className="dropdown__link">  <Link to={'/GST_Registration'}>GST Registration</Link></li>
-               <li className="dropdown__link"> <Link to={'/FSSAI_Registration'}>FSSAI Registration</Link></li>
-               <li className="dropdown__link">  <Link to={'/ISO_Certification'}>ISO Certificate</Link></li>
-                <li className="dropdown__link"><Link to={'/IEC_Code_Registration'}>Import Export Code(IEC)</Link></li>
-                <li className="dropdown__link"><Link to={'/PF_ESI_Registration'}>ESI and PF Regiistration</Link></li>
-               <li className="dropdown__link"> <Link to={'/MSME_Registration'}> MSME Registration</Link></li>
+                  <li className="dropdown__link">  <Link to={'/GST_Registration'}>GST Registration</Link></li>
+                  <li className="dropdown__link"> <Link to={'/FSSAI_Registration'}>FSSAI Registration</Link></li>
+                  <li className="dropdown__link">  <Link to={'/ISO_Certification'}>ISO Certificate</Link></li>
+                  <li className="dropdown__link"><Link to={'/IEC_Code_Registration'}>Import Export Code(IEC)</Link></li>
+                  <li className="dropdown__link"><Link to={'/PF_ESI_Registration'}>ESI and PF Regiistration</Link></li>
+                  <li className="dropdown__link"> <Link to={'/MSME_Registration'}> MSME Registration</Link></li>
                 </ul>
               </li>
               <li className="dropdown__item">
                 <div className="nav__link">
-                 IP Registration{" "}
+                  IP Registration{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
 
                 <ul className="dropdown__menu">
-                <li className="dropdown__link"> <Link to={'/Trademark_Registration'}>Trademark Registration</Link></li>
-                <li className="dropdown__link"><Link to={'/Copyright_Registration'}>Copyright Registration</Link></li>
-                <li className="dropdown__link"><Link to={'/Design_Registration'}>Design Registration</Link></li>
+                  <li className="dropdown__link"> <Link to={'/Trademark_Registration'}>Trademark Registration</Link></li>
+                  <li className="dropdown__link"><Link to={'/Copyright_Registration'}>Copyright Registration</Link></li>
+                  <li className="dropdown__link"><Link to={'/Design_Registration'}>Design Registration</Link></li>
                 </ul>
               </li>
               <li className="dropdown__item">
                 <div className="nav__link">
-                 Income TAX/GST{" "}
+                  Income TAX/GST{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
 
                 <ul className="dropdown__menu">
-               <li className="dropdown__link"> <Link to={''}>Income Tax Return</Link></li>
-               <li className="dropdown__link"> <Link to={''}>GST Return</Link></li>
-               <li className="dropdown__link"> <Link to={''}> TDS Return</Link></li>
-                <li className="dropdown__link"> <Link to={''}>Income Tax Notice</Link></li>
+                  <li className="dropdown__link"> <Link to={''}>Income Tax Return</Link></li>
+                  <li className="dropdown__link"> <Link to={''}>GST Return</Link></li>
+                  <li className="dropdown__link"> <Link to={''}> TDS Return</Link></li>
+                  <li className="dropdown__link"> <Link to={''}>Income Tax Notice</Link></li>
                 </ul>
               </li>
 
@@ -119,7 +114,7 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
-{/* 
+              {/* 
               <li className="navwhatsappicon">
                 {" "}
                 <a href="https://wa.me/+919116562979" target="_blank" className="nav-link">
@@ -135,12 +130,15 @@ const Navbar = () => {
             </ul>
           </div>
         </nav>
-            <div className="right-nav-icons">
-            <a href="https://wa.me/+919116562979" target="_blank">
-              <ImWhatsapp className="navIcons" />
-            </a>
-            <FaPhoneSquareAlt onClick={copyToClipboard} className="navIcons" />
-          </div>
+        <div className="right-nav-icons">
+          <a href="https://wa.me/+919116562979" target="_blank">
+            <ImWhatsapp className="navIcons" />
+          </a>
+          <a href="tel:9116562979">
+            <FaPhoneSquareAlt className="navIcons" />
+          </a>
+
+        </div>
       </header>
     </div>
   );

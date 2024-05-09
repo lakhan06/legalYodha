@@ -81,13 +81,16 @@
 /* Mobile devices (320px - 480px) */
 @media only screen and (max-width: 480px) {
   /* CSS styles specific to mobile devices */
+  .whowe_card legend{
+    line-height: 0.9;
+  }
   .whowe_card {
     flex-direction: column;
     padding: 50px 20px;
   }
 
-  .weLeft img {
-    width: 300px;
+  .weLeft .weLottie {
+    width: 200px;
   }
 
   .weRight h1 {
@@ -106,7 +109,7 @@
     flex-direction: column;
   }
 
-  .weLeft img {
+  .weLeft .weLottie {
     width: 300px;
   }
 }
@@ -114,17 +117,9 @@
 /* Small screens, laptops (769px - 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* CSS styles specific to small screens and laptops */
-  .weLeft img {
+  .weLeft .weLottie {
     width: 400px;
   }
 }
 
-/* Desktops, large screens (1025px - 1200px) */
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  /* CSS styles specific to desktops and large screens */
-}
 
-/* Larger than 1200px (Extra large screens) */
-@media only screen and (min-width: 1201px) {
-  /* CSS styles specific to extra large screens */
-}
