@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css';
 
 function ContactUs() {
+
   return (
     <div className='contact'>
         <section id="page-header">
@@ -44,7 +45,7 @@ function ContactUs() {
     </section>
 
     <section id="form-details">
-        <form name="contact-us" onSubmit={() => success()} method="post" action='https://script.google.com/macros/s/AKfycbzDFXLfADPS8hDDAUYWjxw3VHJwXK_4SBPpLumfQsydqpx1qk6KDkf0EKmksdNvYstR/exec' id='my-form'>
+        <form name="contact-us" method="post"  action='https://script.google.com/macros/s/AKfycbzDFXLfADPS8hDDAUYWjxw3VHJwXK_4SBPpLumfQsydqpx1qk6KDkf0EKmksdNvYstR/exec' id='my-form'>
             <span>LEAVE A MESSAGE</span>
             <h2>We love to hear from you..</h2>
             <input type="text" placeholder="Your Name" name="Name"/>
@@ -53,11 +54,6 @@ function ContactUs() {
             <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message" required/>
             <button id='submit-contact' type='submit'>Submit</button>
         </form>
-        {
-            function success() {
-                alert("Form submitted successfully.");
-            } 
-        }
    </section>
 
     </div>
