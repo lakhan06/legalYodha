@@ -4,98 +4,88 @@ import 'animate.css';
 
 const StartBusinessData = [
     {
-        title: 'GST Registration',
-        price: '₹10000/-',
+        title: 'Private Limited Company Registration',
+        price: '₹8000/-',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'Suitable for startups',
+            'Separate Legal Entity',
+            'Limited Liability Protection',
+            'Easy to raise funds or loans',
+            'Modern Compliances'
         ]
-    }, {
-        title: 'GST Registration',
-        price: '₹10000/-',
+    },
+    {
+        title: 'Limited Liability Partnership Registration',
+        price: '₹5500/-',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'Suitable for small Businesses',
+            'Limited Liability Protection',
+            'Minimum Requirement: 2 Partners',
+            'Less Compliances'
         ]
-    }, {
-        title: 'GST Registration',
-        price: '₹10000/-',
+    },
+    {
+        title: 'Section NPO Registration',
+        price: '₹9000/-',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
-        ]
-    }, {
-        title: 'GST Registration',
-        price: '₹10000/-',
-        features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'Suitable for social welfare',
+            'Limited Liability Protection',
+            'Tax Benifits',
+            'Minimum Requirement: 2 Directors'
         ]
     }
-    // Add more service objects for the Start Business category
 ];
 
 const RegistrationData = [
     {
-        title: 'FSSAI Registration',
-        price: '₹10000/-',
+        title: 'GST Registration',
+        price: '₹900/-',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'For service providers with turnover ≥ 20 lakh',
+            'For goods suppliers with turnover ≥ 40 lakh',
+            'Voluntary registration available',
+            'Composition scheme registration',
+            'Enables input tax credit benefit'
         ]
-    }, {
+    },
+    {
         title: 'FSSAI Registration',
-        price: '₹10000/-',
+        price: '₹2000/-',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'Mandatory for food service providers',
+            'Ensures compliance with food safety standards',
+            'Voluntary registrations allowed',
+            'License Validity (1-5 yrs.)',
+            'Key for food product marketability'
         ]
-    }, {
-        title: 'FSSAI Registration',
-        price: '₹10000/-',
+    },
+    {
+        title: 'ISO Certificate',
+        price: '₹6000',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'International quality certification',
+            'Enhances product/service credibility',
+            'Compliance with global standards',
+            'Improves market access'
         ]
-    }, {
-        title: 'FSSAI Registration',
-        price: '₹10000/-',
+    },
+    {
+        title: 'Import Export Code (IEC)',
+        price: '₹2000/-',
         features: [
-            'Service Providers Having 20 lakh turnover',
-            'Goods suppliers having 40 lakh turnover',
-            'Voluntary Registrations',
-            'Composition Registration',
-            'Beneficial as provides input tax Credit'
+            'Essential for import/export businesses',
+            'Unique identification code for international trade',
+            'Mandatory for customs clearance',
+            'Enables global trade participation'
         ]
     }
-    // Add more service objects for the Registration category
 ];
+
 
 const TrademarkData = [
     {
         title: 'Trademark Registration',
-        price: '₹10000/-',
+        price: '₹7000/-',
         features: [
             'Trademark search and filing',
             'Application processing',
@@ -103,43 +93,34 @@ const TrademarkData = [
             'Status tracking',
             'Issue resolution'
         ]
-    }, {
-        title: 'Trademark Registration',
-        price: '₹10000/-',
+    },
+    {
+        title: 'Copyright Registration',
+        price: '₹4000/-',
         features: [
-            'Trademark search and filing',
+            'Copyright search and filing',
             'Application processing',
-            'Consultation with experts',
-            'Status tracking',
-            'Issue resolution'
+            'Consultation with IP specialists',
+            'Status updates',
+            'Resolution of issues'
         ]
-    }, {
-        title: 'Trademark Registration',
-        price: '₹10000/-',
+    },
+    {
+        title: 'Design Registration',
+        price: '₹8000/-',
         features: [
-            'Trademark search and filing',
+            'Design search and filing',
             'Application processing',
-            'Consultation with experts',
-            'Status tracking',
-            'Issue resolution'
-        ]
-    }, {
-        title: 'Trademark Registration',
-        price: '₹10000/-',
-        features: [
-            'Trademark search and filing',
-            'Application processing',
-            'Consultation with experts',
-            'Status tracking',
-            'Issue resolution'
+            'Expert consultation on design rights',
+            'Tracking of application status',
+            'Resolution of design-related issues'
         ]
     }
-    // Add more service objects for the Trademark category
 ];
 
 const IncomeTaxData = [
     {
-        title: 'Income Tax Filing',
+        title: 'Income Tax Return',
         price: '₹10000/-',
         features: [
             'Individual or business tax filing',
@@ -148,18 +129,40 @@ const IncomeTaxData = [
             'Tax-saving strategies',
             'Consultation with tax experts'
         ]
-    }, {
-        title: 'Income Tax Filing',
-        price: '₹10000/-',
+    },
+    {
+        title: 'GST Return',
+        price: '₹8000/-',
         features: [
-            'Individual or business tax filing',
-            'Tax computation and planning',
-            'Audit and compliance',
-            'Tax-saving strategies',
+            'Monthly or quarterly GST return filing',
+            'Input tax credit reconciliation',
+            'GST audit and compliance',
+            'GST refund assistance',
+            'Consultation with GST experts'
+        ]
+    },
+    {
+        title: 'TDS Return',
+        price: '₹6000/-',
+        features: [
+            'TDS deduction and filing',
+            'Form 16 generation',
+            'TDS reconciliation and compliance',
+            'TDS refund assistance',
+            'Consultation with tax experts'
+        ]
+    },
+    {
+        title: 'Income Tax Notice',
+        price: '₹4000',
+        features: [
+            'Representation for income tax notices',
+            'Assessment and response strategy',
+            'Appeal and litigation support',
+            'Resolution of tax disputes',
             'Consultation with tax experts'
         ]
     }
-    // Add more service objects for the Income Tax category
 ];
 
 const Services = () => {

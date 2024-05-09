@@ -1,4 +1,4 @@
-.process{
+.process {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,6 @@
   text-align: center;
   border-bottom: 4px solid var(--dark1);
   text-align: center;
-  
 }
 
 .process_heading span {
@@ -29,16 +28,15 @@
   width: 80vw;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .singleProcess {
-    width: 45%;
-    padding: 20px;
-    background-color:var(--lighter2);
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 10px;
-    height: 20vh;
+  width: 45%;
+  padding: 20px;
+  background-color: var(--lighter2);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  height: max-content;
 }
 
 .singleProcess:hover {
@@ -46,8 +44,8 @@
 }
 
 .singleProcess .PHBold {
-    font-size: 1.2rem;
-    font-weight:600 ;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .singleProcess .processDescription {
@@ -57,46 +55,42 @@
 @media screen and (max-width: 1000px) {
   .processes_container {
     width: 90vw;
-    column-gap: 10px
+    column-gap: 10px;
   }
-  .process_heading{
+  .process_heading {
     font-size: 25px;
   }
-  .process_heading span{
+  .process_heading span {
     font-size: 25px;
   }
   .singleProcess .PHBold {
     width: 100%;
     font-size: 14px;
-   
-}
+  }
 
-
-.singleProcess .processDescription {
- font-size: 12px;
-}
+  .singleProcess .processDescription {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .singleProcess {
     width: 40vw;
   }
-  .process_heading{
+  .process_heading {
     font-size: 20px;
   }
-  .process_heading span{
+  .process_heading span {
     font-size: 20px;
   }
-  
 }
 
 @media screen and (max-width: 800px) {
   .processes_container {
     flex-direction: column;
   }
-  .singleProcess{
+  .singleProcess {
     height: auto;
     width: auto;
   }
 }
-

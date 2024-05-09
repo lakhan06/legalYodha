@@ -7,7 +7,8 @@
 }
 
 .whowe_card {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +25,7 @@
   font-size: 3rem;
   text-align: center;
   font-weight: 600;
-  color: #141A28;
+  color: #141a28;
   /* text-shadow: 3px 2px 8px grey; */
   /* text-decoration: underline; */
 }
@@ -81,21 +82,40 @@
 /* Mobile devices (320px - 480px) */
 @media only screen and (max-width: 480px) {
   /* CSS styles specific to mobile devices */
+
+  .whowe_card {
+    zoom: 0.9;
+  }
+
+  .whowe_card legend {
+    line-height: 0.9;
+    font-size: 2rem;
+  }
+
+  .whowe_card legend span {
+    font-size: 3rem;
+  }
+
   .whowe_card {
     flex-direction: column;
     padding: 50px 20px;
   }
 
-  .weLeft img {
-    width: 300px;
+  .weLeft .weLottie {
+    width: 200px;
+    margin: -30px;
   }
 
   .weRight h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .weRight h1 .spanone {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .weRight li {
+    font-size: 1rem;
   }
 }
 
@@ -106,25 +126,23 @@
     flex-direction: column;
   }
 
-  .weLeft img {
+  .weLeft .weLottie {
     width: 300px;
+  }
+  .weRight h1 {
+    font-size: 2.3rem;
+  }
+
+  .weRight h1 .spanone {
+    font-size: 2.9rem;
   }
 }
 
 /* Small screens, laptops (769px - 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* CSS styles specific to small screens and laptops */
-  .weLeft img {
-    width: 400px;
+  .weLeft .weLottie {
+    width: 300px;
   }
 }
 
-/* Desktops, large screens (1025px - 1200px) */
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  /* CSS styles specific to desktops and large screens */
-}
-
-/* Larger than 1200px (Extra large screens) */
-@media only screen and (min-width: 1201px) {
-  /* CSS styles specific to extra large screens */
-}

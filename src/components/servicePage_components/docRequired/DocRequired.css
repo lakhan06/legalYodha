@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .docRecHeading {
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px 30px;
+  gap: 15px 10px;
   flex-wrap: wrap;
   width: 80vw;
 }
@@ -55,15 +55,14 @@
 }
 
 @media screen and (max-width: 850px) {
-  .docRecHeading{
+  .docRecHeading {
     font-size: 25px;
   }
-  .docRecHeading span{
+  .docRecHeading span {
     font-size: 25px;
   }
-  
+
   .singleDocRec {
- 
     font-size: 10px;
     /* width: auto; */
   }
@@ -73,13 +72,18 @@
 }
 
 @media screen and (max-width: 600px) {
-  .docRecHeading{
+
+  .docRecSection {
+    margin: 0;
+  }
+
+  .docRecHeading {
     font-size: 20px;
   }
-  .docRecHeading span{
+  .docRecHeading span {
     font-size: 20px;
   }
-  
+
   .singleDocRec {
     flex-direction: row;
     width: auto;
@@ -89,19 +93,35 @@
   .docRecContainer {
     flex-direction: column;
     width: 80vw;
+    gap: 0;
+  }
+
+  .sdrLeft {
+    zoom: 0.9;
   }
 }
 
-
 @media screen and (max-width: 300px) {
-  .docRecHeading{
+  .docRecHeading {
     font-size: 15px;
   }
-  .docRecHeading span{
+  .docRecHeading span {
     font-size: 15px;
   }
-  
+
   .singleDocRec {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .docRecContainer {
+    width: 90vw;
+  }
+  .sdrLeft {
+    zoom: 0.7;
+  }
+  .singleDocRec {
+    gap: 10px;
   }
 }
