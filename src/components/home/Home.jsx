@@ -19,32 +19,32 @@ const Home = () => {
       <Whowe />
       <Services />
       <Qualities />
-      <section id="features" class="f-about">
-    <div class="fe-box">
-        <img src={f1}/>
-        <h6>Free Consultance</h6>
-    </div>
-    <div class="fe-box">
-        <img src={f2}/>
-        <h6>Online Service</h6>
-    </div>
-    <div class="fe-box">
-        <img src={f3}/>
-        <h6>Save Money</h6>
-    </div>
-    <div class="fe-box">
-        <img src={f4}/>
-        <h6>Hassle Free</h6>
-    </div>
-    <div class="fe-box">
-        <img src={f5}/>
-        <h6>Finance Sorted</h6>
-    </div>
-    <div class="fe-box">
-        <img src={f6}/>
-        <h6>24/7 Support</h6>
-    </div>
-    </section>
+      <section id="features" className="f-about">
+        <div className="fe-box">
+          <img src={f1} />
+          <h6>Free Consultance</h6>
+        </div>
+        <div className="fe-box">
+          <img src={f2} />
+          <h6>Online Service</h6>
+        </div>
+        <div className="fe-box">
+          <img src={f3} />
+          <h6>Save Money</h6>
+        </div>
+        <div className="fe-box">
+          <img src={f4} />
+          <h6>Hassle Free</h6>
+        </div>
+        <div className="fe-box">
+          <img src={f5} />
+          <h6>Finance Sorted</h6>
+        </div>
+        <div className="fe-box">
+          <img src={f6} />
+          <h6>24/7 Support</h6>
+        </div>
+      </section>
     </div>
   )
 }

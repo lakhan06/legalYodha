@@ -154,7 +154,7 @@ const IncomeTaxData = [
     },
     {
         title: 'Income Tax Notice',
-        price: 'Price on Request',
+        price: '₹4000',
         features: [
             'Representation for income tax notices',
             'Assessment and response strategy',

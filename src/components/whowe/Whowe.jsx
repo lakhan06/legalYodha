@@ -1,5 +1,4 @@
 import './Whowe.css'
-import Whoimage from '../../images/whoweclear.png'
 import Lottie from 'lottie-react';
 import animation from './1715198256077.json';
 
