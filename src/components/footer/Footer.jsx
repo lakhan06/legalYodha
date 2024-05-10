@@ -2,6 +2,7 @@ import "./Footer.css";
 import { FaMobile } from "react-icons/fa";
 import { PiArrowFatLinesUpBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
+import { FaSquareWhatsapp } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -31,11 +32,11 @@ const Footer = () => {
             <li><Link to={"/FSSAI_Registration"}>FSSAI Registration</Link></li>
             <li><Link to={"/ISO_Certification"}>ISO Certificate</Link></li>
             <li><Link to={"/IEC_Code_Registration"}>
-                      Import Export Code(IEC)
-                    </Link></li>
+              Import Export Code(IEC)
+            </Link></li>
             <li> <Link to={"/PF_ESI_Registration"}>
-                      ESI and PF Regiistration
-                    </Link></li>
+              ESI and PF Regiistration
+            </Link></li>
             <li><Link to={"/MSME_Registration"}> MSME Registration</Link></li>
           </ul>
         </div>
@@ -43,11 +44,11 @@ const Footer = () => {
           <h4>IP Registrations</h4>
           <ul>
             <li> <Link to={"/Trademark_Registration"}>
-                      Trademark Registration
-                    </Link></li>
+              Trademark Registration
+            </Link></li>
             <li><Link to={"/Copyright_Registration"}>
-                      Copyright Registration
-                    </Link></li>
+              Copyright Registration
+            </Link></li>
             <li><Link to={"/Design_Registration"}>Design Registration</Link></li>
           </ul>
         </div>
@@ -65,21 +66,26 @@ const Footer = () => {
       <div className="footerStrip">
         <div className="footerStripLinks">
           <p> <Link to={"/"} className="nav__link">
-                  Home
-                </Link></p>
+            Home
+          </Link></p>
           <p><Link to={"/About"} className="nav__link">
-                  About
-                </Link></p>
+            About
+          </Link></p>
           <p> <Link to={"/Contact"} className="nav__link">
-                  Contact
-                </Link></p>
+            Contact
+          </Link></p>
         </div>
-        <a href="tel:9116562979">
-          <div className="ftrPhoneButton">
-            <FaMobile className="ftrMobileLogo" />
-            <p>91165-62979</p>
-          </div>
-        </a>
+        <div className="commFtr">
+          <a href="tel:9116562979">
+            <div className="ftrPhoneButton">
+              <FaMobile className="ftrMobileLogo" />
+              <p>91165-62979</p>
+            </div>
+          </a>
+
+          <FaSquareWhatsapp className="ftrWhatsappLogo"/> 
+        </div>
+
       </div>
 
       <span onClick={() => window.scrollTo(0, 0)} className="onTopFooter">

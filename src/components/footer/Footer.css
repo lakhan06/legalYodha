@@ -66,6 +66,13 @@
   color: var(--light1);
 }
 
+.commFtr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 .ftrPhoneButton {
   color: white;
   display: flex;
@@ -78,6 +85,16 @@
 }
 
 .ftrPhoneButton:hover {
+  color: var(--light1);
+}
+
+.ftrWhatsappLogo{
+  font-size: 2.5rem;
+  color: #4ACC5A;
+  cursor: pointer;
+}
+
+.ftrWhatsappLogo:hover {
   color: var(--light1);
 }
 
@@ -132,5 +149,14 @@
 @media only screen and (max-width: 450px) {
   .ftrServiceColumn ul li {
     zoom: 0.9;
+  }
+
+  .footerStrip {
+    padding: 20px 50px;
+  }
+
+  .footerStripLinks p a {
+    margin: 0;
+    padding: 10px;
   }
 }
