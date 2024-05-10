@@ -246,7 +246,6 @@ const Services = () => {
                             </div>
                         ))}
                     </div>
-
                 </fieldset>
             </section>
         </>
