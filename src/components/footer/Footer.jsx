@@ -82,8 +82,10 @@ const Footer = () => {
               <p>91165-62979</p>
             </div>
           </a>
+          <a href="https://wa.me/+919116562979" target="_blank">
+            <FaSquareWhatsapp className="ftrWhatsappLogo" />
+          </a>
 
-          <FaSquareWhatsapp className="ftrWhatsappLogo"/> 
         </div>
 
       </div>
