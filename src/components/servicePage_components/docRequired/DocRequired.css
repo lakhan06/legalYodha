@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px 10px;
+  gap: 10px;
   flex-wrap: wrap;
   width: 80vw;
 }
@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .docRecContainer {
+    flex-direction: column;
+  }
   .docRecHeading {
     font-size: 25px;
   }
@@ -64,7 +67,8 @@
 
   .singleDocRec {
     font-size: 10px;
-    /* width: auto; */
+    width: 80vw;
+    margin: 0;
   }
   .docRecContainer {
     width: 90vw;
@@ -72,7 +76,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .docRecSection {
     margin: 0;
   }
@@ -84,17 +87,18 @@
     font-size: 20px;
   }
 
-  .singleDocRec {
-    flex-direction: row;
-    width: auto;
-    text-align: left;
-  }
-
   .docRecContainer {
-    flex-direction: column;
-    width: 80vw;
+    width: 85vw;
     gap: 0;
   }
+
+  .singleDocRec {
+    flex-direction: row;
+    width: 85vw;
+    text-align: left;
+    margin: 0;
+  }
+
 
   .sdrLeft {
     zoom: 0.9;

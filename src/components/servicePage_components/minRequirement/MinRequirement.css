@@ -22,7 +22,7 @@
 .minReqContainer {
   margin-top: 30px;
   display: flex;
-  gap: 30px;
+  gap: 20px;
   width: 80vw;
   justify-content: center;
   align-items: center;
@@ -72,6 +72,7 @@
   .singleMinReq {
     width: auto;
     font-size: 0.8rem;
+    width: 85vw;
   }
   .min_req_heading{
     font-size: 20px;
