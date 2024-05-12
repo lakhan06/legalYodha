@@ -4,18 +4,24 @@ import { IoNewspaper } from "react-icons/io5";
 import { SiLibreofficeimpress } from "react-icons/si";
 
 const documentsData = [
-    <IoDocumentSharp className="docRecLogo" />,
-    <IoNewspaper className="docRecLogo" />,
-    <IoNewspaper className="docRecLogo" />,
-    <SiLibreofficeimpress className="docRecLogo" />,
-    <SiLibreofficeimpress className="docRecLogo" />,
-    <IoNewspaper className="docRecLogo" />
+    <IoDocumentSharp key={1} className="docRecLogo" />,
+    <IoNewspaper key={1} className="docRecLogo" />,
+    <IoNewspaper key={1} className="docRecLogo" />,
+    <SiLibreofficeimpress key={1} className="docRecLogo" />,
+    <SiLibreofficeimpress key={1} className="docRecLogo" />,
+    <IoNewspaper key={1} className="docRecLogo" />,
+    <IoDocumentSharp key={1} className="docRecLogo" />,
+    <IoNewspaper key={1} className="docRecLogo" />,
+    <IoNewspaper key={1} className="docRecLogo" />,
+    <SiLibreofficeimpress key={1} className="docRecLogo" />,
+    <SiLibreofficeimpress key={1} className="docRecLogo" />,
+    <IoNewspaper key={1} className="docRecLogo" />
     // Add more documents as needed
 ];
 
 const DocRequired = ({ data }) => {
     return (
-        
+
         <section className="docRecSection">
             <h1 className="docRecHeading"><span>Documents</span> Required</h1>
             <div className="docRecContainer">
@@ -32,6 +38,6 @@ const DocRequired = ({ data }) => {
             </div>
         </section>
     )
-}   
+}
 
 export default DocRequired

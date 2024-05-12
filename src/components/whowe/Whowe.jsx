@@ -1,6 +1,4 @@
 import './Whowe.css'
-import Lottie from 'lottie-react';
-import animation from './1715198256077.json';
 import image from '../../images/ABoutimage.png'
 
 const Whowe = () => {
