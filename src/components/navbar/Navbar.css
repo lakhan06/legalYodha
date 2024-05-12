@@ -419,9 +419,9 @@ a {
   font-size: 30px;
 }
 
-.dropdown__menu {
-  /* width: 20vw; */
-}
+/* .dropdown__menu {
+  width: 20vw;
+} */
 
 @media (max-width: 850px) {
   .nav__data {
