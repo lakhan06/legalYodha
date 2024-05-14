@@ -77,21 +77,68 @@
   align-items: start;
 }
 
-.weLeft img{
+.weLeft img {
   width: 400px;
 }
 
-/* Default styles that apply to all screen sizes */
+@media screen and (max-width: 1024px) {
+  .whowe_card {
+    padding: 10px;
+  }
 
-/* Mobile devices (320px - 480px) */
-@media only screen and (max-width: 480px) {
+  .whowe_card legend {
+    font-size: 2rem;
+  }
+
+  .whowe_card legend span {
+    font-size: 2.6rem;
+  }
+
+  .weLeft img {
+    width: 300px;
+  }
+
+  .weRight h1 {
+    font-size: 2rem;
+  }
+
+  .weRight h1 .spanone {
+    font-size: 2.3rem;
+  }
+
+  .weRight li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS styles specific to iPads and Tablets */
+  .whowe_card {
+    flex-direction: column;
+    padding: 20px 40px;
+  }
+
+  .weLeft img {
+    width: 300px;
+  }
+  .weRight h1 {
+    font-size: 2rem;
+  }
+
+  .weRight h1 .spanone {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
   /* CSS styles specific to mobile devices */
 
   .whowe_card {
     zoom: 0.9;
   }
-  .weLeft img{
-    width: 300px;
+  .weLeft img {
+    width: 220px;
+    margin: -30px;
   }
 
   .whowe_card legend {
@@ -108,48 +155,16 @@
     padding: 50px 20px;
   }
 
-  .weLeft .weLottie {
-    width: 200px;
-    margin: -30px;
-  }
 
   .weRight h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .weRight h1 .spanone {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .weRight li {
     font-size: 1rem;
   }
 }
-
-/* iPads, Tablets (481px - 768px) */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* CSS styles specific to iPads and Tablets */
-  .whowe_card {
-    flex-direction: column;
-  }
-
-  .weLeft .weLottie {
-    width: 300px;
-  }
-  .weRight h1 {
-    font-size: 2.3rem;
-  }
-
-  .weRight h1 .spanone {
-    font-size: 2.9rem;
-  }
-}
-
-/* Small screens, laptops (769px - 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* CSS styles specific to small screens and laptops */
-  .weLeft .weLottie {
-    width: 300px;
-  }
-}
-

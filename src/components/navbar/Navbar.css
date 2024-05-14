@@ -75,6 +75,7 @@ a {
 
   z-index: var(--z-fixed);
   padding: 0px 50px;
+
 }
 
 /*=============== NAV ===============*/
@@ -419,9 +420,9 @@ a {
   font-size: 30px;
 }
 
-.dropdown__menu {
-  /* width: 20vw; */
-}
+/* .dropdown__menu {
+  width: 20vw;
+} */
 
 @media (max-width: 850px) {
   .nav__data {

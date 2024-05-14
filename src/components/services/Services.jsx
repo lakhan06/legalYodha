@@ -121,7 +121,7 @@ const TrademarkData = [
 const IncomeTaxData = [
     {
         title: 'Income Tax Return',
-        price: '₹10000/-',
+        price: '₹500/-',
         features: [
             'Individual or business tax filing',
             'Tax computation and planning',
@@ -132,7 +132,7 @@ const IncomeTaxData = [
     },
     {
         title: 'GST Return',
-        price: '₹8000/-',
+        price: '₹500/-',
         features: [
             'Monthly or quarterly GST return filing',
             'Input tax credit reconciliation',
@@ -143,7 +143,7 @@ const IncomeTaxData = [
     },
     {
         title: 'TDS Return',
-        price: '₹6000/-',
+        price: '₹1000/-',
         features: [
             'TDS deduction and filing',
             'Form 16 generation',
@@ -246,7 +246,6 @@ const Services = () => {
                             </div>
                         ))}
                     </div>
-
                 </fieldset>
             </section>
         </>
