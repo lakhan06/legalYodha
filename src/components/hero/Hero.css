@@ -32,11 +32,11 @@
 
 .heading h1 span {
   font-size: 55px;
-  color: #ffca8a;
+  color: #4ca7e8;
 }
 
 .ssHeading h5 {
-  color: #4fc6a6;
+  color: #4ca7e8;
   padding: 10px;
   font-size: 20px;
 }
@@ -57,11 +57,12 @@
 }
 
 .btns .btn {
+  background-color: #4ca7e8;
   cursor: pointer;
   border-radius: 10px;
   padding: 10px 25px;
   margin: 20px;
-  background-color: var(--dark1);
+  /* background-color: var(--dark1); */
 }
 
 
