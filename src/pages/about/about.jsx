@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import a6 from './aboutImages/a6.jpg'
+import image from '../../images/logomain.png'
 import f1 from './features/f1.png'
 import f2 from './features/f2.png'
 import f3 from './features/f3.png'
@@ -20,7 +20,7 @@ function About() {
     </section>
     
     <section id="about-head">
-        <img src={a6} alt=""/>
+        <img src={image} alt=""/>
         <div>
             <h2>Who We Are?</h2>
             <p>

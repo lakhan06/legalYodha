@@ -818,8 +818,16 @@ footer .col a:hover{
 }    
 
 #page-header.about-header{
-    background-image: url("aboutImages/banner.png");
-    color: white;
+    background-image: url("aboutImages/banner2.jpg");
+    color: rgb(35, 7, 58);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 50%;
+    align-items: center;
 }
 
 #about-head{
