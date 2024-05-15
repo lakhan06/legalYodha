@@ -31,7 +31,7 @@
 }
 
 .whowe_card legend span {
-  color: var(--dark1);
+  color: #4ca7e8;
   font-size: 5rem;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .weRight h1 .spantwo {
-  color: var(--dark1);
+  color:#4ca7e8;
   text-decoration: underline;
 }
 

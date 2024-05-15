@@ -13,9 +13,14 @@
     padding: 20px 100px;
     width: 100%;
 }
-#page-header{
+.contact #page-header {
     background-image: url('./banner1.jpg');
-    color: #002C35
+    color: #002C35;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #contact li{
     list-style: none;

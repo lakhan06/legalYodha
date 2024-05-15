@@ -26,11 +26,11 @@ function ContactUs() {
                 </li>
                 <li>
                     <i classname="far fa-envelope"></i>
-                    <p>contact@example.com</p>
+                    <p>legalyodha3107@gmail.com</p>
                 </li>
                 <li>
                     <i classname="fas fa-phone-alt"></i>
-                    <p>7014959021</p>
+                    <p>9057771027</p>
                 </li>
                 <li>
                     <i classname="far fa-clock"></i>
