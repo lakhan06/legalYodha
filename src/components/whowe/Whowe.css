@@ -51,7 +51,7 @@
 }
 
 .weRight h1 .spantwo {
-  color:#4ca7e8;
+  color: #4ca7e8;
   text-decoration: underline;
 }
 
@@ -132,39 +132,53 @@
 
 @media screen and (max-width: 480px) {
   /* CSS styles specific to mobile devices */
+  .whowe_container {
+    padding: 10px;
+  }
 
   .whowe_card {
-    zoom: 0.9;
+    zoom: 0.8;
+    width: 100vw;
+    padding-bottom: 10px !important;
   }
   .weLeft img {
-    width: 220px;
+    width: 170px;
     margin: -30px;
   }
 
   .whowe_card legend {
     line-height: 0.9;
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   .whowe_card legend span {
-    font-size: 3rem;
+    font-size: 1.6rem;
   }
 
   .whowe_card {
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 30px 20px;
   }
 
-
   .weRight h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+
+  .weRight ul {
+    padding: 5px 0;
   }
 
   .weRight h1 .spanone {
-    font-size: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .weRight p {
+    font-size: 0.9rem;
+    word-spacing: 0.2px;
   }
 
   .weRight li {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
