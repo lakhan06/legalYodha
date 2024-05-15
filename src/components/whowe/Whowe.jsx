@@ -17,7 +17,7 @@ const Whowe = () => {
                         <ul>
                             <li>Team of Chartered Accountants, Company Secretaries & Lawyers</li>
                             <li>Save time and money with Rapid Fast Process</li>
-                            <li>Rely on an award-wining Customer Support</li>
+                            <li>Rely on an award-winning Customer Support</li>
                         </ul>
                     </div>
                 </fieldset>
