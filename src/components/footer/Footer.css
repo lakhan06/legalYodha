@@ -101,11 +101,14 @@
 .copyrightLine {
   margin: 20px;
   text-align: center;
+  line-height: 24px;
 }
 
 .copyrightLine a {
   text-decoration: none;
   color: rgb(255, 202, 202);
+  font-weight: 500;
+  transition: all ease 0.5s;
 }
 
 .copyrightLine a:hover {
