@@ -103,6 +103,11 @@
   text-align: center;
 }
 
+.copyrightLine a {
+  text-decoration: none;
+  color: rgb(255, 154, 154);
+}
+
 .onTopFooter {
   display: flex;
   justify-content: center;

@@ -166,27 +166,14 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
-              {/* 
-              <li className="navwhatsappicon">
-                {" "}
-                <a href="https://wa.me/+919116562979" target="_blank" className="nav-link">
-                  <ImWhatsapp className="navIcons" />
-                </a>
-              </li>
-              <li>
-                <FaPhoneSquareAlt
-                  onClick={copyToClipboard}
-                  className="navIcons"
-                />
-              </li> */}
             </ul>
           </div>
         </nav>
         <div className="right-nav-icons">
-          <a href="https://wa.me/+919116562979" target="_blank">
+          <a href="https://wa.me/+919057771027" target="_blank">
             <ImWhatsapp className="navIcons" />
           </a>
-          <a href="tel:9116562979">
+          <a href="tel:9057771027">
             <FaPhoneSquareAlt className="navIcons" />
           </a>
         </div>
