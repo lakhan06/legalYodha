@@ -131,7 +131,7 @@ const IncomeTaxData = [
         ]
     },
     {
-        title: 'GST Return',
+        title: 'GST Return Filing',
         price: '₹500/-',
         features: [
             'Monthly or quarterly GST return filing',
@@ -228,6 +228,7 @@ const Services = () => {
                     </div>
 
                     <div className="serviceCards">
+
                         {serviceData.map((service, index) => (
                             <div key={index} className="singleServiceCard " >
                                 <h3>{service.title}</h3>

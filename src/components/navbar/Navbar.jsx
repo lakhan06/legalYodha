@@ -170,10 +170,10 @@ const Navbar = () => {
           </div>
         </nav>
         <div className="right-nav-icons">
-          <a href="https://wa.me/+919057771027" target="_blank">
+          <a href="https://wa.me/+919057771028" target="_blank">
             <ImWhatsapp className="navIcons" />
           </a>
-          <a href="tel:9057771027">
+          <a href="tel:9057771028">
             <FaPhoneSquareAlt className="navIcons" />
           </a>
         </div>
