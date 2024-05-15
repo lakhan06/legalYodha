@@ -6,7 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-top: 120px; */
-  /* height: 80vh; */
 }
 
 .heroContainer {
@@ -17,6 +16,7 @@
   width: 80vw;
   /* height: 80vh; */
   margin: auto;
+  margin-top: 40px;
   justify-content: center;
   text-align: center;
   overflow: hidden;
@@ -202,6 +202,8 @@
 @media (max-width: 700px){
   .heroContainer{
     padding-bottom: 0;
+    padding-top: 10px;
+    margin-top: 0px;
   }
   .hero {
     background-size: contain;

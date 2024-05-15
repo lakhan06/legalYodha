@@ -94,3 +94,9 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 450px){
+  .process{
+    margin-top: 20px;
+  }
+}

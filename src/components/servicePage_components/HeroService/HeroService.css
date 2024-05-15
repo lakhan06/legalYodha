@@ -170,6 +170,7 @@
     .paragraphintro{
         
         font-size: 10px;
-      
+        text-align: justify;
+        line-height: 18px;
     }
 }

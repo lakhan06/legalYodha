@@ -236,6 +236,12 @@
 
   .singleServiceCard {
     zoom: 0.8;
+    width: 60%;
+    padding-top: 24px;
+  }
+  
+  .singleServiceCard h3{
+    margin-bottom: 20px;
   }
 }
 
