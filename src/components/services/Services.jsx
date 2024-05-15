@@ -131,7 +131,7 @@ const IncomeTaxData = [
         ]
     },
     {
-        title: 'GST Return',
+        title: 'GST Return Filing',
         price: '₹500/-',
         features: [
             'Monthly or quarterly GST return filing',
