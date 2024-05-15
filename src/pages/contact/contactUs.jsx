@@ -30,11 +30,11 @@ function ContactUs() {
                 </li>
                 <li>
                     <i classname="fas fa-phone-alt"></i>
-                    <p>9057771027</p>
+                    <p>9057771028</p>
                 </li>
                 <li>
                     <i classname="far fa-clock"></i>
-                    <p>Monday to Saturday:9.00am to 7.00pm</p>
+                    <p>Monday to Saturday:10.00am to 7.00pm</p>
                 </li>
             </div>
         </div>
