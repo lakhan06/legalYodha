@@ -228,6 +228,7 @@ const Services = () => {
                     </div>
 
                     <div className="serviceCards">
+
                         {serviceData.map((service, index) => (
                             <div key={index} className="singleServiceCard " >
                                 <h3>{service.title}</h3>
