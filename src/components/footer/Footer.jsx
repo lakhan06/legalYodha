@@ -97,7 +97,7 @@ const Footer = () => {
       <p className="copyrightLine">
         ©2024 LegalYodha Pvt. Ltd. All Rights Reserved.
         <br />
-        <a href="https://buoyance.vercel.app/">Created by Buoyance Web Agency</a>
+        Created by <a href="https://buoyance.vercel.app/">Buoyance Web Agency</a>
       </p>
     </section>
   );
