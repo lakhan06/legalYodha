@@ -19,8 +19,17 @@ const Hero = () => {
                     </div>
                     <div className="btns">
                         {/* <div className="btn btn1">Explore Services</div> */}
-                        <div className="btn btn2"> <Link to={'/Contact'} >
-                  Contact
+                        <div className="btn btn1"> <Link to={'/Income_Tax_Return'} >
+                  Income Tax return
+                </Link></div>
+                        <div className="btn btn2"> <Link to={'/GST_Return'} >
+                  GST Return Filing
+                </Link></div>
+                        <div className="btn btn1"> <Link to={'/FSSAI_Registration'} >
+                  FSSAI Registration
+                </Link></div>
+                        <div className="btn btn2"> <Link to={'/Trademark_Registration'} >
+                  Traidmark registration
                 </Link></div>
                     </div>
             {/* <div className="rectangle rectangle-left"></div>
