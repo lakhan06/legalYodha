@@ -6,7 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-top: 120px; */
-  /* height: 80vh; */
 }
 
 .heroContainer {
@@ -17,7 +16,8 @@
   width: 80vw;
   /* height: 80vh; */
   margin: auto;
-  /* justify-content: center; */
+  margin-top: 40px;
+  justify-content: center;
   text-align: center;
   overflow: hidden;
   /* background-color: red; */
@@ -38,6 +38,12 @@
   padding: 10px;
   font-size: 20px;
 }
+.subHeading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .subHeading h4 {
   font-size: 15px;
@@ -46,7 +52,8 @@
   padding: 20px;
   font-size: 20px;
   line-height: 20px;
-  /* width: 100; */
+  text-align: center;
+  width: 70%;
 }
 
 .btns {
@@ -54,7 +61,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  /* width: 80%; */
+  width: 80vw;
 }
 
 .btns .btn {
@@ -65,6 +72,7 @@
   margin: 20px 10px;
   background-color: var(--dark1);
   font-size: 15px;
+  margin-bottom: 50px;
   
   
 }
@@ -194,6 +202,8 @@
 @media (max-width: 700px){
   .heroContainer{
     padding-bottom: 0;
+    padding-top: 10px;
+    margin-top: 0px;
   }
   .hero {
     background-size: contain;

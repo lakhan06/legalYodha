@@ -79,10 +79,10 @@ const Footer = () => {
           <a href="tel:9057771027">
             <div className="ftrPhoneButton">
               <FaMobile className="ftrMobileLogo" />
-              <p>90577-71027</p>
+              <p>90577-71028</p>
             </div>
           </a>
-          <a href="https://wa.me/+919057771027" target="_blank">
+          <a href="https://wa.me/+919057771028" target="_blank">
             <FaSquareWhatsapp className="ftrWhatsappLogo" />
           </a>
 
@@ -97,7 +97,7 @@ const Footer = () => {
       <p className="copyrightLine">
         ©2024 LegalYodha Pvt. Ltd. All Rights Reserved.
         <br />
-        <a href="https://buoyance.vercel.app/">Created by Buoyance Web Agency</a>
+        Created by <a href="https://buoyance.vercel.app/">Buoyance Web Agency</a>
       </p>
     </section>
   );
