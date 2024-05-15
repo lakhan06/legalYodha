@@ -29,7 +29,7 @@ const Hero = () => {
                   FSSAI Registration
                 </Link></div>
                         <div className="btn btn2"> <Link to={'/Trademark_Registration'} >
-                  Traidmark registration
+                  Trademark registration
                 </Link></div>
                     </div>
             {/* <div className="rectangle rectangle-left"></div>
