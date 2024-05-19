@@ -1,5 +1,9 @@
 import React from 'react'
 import './contact.css';
+import { FaClock, FaMap, FaPhone } from 'react-icons/fa';
+import { FaMailBulk } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 function ContactUs() {
 
@@ -21,20 +25,20 @@ function ContactUs() {
             <h3>Head Office</h3>
             <div>
                 <li>
-                    <i classname="fas fa-map"></i>
-                    <p>41, Shri Ram Enclave 3rd, Vatika Road, Jaipur</p>
+                    <p> <FaMap/> 41, Shri Ram Enclave 3rd, Vatika Road, Jaipur</p>
                 </li>
                 <li>
-                    <i classname="far fa-envelope"></i>
-                    <p>legalyodha3107@gmail.com</p>
+                    <p><FaMailBulk/> legalyodha3107@gmail.com</p>
                 </li>
                 <li>
-                    <i classname="fas fa-phone-alt"></i>
-                    <p>9057771028</p>
+                    <p><FaPhone/> 9057771028</p>
                 </li>
                 <li>
-                    <i classname="far fa-clock"></i>
-                    <p>Monday to Saturday:10.00am to 7.00pm</p>
+                    <p><FaClock/> Monday to Saturday : 10.00am to 7.00pm</p>
+                </li>
+                <li id="socials">
+                    <a href="https://www.instagram.com/legalyodha.in?igsh=M3VudHFhNnJub3Y3&utm_source=qr"> <FaInstagram/> <p> : Instagram</p></a>   
+                    <a href="https://www.facebook.com/profile.php?id=61558871204556&mibextid=LQQJ4d"><FaFacebook/> <p> : Facebook</p></a>
                 </li>
             </div>
         </div>

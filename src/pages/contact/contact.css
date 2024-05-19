@@ -174,3 +174,28 @@
         font-size: 16px;
     }
 }
+
+#socials{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #8a8a8a;
+}
+
+#socials a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+
+#socials a:hover{
+    color: rgb(87, 87, 87);
+}
+
+#socials p{
+    font-size: 18px;
+    margin-left: 2px;
+}
