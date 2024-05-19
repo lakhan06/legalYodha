@@ -76,7 +76,7 @@ const Footer = () => {
           </Link></p>
         </div>
         <div className="commFtr">
-          <a href="tel:9057771027">
+          <a href="tel:9057771028">
             <div className="ftrPhoneButton">
               <FaMobile className="ftrMobileLogo" />
               <p>90577-71028</p>
