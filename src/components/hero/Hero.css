@@ -253,6 +253,7 @@
     font-size: 25px;
     width: 80vw;
     letter-spacing: -1px;
+    text-align: left;
     
   }
   
@@ -262,27 +263,34 @@
   }
   
   .ssHeading h5 {
-    
+    text-align: left;
     letter-spacing: -1px;
     
     font-size: 17px;
     width: 80vw;
+    padding-left: 0;
   }
   
   .subHeading h4 {
+    padding-left: 0;
+    text-align: left;
     font-size: 15px;
     width: 80vw;
     letter-spacing: -1px;
    
   }
+  .btns{
+    justify-content:start;
+  }
   
   .btns .btn {
    
     border-radius: 5px;
-    padding: 4px 6px;
-    margin: 5px 5px;
+    padding: 4px 4px;
+    margin: 3px 1px;
    
-    font-size: 14px;
+    font-size: 10px;
+    
     /* width: fit-content; */
     
     
