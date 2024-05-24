@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
 
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -840,6 +838,9 @@ footer .col a:hover{
 }
 #about-head div p{
     color: rgb(78, 78, 78);
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: justify;
 }
 #about-head img{
     width:50%;
@@ -915,7 +916,7 @@ footer .col a:hover{
     #about-head img{
         width: 90%;
         margin-bottom: 40px;
-    } 
+    }
     #about-head h2{
         font-size: 40px;
     }
@@ -967,6 +968,7 @@ footer .col a:hover{
     }
     #about-head div p{
         font-size: 16px;
+        line-height: 20px;
     }
     #about-app{
         padding: 20px 20px;
@@ -986,6 +988,9 @@ footer .col a:hover{
     }
     #features .fe-box {
         padding-bottom: 42px;
+    }
+    #about-head div{
+        padding-left: 0px;
     }
 }
 
