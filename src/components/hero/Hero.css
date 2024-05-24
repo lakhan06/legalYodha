@@ -30,7 +30,7 @@
 
 .heading h1 span {
   font-size: 55px;
-  color: #ffca8a;
+  color: var(--dark1);;
 }
 
 .ssHeading h5 {
