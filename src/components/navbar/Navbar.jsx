@@ -9,6 +9,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+  
 
   return (
     <div>

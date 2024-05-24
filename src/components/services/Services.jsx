@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Services.css";
 import 'animate.css';
+import { Link } from "react-router-dom";
 
 const StartBusinessData = [
     {
@@ -30,7 +31,7 @@ const StartBusinessData = [
         features: [
             'Suitable for social welfare',
             'Limited Liability Protection',
-            'Tax Benifits',
+            'Tax Benefits',
             'Minimum Requirement: 2 Directors'
         ]
     }
@@ -192,13 +193,28 @@ const Services = () => {
         }
     };
 
+    const linkMapping = {
+        'Private Limited Company Registration': '/Private_Limited',
+        'Limited Liability Partnership Registration': '/Limited_Liability_Partnership_Registration',
+        'Section NPO Registration': '/Section_NPO',
+        'GST Registration': '/GST_Registration',
+        'FSSAI Registration': '/FSSAI_Registration',
+        'ISO Certificate': '/ISO_Certification',
+        'Import Export Code (IEC)': '/IEC_Code_Registration',
+        'Trademark Registration': '/Trademark_Registration',
+        'Copyright Registration': '/Copyright_Registration',
+        'Design Registration': '/Design_Registration',
+        'Income Tax Return': '/Income_Tax_Return',
+        'GST Return Filing': '/GST_Return',
+        'TDS Return': '/TDS_Return',
+        'Income Tax Notice': '/Income_Tax_Notice'
+    };
 
     return (
         <>
             <section className="servicesSection">
                 <fieldset className="servicesCardContainer">
                     <legend><span>O</span>ur <span>S</span>ervices</legend>
-
 
                     <div className="serviceCatagories">
                         <div
@@ -228,9 +244,8 @@ const Services = () => {
                     </div>
 
                     <div className="serviceCards">
-
                         {serviceData.map((service, index) => (
-                            <div key={index} className="singleServiceCard " >
+                            <div key={index} className="singleServiceCard">
                                 <h3>{service.title}</h3>
                                 <div className="servicePricing">
                                     <p>Starting</p>
@@ -242,7 +257,7 @@ const Services = () => {
                                     ))}
                                 </ul>
                                 <div className="learn_more">
-                                    <a href="">Learn More</a>
+                                    <Link to={linkMapping[service.title] || '#'}>Learn More</Link>
                                 </div>
                             </div>
                         ))}
@@ -254,4 +269,3 @@ const Services = () => {
 };
 
 export default Services;
-// ctrl+alt+4 -> ₹
