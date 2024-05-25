@@ -116,7 +116,7 @@
   font-size: 14px;
 }
 .singleServiceCard ul li {
-  text-decoration: dotted;
+  text-decoration: none;
   margin-bottom: 10px;
 }
 
@@ -238,6 +238,10 @@
 
   .singleServiceCard h3 {
     margin-bottom: 10px;
+  }
+
+  .singleServiceCard li {
+    font-size: 1.1rem;
   }
 }
 
