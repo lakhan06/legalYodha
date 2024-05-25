@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Services.css";
 import 'animate.css';
 import { Link } from "react-router-dom";
+import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const StartBusinessData = [
     {
@@ -243,7 +244,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="serviceCards">
+                    <div className="serviceCards">  
                         {serviceData.map((service, index) => (
                             <div key={index} className="singleServiceCard">
                                 <h3>{service.title}</h3>
@@ -253,7 +254,7 @@ const Services = () => {
                                 </div>
                                 <ul>
                                     {service.features.map((feature, idx) => (
-                                        <li key={idx}>{feature}</li>
+                                        <li key={idx}> <VscDebugBreakpointLog /> {feature}</li>
                                     ))}
                                 </ul>
                                 <div className="learn_more">

@@ -17,7 +17,6 @@ export const Qualities = () => {
           navigating the complex world of finance and accounting.
         </div>
         <div className="discription2 discription">
-          {" "}
           Whether you're a small business owner, an individual seeking tax
           assistance, or a corporation in need of strategic financial planning,
           we're here to help you achieve your goals.
