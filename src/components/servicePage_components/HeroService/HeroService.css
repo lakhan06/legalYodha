@@ -152,6 +152,7 @@
 
    .features{
     width: 80vw;
+    flex-direction: column;
 }
 .tickicon{
     font-size: 15px;
