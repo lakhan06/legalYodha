@@ -28,7 +28,7 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 100vw;
 }
 
 .singleDocRec {
@@ -36,16 +36,19 @@
   align-items: center;
   gap: 20px;
   /* flex: 1 0 30%; */
-  width: 30vw;
+  width: 40vw;
   padding: 20px 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 10px;
-  border-radius: 20px;
-  margin: 10px;
-  font-size: 12px;
+  border-radius: 10px;
+  margin: 5px;
+  /* font-size: 12px; */
   /* font-size: 15px; */
 }
-
+.singleDocRec p{
+  font-size: 12px;
+  font-weight: 500;
+}
 .docRecLogo {
   font-size: 55px;
   flex-shrink: 0;
@@ -100,6 +103,7 @@
     border-radius: 6px;
     
   }
+ 
 
 
   .sdrLeft {
