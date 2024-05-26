@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  margin-top: 20px;
+  padding: 0 30px;
+  /* margin-top: 20px; */
 }
 
 .whowe_card {
