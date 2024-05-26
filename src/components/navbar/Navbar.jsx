@@ -50,26 +50,26 @@ const Navbar = () => {
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">
                     <Link to={"/Private_Limited"}  onClick={() => setShow(!show)}>
+                  <li className="dropdown__link">
                       {" "}
                       Private Limited Company Registration
-                    </Link>
                   </li>
-                  <li className="dropdown__link">
+                    </Link>
                     <Link to={"/Limited_Liability_Partnership_Registration"}  onClick={() => setShow(!show)}>
+                  <li className="dropdown__link">
                       Limited Liability Partnership Registration
-                    </Link>
                   </li>
+                    </Link>
                   {/* <li className="dropdown__link">
                    <Link to={''}> Partnership Firm Registration</Link>
                   </li>
                   <li className="dropdown__link">
                   <Link to={''}> Proprietorship Firm Registration</Link>
-                  </li> */}
-                  <li className="dropdown__link"  onClick={() => setShow(!show)}>
-                    <Link to={"/Section_NPO"}>Section NPO</Link>
-                  </li>
+                  </li> */}<Link to={"/Section_NPO"} onClick={() => setShow(!show)}>
+                  <li className="dropdown__link"  >
+                    Section NPO
+                  </li></Link>
                 </ul>
               </li>
               <li className="dropdown__item">
@@ -79,32 +79,32 @@ const Navbar = () => {
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">
+                  <Link to={"/GST_Registration"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
                     {" "}
-                    <Link to={"/GST_Registration"}  onClick={() => setShow(!show)}>GST Registration</Link>
-                  </li>
-                  <li className="dropdown__link">
+                   GST Registration
+                  </li></Link>
+                 <Link to={"/FSSAI_Registration"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
                     {" "}
-                    <Link to={"/FSSAI_Registration"}  onClick={() => setShow(!show)}>FSSAI Registration</Link>
-                  </li>
-                  <li className="dropdown__link">
+                    FSSAI Registration
+                  </li></Link>
+                 <Link to={"/ISO_Certification"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
                     {" "}
-                    <Link to={"/ISO_Certification"}  onClick={() => setShow(!show)}>ISO Certificate</Link>
-                  </li>
-                  <li className="dropdown__link">
-                    <Link to={"/IEC_Code_Registration"}  onClick={() => setShow(!show)}>
+                    ISO Certificate
+                  </li></Link>
+                  <Link to={"/IEC_Code_Registration"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
+                   
                       Import Export Code(IEC)
-                    </Link>
-                  </li>
-                  <li className="dropdown__link">
-                    <Link to={"/PF_ESI_Registration"}  onClick={() => setShow(!show)}>
+                   
+                  </li> </Link>
+                 <Link to={"/PF_ESI_Registration"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
+                    
                       ESI and PF Regiistration
-                    </Link>
-                  </li>
-                  <li className="dropdown__link">
+                    
+                  </li></Link>
+                  <Link to={"/MSME_Registration"}  onClick={() => setShow(!show)}><li className="dropdown__link">
                     {" "}
-                    <Link to={"/MSME_Registration"}  onClick={() => setShow(!show)}> MSME Registration</Link>
-                  </li>
+                     MSME Registration
+                  </li></Link>
                 </ul>
               </li>
               <li className="dropdown__item">
@@ -114,20 +114,20 @@ const Navbar = () => {
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">
+                   <Link to={"/Trademark_Registration"}  onClick={() => setShow(!show)}><li className="dropdown__link">
                     {" "}
-                    <Link to={"/Trademark_Registration"}  onClick={() => setShow(!show)}>
+                   
                       Trademark Registration
-                    </Link>
-                  </li>
-                  <li className="dropdown__link">
-                    <Link to={"/Copyright_Registration"}  onClick={() => setShow(!show)}>
+                    
+                  </li></Link>
+                 <Link to={"/Copyright_Registration"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
+                    
                       Copyright Registration
-                    </Link>
-                  </li>
-                  <li className="dropdown__link">
-                    <Link to={"/Design_Registration"}  onClick={() => setShow(!show)}>Design Registration</Link>
-                  </li>
+                    
+                  </li></Link>
+                 <Link to={"/Design_Registration"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
+                    Design Registration
+                  </li></Link>
                 </ul>
               </li>
               <li className="dropdown__item">
@@ -137,36 +137,36 @@ const Navbar = () => {
                 </div>
 
                 <ul className="dropdown__menu">
-                  <li className="dropdown__link">
+                   <Link to={"/Income_Tax_Return"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
                     {" "}
-                    <Link to={"/Income_Tax_Return"}  onClick={() => setShow(!show)}>Income Tax Return</Link>
-                  </li>
-                  <li className="dropdown__link">
+                  Income Tax Return
+                  </li></Link>
+                  <Link to={"/GST_Return"}  onClick={() => setShow(!show)}><li className="dropdown__link">
                     {" "}
-                    <Link to={"/GST_Return"}  onClick={() => setShow(!show)}>GST Return</Link>
-                  </li>
-                  <li className="dropdown__link">
+                    GST Return
+                  </li></Link>
+                  <Link to={"/TDS_Return"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
                     {" "}
-                    <Link to={"/TDS_Return"}  onClick={() => setShow(!show)}> TDS Return</Link>
-                  </li>
-                  <li className="dropdown__link">
+                    TDS Return
+                  </li></Link>
+                  <Link to={"/Income_Tax_Notice"}  onClick={() => setShow(!show)}> <li className="dropdown__link">
                     {" "}
-                    <Link to={"/Income_Tax_Notice"}  onClick={() => setShow(!show)}>Income Tax Notice</Link>
-                  </li>
+                   Income Tax Notice
+                  </li></Link>
                 </ul>
               </li>
 
-              <li>
-                <Link to={"/About"} className="nav__link"  onClick={() => setShow(!show)}>
+             <Link to={"/About"} className="nav__link"  onClick={() => setShow(!show)}> <li>
+                
                   About
-                </Link>
-              </li>
+                
+              </li></Link>
 
-              <li>
-                <Link to={"/Contact"} className="nav__link"  onClick={() => setShow(!show)}>
+             <Link to={"/Contact"} className="nav__link"  onClick={() => setShow(!show)}> <li>
+                
                   Contact
-                </Link>
-              </li>
+                
+              </li></Link>
             </ul>
           </div>
         </nav>
