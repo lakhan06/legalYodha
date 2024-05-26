@@ -93,11 +93,11 @@
             },
             {
                 "process_heading": "3. Name Availability",
-                "process_discription": "The next step is to check the name availability. Now you need to let us know 3 names which should be unique in nature and should not be similar to name of any other entity registered. It may take at least 1-2 days. "
+                "process_discription": "Next, we check name availability. Provide 3 unique names that aren't similar to any registered entity. This process takes 1-2 days."
             },
             {
                 "process_heading": "4. E-filing for incorporation of a Company",
-                "process_discription": "Once the name is approved, an online application is required to be filed through E-Form Fillip along with the requisite documents as obtained with ROC. This process again takes 2-3 days.."
+                "process_discription": "Once the name is approved, file an online application through E-Form Fillip with the required documents to the ROC. This process takes 2-3 days."
             },
             {
                 "process_heading": "5. Get Certificate of Incorporation",
@@ -105,7 +105,7 @@
             },
             {
                 "process_heading": "6. Filing of LLP Agreement",
-                "process_discription": "Within 30 days of the incorporation, LLP Agreement as drafted by our team will be shared and after approval from the partners it will be printed on the stamp paper and will be filed with the Registrar of Companies."
+                "process_discription": "Within 30 days of incorporation, we'll draft and share the LLP Agreement for approval. After approval, it will be printed on stamp paper and filed with the Registrar of Companies."
             }
         ]
     },
@@ -148,7 +148,7 @@
             },
             {
                 "process_heading": "4. Online Portal Access",
-                "process_discription": "Within 2-3 days after the submission of the application, and after the approval by the department we will send you the GST Registration number and User Id and Password to access the online portal."
+                "process_discription": "Within 2-3 days after application submission and department approval, we will send you the GST Registration number, User ID, and password for the online portal."
             }
         ]
     },
@@ -177,7 +177,7 @@
             },
             {
                 "process_heading": "2. Document Processing",
-                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing. The checklist for documents will be provided as per the type of entity."
+                "process_discription": "In the next step, we'll need documents based on your filled questionnaire. We'll provide a checklist tailored to your entity type for processing."
             },
             {
                 "process_heading": "3. Filing of Application",
@@ -265,7 +265,7 @@
             },
             {
                 "process_heading": "2. Document Processing",
-                "process_discription": "At the second step we will be requiring the documents in accordance with the questionnaire filled by you so that we can arrange them as per the requirement and for processing. The checklist for documents will be provided as per the type of entity."
+                "process_discription": "In step two, we'll need the documents based on your filled questionnaire to organize them for processing. You'll receive a tailored document checklist based on your entity type."
             },
             {
                 "process_heading": "3. Filing of Application",
@@ -406,15 +406,15 @@
             },
             {
                 "process_heading": "3. Application for DSC",
-                "process_discription": "First of all DSC (Digital Signature Certificate consisting of the E-signatures) is required to be prepared. This step can be ignored if prepared already. It will approximately take 1-2 days."
+                "process_discription": "First, prepare the DSC (Digital Signature Certificate). This takes 1-2 days and can be skipped if already done."
             },
             {
                 "process_heading": "4. Name Availability",
-                "process_discription": "The next step is to check the name availability. The name should be unique in nature and should not be similar to name of any other entity registered. It may take at least 1-2 days. "
+                "process_discription": "The next step is to check name availability. It should be unique and not similar to any registered entity. This takes 1-2 days.. "
             },
             {
                 "process_heading": "5. E-filing for incorporation of a Company",
-                "process_discription": "Once the name is approved, an online application is required to be filed through SPICE+ along with the requisite documents as obtained from the client with ROC. The MOA as well as AOA shall be filed online. This process again takes approximately 2-3 days."
+                "process_discription": " Once the name is approved, file the online application through SPICE+ with the required client documents to the ROC, including the MOA and AOA. This process takes about 2-3 days."
             },
             {
                 "process_heading": "6. Get Certificate of Incorporation",
@@ -457,11 +457,11 @@
             },
             {
                 "process_heading":"4. Preparation of TM Application",
-                "process_discription":"After receiving the relevant information as well as the signed documents we will move towards preparation of your trademark application in TM-A. Once the trademark application is prepared, we will share with you, the draft application of trademark application for review."
+                "process_discription":"Once we have everything we need, we'll prepare your TM-A trademark application and share the draft with you for review.."
             },
             {
                 "process_heading":"5. Trademark Challan",
-                "process_discription": "It usually takes 2-3 days for filing a trademark application with the Registrar. Upon the successful submission of trademark Application to the registrar; we will provide you with the trademark application which will be in TM-A form along with the copy of challan. "
+                "process_discription": "Trademark application filing usually takes 2-3 days. Once successfully submitted, we'll provide you with the TM-A form application and a copy of the challan.. "
             },
             {
                 "process_heading":"6. Trademark Registered",
@@ -497,23 +497,23 @@
         "process":[
             {
                 "process_heading":"1. Complete the Questionnaire",
-                "process_discription": "We will provide you a questionnaire which is required to be filled by you in which we will sought the basic details and documents pertaining to the registration of Copyright."
+                "process_discription": "We'll provide you with a questionnaire to gather essential details and documents needed for copyright registration."
             },
             {
                 "process_heading":"2. Requirement of Documents",
-                "process_discription": "Basic documents as stated in the above paragraph in accordance with the questionnaire provided are required along with an authorization letter which is to be signed by you."
+                "process_discription": "We'll need the basic documents outlined in the questionnaire along with your signed authorization letter."
             },
             {
                 "process_heading":"3. Application for Registration",
-                "process_discription": "Application will be prepared by us with the help of our experts and will be submitted to the Registrar of Copyright in the prescribed format and can be done either physically or electronically within 2 working days."
+                "process_discription": "We'll prepare your application with our experts and submit it to the Registrar of Copyright, either physically or electronically, within 2 working days."
             },
             {
                 "process_heading":"4. Conduct Hearing",
-                "process_discription": "In case any objection is received by the Registrar. He shall conduct a hearing on the application of copyright and if no objections are received within the prescribed time of 30days, the scrutinizer will check the application for any disparity."
+                "process_discription": "If objections arise, a hearing will occur. Otherwise, after 30 days, the application undergoes scrutiny for disparities."
             },
             {
                 "process_heading":"5.Registration of Work",
-                "process_discription": "If no disparity occurs, the registration will be done and extract of the same shall be sent to the Registrar for entry. If any disparity occurs and on successful completion of hearing conducted by the Registrar the scrutinizer will again scrutinize the application and will give its decision."
+                "process_discription": "If no disparities, registration proceeds. Disparities prompt a hearing by the Registrar, followed by scrutinizer review and decision."
             }
         ]
     },
@@ -547,15 +547,15 @@
         "process":[
             {
                 "process_heading":"1. Complete the Questionnaire",
-                "process_discription":"We will share a checklist with you asking about the documents as stated above for filing of Application on your behalf. It is important that an Application is filled with the professional help addressing all the aspects of the Design Act, 2000 thereby increasing the chances of getting it registered."
+                "process_discription":"We'll share a checklist for required documents. Professional assistance ensures compliance with the Design Act, 2000, increasing registration chances."
             },
             {
                 "process_heading":"2. Acceptance of Application & Registration",
-                "process_discription":"We will file the application duly in the prescribed form duly signed t along with the requisite documents and which is thereafter will be examined by the Design Office and objections if any are raised to that."
+                "process_discription":"We'll file the application in the prescribed form, signed and accompanied by the necessary documents. The Design Office will then examine it, raising any objections if necessary."
             },
             {
                 "process_heading":"3. Publication &Validity",
-                "process_discription":"Post registration of the design, it is notified in the official journal. The registered design is valid for 10 years which may be extended to another 5 years on filing of application for extension with payment of prescribed amount."
+                "process_discription":"After registration, the design is announced. It's initially valid for 10 years, extendable by 5 years with a fee and application. "
             }
 
         ]
@@ -594,19 +594,19 @@
         "process": [
             {
               "process_heading": "1. Complete the Questionnaire",
-              "process_discription": "Fill out the provided questionnaire with details about your income and provide necessary documents based on your income category. We will use this information to prepare and file your income tax return accurately and on time."
+              "process_discription": "Complete the questionnaire with income details and provide required documents based on your income category. We'll prepare and file your tax return accurately and on time."
             },
             {
               "process_heading": "2. Document Submission and Verification",
-              "process_discription": "Submit all required documents as per your income category for verification. Our team will analyze the details and ensure everything is in order. We will seek verification from you and the client to proceed with filing your income tax return."
+              "process_discription": "Submit documents for verification based on your income category. We'll review them and seek verification before filing your tax return."
             },
             {
               "process_heading": "3. Filing of Income Tax Return",
-              "process_discription": "Upon verification and approval, we will proceed to file your income tax return before the due date. Our goal is to protect you from penalties by ensuring all necessary steps are completed accurately."
+              "process_discription": "Upon approval, we'll file your tax return before the due date, aiming to prevent penalties with accurate completion."
             },
             {
               "process_heading": "4. Post-Filing Follow-Up",
-              "process_discription": "After filing your income tax return, we will inform you about the completion of the process. We will provide you with the return form and computation for your records."
+              "process_discription": " After filing your income tax return, we'll notify you of the completion. You'll receive the return form and computation for your records."
             }
           ]
     }, 

@@ -22,8 +22,8 @@
 .minReqContainer {
   margin-top: 30px;
   display: flex;
-  gap: 20px;
-  width: 80vw;
+  gap: 15px;
+  width: 90vw;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -32,11 +32,11 @@
 .singleMinReq {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   gap: 10px;
   align-items: center;
-  width: 30%;
+  width: 40%;
 }
 
 .leftDivForIcon {
@@ -52,6 +52,9 @@
   }
   .singleMinReq {
     width: 40%;
+    font-size: 12px;
+    font-weight: 500;
+    height: 70px;
   }
   .min_req_heading{
     font-size: 25px;
@@ -73,6 +76,7 @@
     width: auto;
     font-size: 0.8rem;
     width: 85vw;
+    padding: 10px;
   }
   .min_req_heading{
     font-size: 20px;
