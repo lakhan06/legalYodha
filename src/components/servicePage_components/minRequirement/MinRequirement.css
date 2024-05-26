@@ -73,10 +73,11 @@
     gap: 10px;
   }
   .singleMinReq {
-    width: auto;
+    /* width: auto; */
     font-size: 0.8rem;
     width: 85vw;
-    padding: 10px;
+    height: 50px;
+   
   }
   .min_req_heading{
     font-size: 20px;
