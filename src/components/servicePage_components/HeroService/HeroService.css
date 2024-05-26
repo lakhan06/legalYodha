@@ -101,8 +101,8 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        padding: 20px;
-        width: 70%;
+        padding:  20px 10px;
+        width: 100vw;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -113,7 +113,7 @@
         display: flex;
         gap: 10px;
         padding: 6px;
-        border-radius: 20px;
+        border-radius: 5px;
     }
     
  
@@ -151,7 +151,7 @@
    }
 
    .features{
-    width: 80vw;
+    width: 100vw;
     flex-direction: row;
     /* justify-content: start; */
 }
