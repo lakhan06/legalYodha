@@ -968,13 +968,19 @@ footer .col a:hover{
     }
     #about-head div p{
         font-size: 16px;
-        line-height: 20px;
+        line-height: 22px;
     }
     #about-app{
         padding: 20px 20px;
     }
     #about-app h1{
         font-size: 38px;
+    }
+    #about-head div{
+        padding: 20px;
+    }
+    #about-head abbr{
+        line-height: 22px;
     }
     #about-app .video{
         width: 90%;
