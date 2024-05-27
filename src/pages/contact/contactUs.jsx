@@ -37,8 +37,8 @@ function ContactUs() {
                     <p><FaClock/> Monday to Saturday : 10.00am to 7.00pm</p>
                 </li>
                 <li id="socials">
-                    <a href="https://www.instagram.com/legalyodha.in?igsh=M3VudHFhNnJub3Y3&utm_source=qr"> <FaInstagram/> <p> : Instagram</p></a>   
-                    <a href="https://www.facebook.com/profile.php?id=61558871204556&mibextid=LQQJ4d"><FaFacebook/> <p> : Facebook</p></a>
+                    <a href="https://www.instagram.com/legalyodha.in?igsh=M3VudHFhNnJub3Y3&utm_source=qr"> <div><FaInstagram/></div> <p> : Instagram</p></a>   
+                    <a href="https://www.facebook.com/profile.php?id=61558871204556&mibextid=LQQJ4d"> <div><FaFacebook/></div> <p> : Facebook</p></a>
                 </li>
             </div>
         </div>
