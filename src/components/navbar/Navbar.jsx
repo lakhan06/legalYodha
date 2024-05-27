@@ -16,7 +16,7 @@ const Navbar = () => {
       <header className="header">
         <nav className="nav container">
           <div className="nav__data">
-            <Link to={"/"}>
+            <Link to={"/"}  onClick={() => setShow(!show)}>
               <a href="#" className="nav__logo">
                 <img src={logo} alt="" />
                 <div className="LOgoname">
