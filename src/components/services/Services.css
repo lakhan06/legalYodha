@@ -65,7 +65,7 @@
 
 .serviceCards {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
   gap: 50px;
   /* padding: 0 20px; */
@@ -208,11 +208,11 @@
 
 @media screen and (max-width: 450px) {
   .servicesCardContainer legend {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .servicesCardContainer legend span {
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 
   .serviceCatagories {
