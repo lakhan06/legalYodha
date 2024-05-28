@@ -592,7 +592,7 @@ a {
   }
 }
 
-@media (max-width:1200) {
+/* @media (max-width:1200px) {
   .nav__data{
     gap: 50vw;
     padding: 0 20px;
@@ -602,4 +602,19 @@ a {
     width: 10vw;
   }
   
+  
+} */
+
+@media (max-width:1300px) {
+  .show-dropdown{
+    display: block;
+  }
+  .hide-dropdown{
+    display: none;
+    
+  
+  }
+  
 }
+
+
